@@ -37,16 +37,16 @@
 \numberwithin{equation}{section}
 \renewcommand{\theequation}{\thesection\arabic{equation}}
 \theoremstyle{definition}
-\newtheorem{definicija}{Defin\={\i}cija}%
-\newtheorem{pienemums}{Pie\c{n}\={e}mums}%
-\newtheorem{piemers}{Piem\={e}rs}%
+\newtheorem{definicija}{Definīcija}%
+\newtheorem{pienemums}{Pieņēmums}%
+\newtheorem{piemers}{Piemērs}%
 \theoremstyle{plain}
-\newtheorem{teorema}{Teor\={e}ma}%
+\newtheorem{teorema}{Teorēma}%
 \newtheorem{apgalvojums}[teorema]{Apgalvojums}%
 \newtheorem{lemma}[teorema]{Lemma}%
 \newtheorem{sekas}[teorema]{Sekas}%
-\newtheorem{piezime}[teorema]{Piez\={\i}me}
-\renewcommand\proofname{Pier\={a}d\={\i}jums}
+\newtheorem{piezime}[teorema]{Piezīme}
+\renewcommand\proofname{Pierādījums}
 \newenvironment{pieradijums}{\begin{proof}}{\end{proof}}
 
 % Formating
@@ -83,8 +83,8 @@
 	\newpage
 	\renewcommand{\baselinestretch}{1}
 	\bibliographystyle{ludis}
-	\renewcommand{\bibname}{Izmantot\={a} literat\={u}ra un avoti}
-	\addcontentsline{toc}{chapter}{Izmantot\={a} literat\={u}ra un avoti}\bibliography{#1}
+	\renewcommand{\bibname}{Izmantotā literatūra un avoti}
+	\addcontentsline{toc}{chapter}{Izmantotā literatūra un avoti}\bibliography{#1}
 	\renewcommand{\baselinestretch}{\@spacingsize}
 }
 
@@ -96,8 +96,8 @@
 	\renewcommand{\abstractname}{Abstract}
 	\begin{abstract}}{\end{abstract}}
 \newenvironment{abstract-lv}{%
-	\renewcommand{\@keywordname}{Atsl\={e}gas v\={a}rdi:}
-	\renewcommand{\abstractname}{Anot\={a}cija}
+	\renewcommand{\@keywordname}{Atslēgas vārdi:}
+	\renewcommand{\abstractname}{Anotācija}
 	\begin{abstract}}{\end{abstract}}
 
 % Special sections
@@ -114,18 +114,18 @@
 }
 \newcommand{\NOSAUKUMS}[1]{\renewcommand{\@nosaukumsLB}{#1}}
 \newcommand{\gads}[1]{\date{#1}}
-\newcommand{\universityname}{Latvijas Universit\={a}te}
+\newcommand{\universityname}{Latvijas Universitāte}
 \newcommand{\universityshort}{LU}
 \newcommand{\@fakultate}{}
 \newcommand{\@fakultateD}{}
 \newcommand{\fakultate}[1]{%
-	\renewcommand{\@fakultate}{#1 fakult\={a}te}
-	\renewcommand{\@fakultateD}{#1 fakult\={a}t\={e}}}
+	\renewcommand{\@fakultate}{#1 fakultāte}
+	\renewcommand{\@fakultateD}{#1 fakultātē}}
 \newcommand{\@nodala}{}
 \newcommand{\@nodalaD}{}
 \newcommand{\nodala}[1]{%
-	\renewcommand{\@nodala}{#1 noda\c{l}a}
-	\renewcommand{\@nodalaD}{#1 noda\c{l}\={a}}}
+	\renewcommand{\@nodala}{#1 nodaļa}
+	\renewcommand{\@nodalaD}{#1 nodaļā}}
 \newcommand{\@vieta}{}
 \newcommand{\vieta}[1]{\renewcommand{\@vieta}{#1}}
 \newcommand{\@darbaveids}{}
@@ -162,7 +162,7 @@
       \begin{tabular}[t]{l}%
        Autors: \textbf{\@author} \\
        Stud. apl. \@studapl \\
-       Darba vad\={\i}t\={a}js: \@vaditajs
+       Darba vadītājs: \@vaditajs
       \end{tabular}\par}%
       \vskip 1.5em%
     \end{flushright}
@@ -178,9 +178,9 @@
 	\newpage\thispagestyle{empty}
   	\renewcommand{\baselinestretch}{1} 
   
-	\@darbaveids\ darbs ``\@title'' izstr\={a}d\={a}ts	\universityshort\ \@fakultateD.\par
+	\@darbaveids\ darbs ``\@title'' izstrādāts	\universityshort\ \@fakultateD.\par
 	\vskip 1em%
-	Ar savu parakstu apliecinu, ka p\={e}t\={\i}jums veikts patst\={a}v\={\i}gi, izmantoti tikai taj\={a} nor\={a}d\={\i}tie inform\={a}cijas avoti un iesniegt\={a} darba elektronisk\={a} kopija atbilst izdrukai.\par
+	Ar savu parakstu apliecinu, ka pētījums veikts patstāvīgi, izmantoti tikai tajā norādītie informācijas avoti un iesniegtā darba elektroniskā kopija atbilst izdrukai.\par
 	\vskip 1em
 	Autors: \@author\par
 	\vskip 2em
@@ -191,8 +191,8 @@
 		 \tiny{(datums)}
 	\end{tabular}
 	\vskip 3em%
-	Rekomend\={e}ju darbu aizst\={a}v\={e}\v{s}anai.\par
-	Vad\={\i}t\={a}js: \@vaditajs\par
+	Rekomendēju darbu aizstāvēšanai.\par
+	Vadītājs: \@vaditajs\par
 	\vskip 2em
 	\hspace{4em}\begin{tabular}{cc}%
 		\underline{\hspace{10em}}\vspace{-2mm} &
@@ -221,16 +221,16 @@
 		 \tiny{(darbu pie\c{n}\={e}ma)}
 	\end{tabular}
 	\vskip 5em%
-	Darbs aizst\={a}v\={e}ts \MakeLowercase{\@darbaveids} gala p\={a}rbaud\={\i}juma komisijas s\={e}d\={e}\par
+	Darbs aizst\={a}v\={e}ts \MakeLowercase{\@darbaveids} gala pārbaudījuma komisijas sēdē\par
 	\vskip 1em%
-	\begin{tabular}{cl}\underline{\hspace{8em}}\vspace{-2mm} & 	 prot.\ Nr. \underline{\hspace{4em}}, v\={e}rt\={e}jums\underline{\hspace{4em}} \\
+	\begin{tabular}{cl}\underline{\hspace{8em}}\vspace{-2mm} & 	 prot.\ Nr. \underline{\hspace{4em}}, vērtējums\underline{\hspace{4em}} \\
 	 \tiny{(datums)} & \end{tabular}\par
 	\vskip 1em%
 	\begin{tabular}{lcc}
 	Komisijas sekret\={a}rs/-e: & 
 	\underline{\hspace{8em}}\vspace{-2mm} &
 	\underline{\hspace{8em}} \\
-	& \tiny{(V\={a}rds, Uzv\={a}rds)} & \tiny{(paraksts)} 
+	& \tiny{(Vārds, Uzvārds)} & \tiny{(paraksts)} 
 	\end{tabular}
 }   
 
