@@ -151,13 +151,16 @@
   	{\large \MakeUppercase{\universityname} \par}%
   	{\large \MakeUppercase{\@fakultate}\par}%
  	{\large \MakeUppercase{\@nodala} \par}%
- 	\vskip 5em
+ 	% \vskip 5em
+ 	\vspace{3cm}
     {\large \textbf{\@nosaukumsLB} \par}%
-    \vskip 2em
+    % \vskip 2em
+    \vspace{1cm}
     {\large \@darbaveidsLB\ DARBS\par}% 
    \end{center}\par
    \begin{flushright}
-    \vskip 7em%
+    % \vskip 7em%
+    \vspace{5cm}
     {%
       \begin{tabular}[t]{l}%
        Autors: \textbf{\@author} \\
@@ -166,7 +169,8 @@
       \end{tabular}\par}%
       \vskip 1.5em%
     \end{flushright}
-    \vskip 7em%
+    % \vskip 7em%
+    \vspace{3cm}
     {\centering\large \MakeUppercase{\@vieta} \@date\par}
   \vfil\null
   \end{titlepage}%
