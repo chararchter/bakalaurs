@@ -1,0 +1,88 @@
+\documentclass[singlespacing, latexmargins]{ludis}
+
+% % custom packages by Peteris Ratnieks
+\usepackage{booktabs}
+\usepackage{listings}
+\lstset{numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true
+}
+% \lstinputlisting[language=Python, firstline=2, lastline=22]{code.py}
+
+% XeLaTeX atbalsts tiek pieslēgts ar šādām pakotnēm:
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra} %
+
+% Valodu atbalsts
+\usepackage{polyglossia}
+\setdefaultlanguage{latvian}
+\setotherlanguages{english,russian}
+
+% Fonti -- var rakstīt sistēmas fontu nosaukumus
+% \setmainfont[Mapping=tex-text]{Times New Roman}
+% \setsansfont[Mapping=tex-text]{Arial}
+% \newfontfamily\russianfont{Times New Roman}
+
+\usepackage{multirow}
+
+\usepackage{hyperref}
+
+\input{saisinajumi.tex}
+
+\input{titullapa.tex}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract-lv}
+    not implemented
+
+    \keywords{saules enerģijas paneļi}
+\end{abstract-lv}
+
+\begin{abstract-en}
+    not implemented
+
+\keywords{solar panels}
+\end{abstract-en}
+
+\tableofcontents
+
+\specnodala{Apzīmejumi}
+\input{results/definitions.tex}
+
+\specnodala{Ievads}
+\input{results/ievads.tex}
+
+\chapter{Teorijas apskats}
+\input{theory/index.tex}
+
+\section{Definīcijas}
+\input{theory/viens.tex}
+
+\chapter{Eksperiments}
+\input{experiment/index.tex}
+
+\section{Eksperiments1}
+\input{experiment/divi.tex}
+
+
+\specnodala{Rezultāti}
+\input{results/results.tex}
+
+\specnodala{Secinājumi}
+\input{results/conclusions.tex}
+
+% \specnodala{Pateicības}
+% \input{results/pateicibas.tex}
+
+\literatura{main}
+
+% \appendix
+% \chapter{Izveidoto programmu kods}
+% \input{pielikumi/kods1.tex}
+
+\end{document}
