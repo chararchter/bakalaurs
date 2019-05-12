@@ -225,13 +225,13 @@
 		 \tiny{(darbu pie\c{n}\={e}ma)}
 	\end{tabular}
 	\vskip 5em%
-	Darbs aizst\={a}v\={e}ts \MakeLowercase{\@darbaveids} gala pārbaudījuma komisijas sēdē\par
+	Darbs aizstāvēts \MakeLowercase{\@darbaveids} gala pārbaudījuma komisijas sēdē\par
 	\vskip 1em%
 	\begin{tabular}{cl}\underline{\hspace{8em}}\vspace{-2mm} & 	 prot.\ Nr. \underline{\hspace{4em}}, vērtējums\underline{\hspace{4em}} \\
 	 \tiny{(datums)} & \end{tabular}\par
 	\vskip 1em%
 	\begin{tabular}{lcc}
-	Komisijas sekret\={a}rs/-e: & 
+	Komisijas sekretārs/-e: & 
 	\underline{\hspace{8em}}\vspace{-2mm} &
 	\underline{\hspace{8em}} \\
 	& \tiny{(Vārds, Uzvārds)} & \tiny{(paraksts)} 
