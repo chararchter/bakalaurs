@@ -73,15 +73,19 @@ The results of monitoring will be analyzed in the context of a physics based ass
 \chapter{Teorijas apskats}
 \input{theory/index.tex}
 
-\section{Definīcijas}
-\input{theory/viens.tex}
+\section{Saules enerģija}
+\input{theory/1saule.tex}
+\section{Klimats}
+\section{Saules paneļi}
 
 \chapter{Eksperiments}
 \input{experiment/index.tex}
 
-\section{Eksperiments1}
+\section{Klimats}
 \input{experiment/divi.tex}
 
+\section{Saules paneļi}
+\input{experiment/divi.tex}
 
 \specnodala{Rezultāti}
 \input{results/results.tex}
@@ -92,7 +96,15 @@ The results of monitoring will be analyzed in the context of a physics based ass
 % \specnodala{Pateicības}
 % \input{results/pateicibas.tex}
 
-\literatura{main}
+% \literatura{main.bib}
+% \bibliography{main.bib}
+
+\bibliographystyle{bakd}
+\phantomsection
+\renewcommand{\bibname}{Izmantotā literatūra un avoti}
+\renewcommand{\refname}{\bibname}
+% \addcontentsline{toc}{chapter}{\bibname}
+\bibliography{main.bib}
 
 % \appendix
 % \chapter{Izveidoto programmu kods}
