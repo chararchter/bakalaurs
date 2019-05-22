@@ -16,5 +16,93 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{ThermalProcesses}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BJADWA}{%
+         family={Beckman},
+         familyi={B\bibinitperiod},
+         given={John A. Duffie; William\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{BJADWA1}
+    \strng{fullhash}{BJADWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{edition}{4}
+    \field{isbn}{9780470873663}
+    \field{title}{Solar Engineering of Thermal Processes}
+    \verb{url}
+    \verb http://gen.lib.rus.ec/book/index.php?md5=84481e599cbed1e3c70f82b3c137
+    \verb 9d1c
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{Frohlich2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FC}{%
+         family={Fr{\"o}hlich},
+         familyi={F\bibinitperiod},
+         given={Claus},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC1}
+    \strng{fullhash}{FC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The record of total solar irradiance (TSI) during the past 35 years has
+  overlapping observations from space which can be merged to a composite, and
+  three are available, namely the PMOD, the ACRIM and the IRMB composites.
+  There are important differences between them, which are discussed in detail
+  in order to find the best representation of solar variability during the last
+  three cycles, for the following discussions of solar irradiance variability.
+  Moreover, the absolute value of TSI from TIM on SORCE is 1,361 Wm−2,
+  substantially lower than the value 1,365 Wm−2, which was observed by the
+  classical radiometers. New results from specific experiments are now
+  available, which are discussed in order to define the value to be used in,
+  e.g., climate models. The most important issue regarding the recent TSI
+  records is the low value observed during the minimum in 2009, which is 25{\%}
+  of a typical cycle amplitude lower than the value in 1996. The validity of
+  this low value has been confirmed by comparing all existing TSI observations
+  during cycle 23. On the other hand, activity indices, such as the sunspot
+  number, the 10.7-cm radio flux (F10.7), the CaII and MgII indices and also
+  the Ly-$\alpha$ irradiance or the frequency changes in low-order p modes,
+  show a much smaller decreases relative to their respective typical cycle
+  amplitude. It is most likely that an increasing contrast of the facular and
+  network elements with decreasing magnetic field is responsible for this
+  discrepancy. The value of TSI at minima is correlated with the open magnetic
+  field of the Sun, BR, at minima. Using BR at minima, interpolated linearly
+  in between as a fourth component of a proxy model based on the photometric
+  sunspot index and on the MgII index improves the explanation of the variance
+  of TSI over the full period of the last three solar cycles to 84.7{\%}.
+  Results from other models are also discussed.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10712-011-9168-5
+    \endverb
+    \field{issn}{1573-0956}
+    \field{number}{3}
+    \field{pages}{453\bibrangedash 473}
+    \field{title}{Total Solar Irradiance Observations}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10712-011-9168-5
+    \endverb
+    \field{volume}{33}
+    \field{journaltitle}{Surveys in Geophysics}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
 \endinput

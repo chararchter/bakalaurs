@@ -1,5 +1,6 @@
 % Compile with: latexmk -pdfxe -outdir=build
 \documentclass[12pt,oneside]{LuThesis}
+\usepackage{graphicx}
 
 \title{Saules paneļu efektivitāte Latvijas klimatā}
 \author{Viktorija Leimane}
@@ -54,10 +55,12 @@
 \chapter*{Ievads}
 \addcontentsline{toc}{chapter}{Ievads}
 \input{tex/ievads}
+\input{tex/ievads_teorijai}
 
-* Literatūras apskats
+% * Literatūras apskats
 \chapter{Literatūras apskats}
 \input{tex/literatura}
+\input{tex/iev_1_saule}
 
 %* Rezultāti
 \chapter{Rezultāti un diskusija}
