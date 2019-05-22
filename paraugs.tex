@@ -1,0 +1,87 @@
+% Compile with: latexmk -pdfxe -outdir=build
+\documentclass[12pt,oneside]{LuThesis}
+
+\title{Saules paneļu efektivitāte Latvijas klimatā}
+\author{Viktorija Leimane}
+
+%%% LuThesis deklerācijas
+\def\studaplnum{vl16047}
+\def\darbvad{Dr. Phys. Andris Jakovičs}
+\def\dokfak{\textbf{Fizikas, matemātikas un optometrijas fakultāte}}
+\def\recenzents{Dr. Phys.Aivars Vembris}
+\def\doktitle{\textbf{Saules paneļu efektivitāte Latvijas klimatā}}
+\def\dokfak{\textbf{Fizikas, matemātikas un optometrijas fakultāte}}
+\def\dokdate{} % Darba vadītāja parakstīšanas datums
+\def\dokdateiesn{} % Darba iesniegšanas datums
+
+%%% Valodas un fonti
+\setdefaultlanguage{latvian}
+\setotherlanguage{english}
+\setmainfont[BoldFont=FreeSerifBold.ttf,ItalicFont=FreeSerifItalic.ttf,BoldItalicFont=FreeSerifBoldItalic.ttf]{FreeSerif.ttf}
+
+%%% Misc
+\usepackage{hyperref}
+\addbibresource{bachelor.bib} % biblatex bibliotēkas fails: bachelor.bib
+
+%%% Dokumenta struktūra
+\begin{document}
+
+\maketitle
+
+% * Anotācija
+\chapter*{Anotācija}
+\setcounter{page}{1}
+\begin{abstract}
+\input{tex/abstract-lv}
+\end{abstract}
+
+\chapter*{Abstract}
+\begin{english}
+\begin{abstract}
+\input{tex/abstract-en}
+\end{abstract}
+\end{english}
+
+%* Saturs
+\tableofcontents
+
+%* Apzīmējumu saraksts
+\chapter*{Apzīmējumu saraksts}
+\addcontentsline{toc}{chapter}{Apzīmējumu saraksts}
+\input{tex/abbrev}
+
+%* Ievads
+\chapter*{Ievads}
+\addcontentsline{toc}{chapter}{Ievads}
+\input{tex/ievads}
+
+* Literatūras apskats
+\chapter{Literatūras apskats}
+\input{tex/literatura}
+
+%* Rezultāti
+\chapter{Rezultāti un diskusija}
+\input{tex/rezultati}
+
+%* Secinājumi
+\chapter*{Secinājumi}
+\addcontentsline{toc}{chapter}{Secinājumi}
+\input{tex/secinajumi}
+
+%* Pateicības
+\chapter*{Pateicības}
+\addcontentsline{toc}{chapter}{Pateicības}
+\input{tex/pateicibas}
+
+%* Izmantotā darba literatūra un avoti
+\clearpage
+\addcontentsline{toc}{chapter}{Izmantotā darba literatūra un avoti}
+\printbibliography[title=Izmantotā darba literatūra un avoti]
+
+%%% Pielikumi
+\appendix
+
+% Dokumentālā lapa
+\makedoklapa
+
+\end{document}
