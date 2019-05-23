@@ -1,6 +1,5 @@
 % Compile with: latexmk -pdfxe -outdir=build
 \documentclass[12pt,oneside]{LuThesis}
-\usepackage{graphicx}
 
 \title{Saules paneļu efektivitāte Latvijas klimatā}
 \author{Viktorija Leimane}
@@ -20,9 +19,13 @@
 \setotherlanguage{english}
 \setmainfont[BoldFont=FreeSerifBold.ttf,ItalicFont=FreeSerifItalic.ttf,BoldItalicFont=FreeSerifBoldItalic.ttf]{FreeSerif.ttf}
 
+\usepackage{graphicx}
+
 %%% Misc
-\usepackage{hyperref}
+% \usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \addbibresource{bachelor.bib} % biblatex bibliotēkas fails: bachelor.bib
+\usepackage[section]{placeins}
 
 %%% Dokumenta struktūra
 \begin{document}
