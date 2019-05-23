@@ -104,5 +104,63 @@
     \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
   \endentry
+
+  \entry{TSIdata}{report}{}
+    \name{author}{1}{}{%
+      {{hash=KG}{%
+         family={Kopp},
+         familyi={K\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KG1}
+    \strng{fullhash}{KG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb doi:10.5067/D959YZ53XQ4C
+    \endverb
+    \field{note}{Skatīts: 2019-05-22}
+    \field{title}{SORCE Level 3 Total Solar Irradiance Daily Means, version
+  018}
+    \verb{url}
+    \verb http://lasp.colorado.edu/data/sorce/tsi_data/daily/sorce_tsi_L3_c24h_
+    \verb latest.txt
+    \endverb
+    \list{institution}{2}{%
+      {Greenbelt, MD, USA: NASA Goddard Earth Science Data}%
+      {Information Services Center (GES DISC)}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+  \endentry
+
+  \entry{solargis}{report}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Solargis},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Skatīts: 2019-05-20}
+    \field{title}{Solar resource maps of Latvia}
+    \verb{url}
+    \verb https://solargis.com/maps-and-gis-data/download/latvia
+    \endverb
+    \list{institution}{1}{%
+      {World Bank Group}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
+  \endentry
 \enddatalist
 \endinput
