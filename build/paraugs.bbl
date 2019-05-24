@@ -169,30 +169,5 @@
     \field{type}{techreport}
     \field{year}{2018}
   \endentry
-
-  \entry{solargis}{report}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={Solargis},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{S1}
-    \strng{fullhash}{S1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{note}{Skatīts: 2019-05-20}
-    \field{title}{Solar resource maps of Latvia}
-    \verb{url}
-    \verb https://solargis.com/maps-and-gis-data/download/latvia
-    \endverb
-    \list{institution}{1}{%
-      {World Bank Group}%
-    }
-    \field{type}{techreport}
-    \field{year}{2019}
-  \endentry
 \enddatalist
 \endinput
