@@ -138,6 +138,38 @@
     \field{year}{2019}
   \endentry
 
+  \entry{SSIdata}{report}{}
+    \name{author}{1}{}{%
+      {{hash=RE}{%
+         family={Richard},
+         familyi={R\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RE1}
+    \strng{fullhash}{RE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb doi:10.5067/TSIS/SIM/DATA302
+    \endverb
+    \field{note}{Skatīts: 2019-05-23}
+    \field{title}{SORCE Level 3 Solar Spectral Irradiance Daily Means V001}
+    \verb{url}
+    \verb http://lasp.colorado.edu/home/tsis/data/ssi-data/?doing_wp_cron=15586
+    \verb 40803.1350839138031005859375
+    \endverb
+    \list{institution}{2}{%
+      {Greenbelt, MD, USA: NASA Goddard Earth Science Data}%
+      {Information Services Center (GES DISC)}%
+    }
+    \field{type}{techreport}
+    \field{year}{2018}
+  \endentry
+
   \entry{solargis}{report}{}
     \name{author}{1}{}{%
       {{hash=S}{%
