@@ -4,53 +4,25 @@
 % saules stāvoklis debesīs
 % un virziens, kurā stara starojums krīt uz dažādu virzienu un ēnojuma virsmām
 
-
-% Definīcijas
-% Saules plankums - magnētiskās plūsmas koncentrācija bipolāros klāsteros vai grupās, kas novērojama kā tumšs plankums uz Saules fotosfēras.\\
-% Saules plankumu cikls - aptuveni 11 gadus ilga kvaziperiodiska variācija saules plankuma skaitlī. Magnētiskā lauka polaritātes modelis mainās ar katru ciklu.\\
-% Saules plankuma skaitlis - Dienas saules plankuma aktivitātes indekss (R), definēts kā R = k(10g + s), kur
-% s - individuālo plankumu skaits;
-% g - saules plankumu grupu skaits;
-% k - observatorijas faktors.
-% total solar irradiance (TSI) - Solar energy per unit time over a unit area perpendicular to the Sun’s rays at the top of Earth’s atmosphere.
-% \\http://lasp.colorado.edu/home/sorce/reference/glossary/
-
 \section{Saules apstarojums}
 
 Lielākā daļa Saules emitētās enerģijas tiek saražota kodolreakcijās fotosfērā.
 
-Saņemto enerģiju laika vienībā uz uz laukuma vienības perpendikulāri starojuma izplatīšanās virzienam 1 AU attālumā integrēta pa visiem viļņu garumiem raksturo solārā konstante ($G_{sc}$).
-
-
+% Saņemto enerģiju laika vienībā uz uz laukuma vienības perpendikulāri starojuma izplatīšanās virzienam 1 AU attālumā integrēta pa visiem viļņu garumiem raksturo solārā konstante ($G_{sc}$).
 
 Solārā konstante $G_{sc}$ ir saņemtā enerģija laika vienībā uz laukuma vienības perpendikulāri starojuma izplatīšanās virzienam 1 AU attālumā integrēta pa visiem viļņu garumiem.\cite{ThermalProcesses}
 
+Kopējā saules apstarojuma vērtība mainās laikā un korelē ar Saules plankumu ciklu.
+Viena fizikālā lieluma tikai daļēji pārklājušos novērojumu laikrindu apvienošana kompozītā ir gan zinātnisks, gan statistisks izaicinājums un neviens kompozīts (piemēram, PMOD, ACRIM, IRBM) līdz šim nav guvis konsensu solārā apstarojuma pētnieku kopienā.~\ref{fig:TSI_misijas}
 
-Kaut gan absolūtais kopējais saules apstarojuma vērtība ir kontroversiāla, jo laika gaitā mērīta ar dažādiem radiometriem un kosmosa misijām, piemēram, 
-iegūtas dažādas vērtības,
+Par labāko saules apstarojuma mērījumu reprezentāciju tiek uzskatīti TIM instrumenta dati mēraparāta uzbūves (TIM ir lielāka precizitātes apertūra tuvu dobumam un mazāka redzeslauku bloķējošā pie instrumenta ieejas, klasiskajos radiometros ir pretēji, kas palielina jutību pret atstaroto gaismu no redzeslauku bloķējošās apertūras un kļūdu no instrumenta sasildīšanas) un augstās precizitātes dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $1360.8 \pm 0.5 \textrm{Wm}^{-2}$.\cite{Frohlich2012}
 
-tas tiek risināts veidojot salikumus (composites) no dažādu misiju datu apkopojuma.
-
-apkopojot dažādu (ne vienmēr pārklājušos) misiju novērojumus
-
-
-
-Daudzi novērošanas ieraksti lielā mērā balstās uz spēju apvienot dažādus (ne vienmēr pārklājošos) novērojumus vienā salikumā.
-
-dažādu tikai daļēji pārklātu viena fiziskā novērojuma 
-gadījumu apvienošana vienā salikumā
-
-
-Dažādu (un tikai daļēji pārklātu) viena un tā paša fiziskā daudzuma laikrindu apvienošana vienā kompaktā ir gan zinātnisks, gan statistisks izaicinājums, kas rodas daudzos kontekstos, jo īpaši paleoclimaticreconstructions
-
-
-
-Par labāko saules apstarojuma reprezentāciju tiek uzskatīti TIM mērījumi, uz kuriem tiek balstīts šis darbs.
-
-
-korelē ar sunspot number
-
-
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{figures/misc/TSI_misijas.png}
+    \caption{Salīdzinājums dienā vidējotiem saules kopējā apstarojuma datiem no dažādām misijām un Saules plankuma skaitlis, lai ilustrētu solārās aktivitātes variabilitāti trīs ciklos. \cite{Frohlich2012}}
+    \label{fig:TSI_misijas}
+\end{figure}
 
 \begin{table}[h]
     \caption{TSI mērījumu vēsture} % caption iet pirms tabulas
@@ -71,14 +43,10 @@ korelē ar sunspot number
 \end{table}
 
 
-Kopējais saules apstarojums (TSI) ir saules starojuma absolūtās intensitātes mērījums integrēts visā saules enerģijas diskā un visā saules enerģijas spektrā.
+% Kopējais saules apstarojums (TSI) ir saules starojuma absolūtās intensitātes mērījums integrēts visā saules enerģijas diskā un visā saules enerģijas spektrā.
+% diennakts vidējais apstarojums 1 AU attālumā no Saules.
+% Norāda uz solārās radiācijas izmaiņām, kas ietekmē solārās enerģijas apjomu uz Zemes atmosfēras augšējiem slāņiem.
 
-diennakts vidējais apstarojums 1 AU attālumā no Saules.
-
-Norāda uz solārās radiācijas izmaiņām, kas ietekmē solārās enerģijas apjomu uz Zemes atmosfēras augšējiem slāņiem.
-
-
-Šajā darbā tiek izmantot TSI dati no SORCE (SOlar Radiation and Climate Experiment) TIM (Total Irradiance Montior) dati, pēc kuriem absolūtā vērtība ir $1360.8 \pm 0.5 \textrm{Wm}^{-2}$, jo tie ir precīzākie un ...\cite{Frohlich2012}
 
 \begin{figure}[h]
     \centering
