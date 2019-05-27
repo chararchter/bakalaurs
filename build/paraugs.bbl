@@ -46,6 +46,24 @@
     \field{year}{2013}
   \endentry
 
+  \entry{ES}{report}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Skatīts: 2019-05-26}
+    \field{title}{Direktīva (ES) 2018/2001 par no atjaunojamajiem
+  energoresursiem iegūtās enerģijas izmantošanas veicināšanu}
+    \verb{url}
+    \verb https://eur-lex.europa.eu/legal-content/LV/TXT/PDF/?uri=CELEX:32018L2
+    \verb 001&from=EN
+    \endverb
+    \list{institution}{1}{%
+      {Eiropas Parlaments un Eiropas Savienības Padome (ES)}%
+    }
+    \field{type}{techreport}
+    \field{year}{2018/2001}
+  \endentry
+
   \entry{Frohlich2012}{article}{}
     \name{author}{1}{}{%
       {{hash=FC}{%
@@ -136,6 +154,90 @@
     }
     \field{type}{techreport}
     \field{year}{2019}
+  \endentry
+
+  \entry{researchOpp}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LNS}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Nathan\bibnamedelima S.},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{LNS1}
+    \strng{fullhash}{LNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Improved technologies for harnessing solar energy are not limited to
+  creating more efficient solar cells. The associated hardware of delivering
+  power from solar cells to homes and businesses, and storing this intermittent
+  resource on the grid, offer R\&amp;D opportunities. Lewis reviews the status
+  of these areas, as well as solar thermal and solar fuels approaches for
+  harnessing solar energy. Despite providing a relatively small percentage of
+  total global energy supply, solar energy systems generally receive
+  enthusiastic support from technologists, regulators, politicians, and
+  environmental groups. The energy in sunlight can be converted into
+  electricity, heat, or fuel. Although the costs of solar panels have declined
+  rapidly, technology gaps still exist for achieving cost-effective scalable
+  deployment combined with storage technologies to provide reliable,
+  dispatchable energy.ADVANCESThe costs of Si-based solar panels have declined
+  so rapidly that panel costs now make up \&lt;30\% of the costs of a fully
+  installed solar-electricity system. Research and development (R\&amp;D)
+  opportunities hence lie in the development of very high efficiency conversion
+  materials, to advantageously leverage the associated reduction in
+  area-related balance-of-systems costs. Such materials would optimally either
+  leverage or mate with existing, low-cost Si photovoltaic (PV) technology.
+  Ultralightweight, flexible, robust, and efficient materials could also
+  greatly reduce the installation costs and could allow for enhanced automation
+  and inexpensive support structures.The development of cost-effective
+  persistent grid-scale storage to compensate for the intermittency of sunlight
+  is a major area for R\&amp;D. Possibilities include new types of batteries
+  and flow batteries, as well as geologic storage of hydrogen, methane, or
+  compressed air.Opportunities also exist to improve the capabilities of
+  concentrated solar power systems that convert sunlight into heat. Improved
+  thermal storage fluids would provide longer-term storage to compensate for
+  cloudy days in areas of high direct insolation. Thermoelectrics, in
+  principle, could replace engines to provide efficient conversion systems that
+  have no moving parts. New thermochemical cycles could allow for the highly
+  efficient, cost-effective conversion of solar heat into fuels by promoting
+  endothermic reactions, such as water splitting, carbon dioxide reduction, or
+  thermochemical conversion of feedstocks, such as methane to high
+  energy-density liquid hydrocarbon fuels that are needed in the transportation
+  sector.Artificial photosynthetic systems that directly produce fuel from
+  sunlight are in the proof-of-concept stage. Such technologies offer the
+  potential to provide renewable hydrogen by solar-driven water splitting or to
+  produce hydrocarbons directly from sunlight, water, and CO2. Key goals for
+  R\&amp;D are development of materials that can absorb and convert sunlight
+  efficiently that are seamlessly integrated with catalysts that promote the
+  production of fuel, with the production of O2 from water also required to
+  complete a sustainable, scalable chemical cycle. Systems must simultaneously
+  be efficient, robust, cost-effective, and safe.Considerable opportunities for
+  cost reduction that can achieve both evolutionary and revolutionary
+  performance improvements are present for all types of solar
+  energy{\textendash}conversion technologies.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.aad1920
+    \endverb
+    \verb{eprint}
+    \verb https://science.sciencemag.org/content/351/6271/aad1920.full.pdf
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{6271}
+    \field{title}{Research opportunities to advance solar energy utilization}
+    \verb{url}
+    \verb https://science.sciencemag.org/content/351/6271/aad1920
+    \endverb
+    \field{volume}{351}
+    \field{journaltitle}{Science}
+    \field{year}{2016}
   \endentry
 
   \entry{SSIdata}{report}{}
