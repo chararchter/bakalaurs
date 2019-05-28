@@ -6,7 +6,14 @@
 % un virziens, kurā stara starojums krīt uz dažādu virzienu un ēnojuma virsmām
 
 \subsection{Saules stāvoklis debesīs}
-Apzīmēsim ar $\theta$ staru krišanas leņķi uz Saules paneli, pieņemot, ka Saules panelis ir plakans un nekustīgs. Tad, pie nemainīgās starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>90^\circ$, t.i. Saules stari krīt uz paneļa apakšējo virsmu). Saules diennakts kustība, gadalaiku cikls, ka arī Saules paneļa novietojums ir ievēroti izteiksmē, kas saskaņā ar [Solar\_Engineering\_of\_Thermal\_Processes.pdf] ļauj aprēķināt $\cos{\theta}$:
+
+Ģeometriskās attiecības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgās starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, ka arī saules paneļa novietojums ir ievēroti izteiksmē, kas ļauj aprēķināt $\cos{\theta}$ \cite{ThermalProcesses}:
+
+\begin{equation}
+\label{eq:apgaismojums}
+E = I \cdot cos(\theta)
+\end{equation}
+
 \begin{equation}
 \label{eq:theta}
 \begin{aligned}
@@ -23,8 +30,8 @@ kur lietoti leņķi, kas definēti \ref{tab:theta} tabulā. Saules deklināciju 
 kur $n$ ir dienas kārtas numurs gadā.
 
 Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprēķināt $\cos{\theta}$ atkarības no laika, kas ir pirmais tuvinājums Saules apstarojuma izmaiņām dienas laikā.
-% Parametru vērtības katram no darbā lietotajiem Saules paneļiem ir apkopotas \ref{tab:param}. tabulā.
-% Lietojot šos parametrus, tika aprēķinātas $\cos{\theta}$ atkarības no laika diviem datumiem: 1. janvārim un 31. aprīlim, sk. \ref{fig:cos-theta}. attēlā. Var redzēt, ka modelis paredz būtiskākas vienkāršas sakarības. Piemēram, austrumu virzienā vērsts panelis "ieslēdzas" agrāk par rietumu virzienā vērstu paneli. Otrkārt, janvārī no D paneļiem visefektīvākais ir vertikālais, jo Saule atrodas zemu, savukārt aprīlī visefektīvākais ir 40$^\circ$ leņķis.
+Parametru vērtības katram no darbā lietotajiem Saules paneļiem ir apkopotas \ref{tab:param}. tabulā.
+Lietojot šos parametrus, tika aprēķinātas $\cos{\theta}$ atkarības no laika diviem datumiem: 1. janvārim un 30. aprīlim (skat. \ref{fig:cos-theta}. att.). No tā secināms, ka austrumu virzienā uzstādītais panelis saņem vairāk apstarojuma no rīta nekā rietumu virzienā vērstais panelis. Pēc šī aprēķina iespējams prognozēt paneļu saražotās enerģijas izmaiņas gada griezumā, piemēram, no dienvidu paneļiem janvārī efektīvākais 90$^\circ$ leņķī vērstais, jo Saule atrodas zemu pie horizonta, bet aprīlī efektīvākais ir 40$^\circ$ leņķi.
 
 \begin{table}[h!]
 	\caption{Leņķu, kas lietoti \ref{eq:theta} vienādojumā, definīcijas.}
@@ -47,24 +54,24 @@ Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprē
 	\label{tab:theta}
 \end{table}
 
-% \begin{table}[h!]
-% 	\caption{Darbā lietotajiem Saules paneļiem atbilstošās leņķisko parametru vērtības, grādos.}
-% 	\begin{center}
-% 		\begin{tabular}{|r|c|c|c|c|c|}
-% 			\hline
-% 			         & R.13 & A.13 &   D.13   & D.40 & D.90 \\ \hline\hline
-% 			paneļa slīpums $\beta$  & \multicolumn{3}{c|}{13} &  40  &  90  \\ \hline
-% 			paneļa azimuts $\gamma$ &  90  & -90  & \multicolumn{3}{c|}{0}  \\ \hline
-% 			ģeogrāfiskais platums $\phi$  &        \multicolumn{5}{c|}{57}        \\ \hline
-% 		\end{tabular}
-% 	\end{center}
-% 	\label{tab:param}
-% \end{table}
+\begin{table}[h!]
+	\caption{Darbā lietotajiem Saules paneļiem atbilstošās leņķisko parametru vērtības, grādos.}
+	\begin{center}
+		\begin{tabular}{|r|c|c|c|c|c|}
+			\hline
+			         & R.13 & A.13 &   D.13   & D.40 & D.90 \\ \hline\hline
+			paneļa slīpums $\beta$  & \multicolumn{3}{c|}{13} &  40  &  90  \\ \hline
+			paneļa azimuts $\gamma$ &  90  & -90  & \multicolumn{3}{c|}{0}  \\ \hline
+			ģeogrāfiskais platums $\phi$  &        \multicolumn{5}{c|}{57}        \\ \hline
+		\end{tabular}
+	\end{center}
+	\label{tab:param}
+\end{table}
 
-% \begin{figure}[h]
-% 	\centering
-% 	\includegraphics[width=\linewidth]{figures/misc/cos-theta-jan.pdf}
-% 	\includegraphics[width=\linewidth]{figures/misc/cos-theta-apr.pdf}
-% 	\caption{Diennakts laikā paredzētas $\cos(\theta)$ vērtības darbā lietotajiem Saules paneļiem, aprēķinātas pēc \ref{eq:theta} izteiksmes 1. janvārim (augšā) un 30. aprīlim (apakšā).}
-% 	\label{fig:cos-theta}
-% \end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{figures/misc/cos-theta-jan.pdf}
+	\includegraphics[width=\linewidth]{figures/misc/cos-theta-apr.pdf}
+	\caption{Diennakts laikā paredzētas $\cos(\theta)$ vērtības darbā lietotajiem Saules paneļiem, aprēķinātas pēc \ref{eq:theta} izteiksmes 1. janvārim (augšā) un 30. aprīlim (apakšā).}
+	\label{fig:cos-theta}
+\end{figure}
