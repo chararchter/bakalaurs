@@ -5,9 +5,9 @@
 % saules stāvoklis debesīs
 % un virziens, kurā stara starojums krīt uz dažādu virzienu un ēnojuma virsmām
 
-\subsection{Saules stāvoklis debesīs}
+\section{Saules diennakts kustība}
 
-Ģeometriskās attiecības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgās starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, ka arī saules paneļa novietojums ir ievēroti izteiksmē, kas ļauj aprēķināt $\cos{\theta}$ \cite{ThermalProcesses}:
+Ģeometriskās attiecības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgas starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, kā arī saules paneļa novietojums ir ievēroti izteiksmē, kas ļauj aprēķināt $\cos{\theta}$ \cite{ThermalProcesses}:
 
 \begin{equation}
 \label{eq:apgaismojums}
@@ -29,7 +29,7 @@ kur lietoti leņķi, kas definēti \ref{tab:theta} tabulā. Saules deklināciju 
 \end{equation}
 kur $n$ ir dienas kārtas numurs gadā.
 
-Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprēķināt $\cos{\theta}$ atkarības no laika, kas ir pirmais tuvinājums Saules apstarojuma izmaiņām dienas laikā.
+Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprēķināt $\cos{\theta}$ laika atkarības, kas ir pirmais tuvinājums Saules apstarojuma izmaiņām dienas laikā.
 Parametru vērtības katram no darbā lietotajiem Saules paneļiem ir apkopotas \ref{tab:param}. tabulā.
 Lietojot šos parametrus, tika aprēķinātas $\cos{\theta}$ atkarības no laika diviem datumiem: 1. janvārim un 30. aprīlim (skat. \ref{fig:cos-theta}. att.). No tā secināms, ka austrumu virzienā uzstādītais panelis saņem vairāk apstarojuma no rīta nekā rietumu virzienā vērstais panelis. Pēc šī aprēķina iespējams prognozēt paneļu saražotās enerģijas izmaiņas gada griezumā, piemēram, no dienvidu paneļiem janvārī efektīvākais 90$^\circ$ leņķī vērstais, jo Saule atrodas zemu pie horizonta, bet aprīlī efektīvākais ir 40$^\circ$ leņķi.
 
@@ -38,7 +38,7 @@ Lietojot šos parametrus, tika aprēķinātas $\cos{\theta}$ atkarības no laika
 	\begin{center}
 		\begin{tabular}{|c|c|l|}
 			\hline
-			         &         apgabals         & definīcija                                                                 \\ \hline\hline
+			         &         apgabals         & definīcija                                                                 \\ \hline
 			$\theta$ &  $(0^\circ;180^\circ)$   & staru krišanas leņķis uz Saules paneli                                     \\ \hline
 			$\delta$ &  $(-23^\circ;23^\circ)$  & Saules deklinācija --- leņķis starp virzieniem uz Sauli un uz debess       \\
 			         &                          & ekvatoru solārajā pusdienlaikā, pozitīvs Z virzienā                        \\ \hline
