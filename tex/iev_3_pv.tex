@@ -13,7 +13,7 @@ Fotoelementa darbība balstās uz iekšējo fotoelektrisko efektu --- parādību
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\linewidth]{figures/misc/PV.jpg}
-    \caption{Saules paneļa shēma. Tas sastāv no fotoelementiem, kuru augšējais slānis veidots no p-tipa pusvadītāja, bet apakšējais --- no n-tipa pusvadītāja.}
+    \caption{Saules paneļa shēma. Tas sastāv no fotoelementiem, kuru augšējais slānis veidots no p-tipa pusvadītāja, bet apakšējais --- no n-tipa pusvadītāja~\cite{Yahyaoui}.}
     \label{fig:PV}
 \end{figure}
 
@@ -22,7 +22,7 @@ P-tipa un n-tipa pusvadītāja īpašības var panākt, piemēram, dopējot sil�
 Ja silīcija kristālam pievieno fosfora atomus, izveidojas pretēja situācija --- pie P atoma parādās elektrons, kas nepiedalās saites veidošanā (sk. att. \ref{fig:p-n-type}., pa labi). Lai pārvietotos, brīvajam elektronam ir nepieciešams mazāk enerģijas nekā elektroniem, kas veido kovalentās saites starp Si atomiem. Tātad, lādiņa pamatnesēji n-tipa pusvadītājos ir elektroni, un šādus pusvadītājus sauc par p-tipa pusvadītājiem.
 
 Dopējot divus blakus esošus Si kristāla apgabalus dažādā veidā, iegūst p-n pāreju. Uz robežas starp apgabaliem elektroni no n-tipa apgabala var difūzijas ceļā nokļūt uz p-tipa apgabalu un aizpildīt tos caurumus, kas atrodas pietiekami tuvu. To sauc arī par elektronu-caurumu rekombināciju. Tādā veidā p-tipa pusvadītāja mala uzlādējās negatīvi. 
-
+atsauce uz imene
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{figures/misc/p_n_type.pdf}
@@ -33,8 +33,34 @@ Dopējot divus blakus esošus Si kristāla apgabalus dažādā veidā, iegūst p
 
 \subsection{Paneļu veidi}
 
-Darbā ir apskatīti divi Saules paneļu veidi:
-\begin{itemize}
-	\item LG
-	\item JA
-\end{itemize}
+Darbā ir apskatīti divi Saules paneļu veidi. Atsaucoties uz produktu lapām, LG tiek prognozēta labāka performance saulainās dienās, bet JA labāka performance vājas gaismas intensitātes vidēs.
+
+\begin{table}[h]
+    \caption{JA un LG paneļu tipu salīdzinājums} % uzrakstīt kādu absolūto TSI izmērīja vai norādīt uz grafiku?
+    \begin{center}
+    \begin{tabular}{| r | c | c |}
+    \hline
+    Tips & JA & LG \\ \hline
+    Modelis &  JAP60-275/4BB & LG365Q1C-A5\\ \hline
+    % materiāls & silikons &   \\ \hline
+	Kristāla veids & Polikristālisks & Monokristālisks \\ \hline
+	% šūnas izmērs, mm  &156x156  & \\ \hline
+	Šūnu skaits  &60  &60 \\ \hline
+	Virsmas laukums, $m^2$ &1.64  &1.72 \\ \hline
+	STC Pmax, $W$ 	&270 &365\\ \hline
+	NOCT Pmax, $W$  &196 &275\\ \hline
+	Efektivitāte, \% &16 & 20\\ \hline
+    \end{tabular}
+    \end{center}
+    \label{tab:ja_lg_tipi}
+\end{table}
+
+Paneļu maksimālā jauda ($P_{max}$) tiek testēta
+\begin{enumerate}
+\item pie standarta testa nosacījumiem (\textit{Standart test condition} - STC):\\
+Saules izstarojums 1000 W/m$^2$; apkārtējā temperatūra 25\textdegree C; gaisa masa 1.5
+\item pie nominālās šūnas darba temperatūras (\textit{Nominal operating cell temperature} - NOCT):\\
+Saules izstarojums 800 W/m$^2$; apkārtējā temperatūra 20 \textdegree C; vēja ātrums 1 m/s
+\end{enumerate}
+
+% ielikt bildi ar to kas saules apstarojumā pazūd no imene

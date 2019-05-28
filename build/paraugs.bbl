@@ -626,5 +626,35 @@
     \field{type}{techreport}
     \field{year}{2019}
   \endentry
+
+  \entry{Yahyaoui}{book}{}
+    \name{author}{1}{}{%
+      {{hash=YI}{%
+         family={Yahyaoui},
+         familyi={Y\bibinitperiod},
+         given={Imene},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Science Ltd, Yahyaoui, Imene}%
+    }
+    \strng{namehash}{YI1}
+    \strng{fullhash}{YI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{edition}{1}
+    \field{isbn}{978-0-12-812959-3,012812959X}
+    \field{pages}{19\bibrangedash 33}
+    \field{title}{Advances in Renewable Energies and Power Technologies: Volume
+  1: Solar and Wind Energies}
+    \verb{url}
+    \verb http://gen.lib.rus.ec/book/index.php?md5=52151250ca3ff4f0e3772d8122ba
+    \verb a8ed
+    \endverb
+    \field{year}{2018}
+  \endentry
 \enddatalist
 \endinput
