@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1559118290 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559131729
+["xdvipdfmx"] 1559118290 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559140977
   "build/paraugs.xdv" 1559091095 172032 03492fe0e9194cd09374430209ef0035 "xelatex"
   (generated)
   "build/paraugs.pdf"
-["xelatex"] 1559119692 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559131729
-  "/dev/null" 1559128155 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1559119692 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559140977
+  "/dev/null" 1559135968 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1550406775 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1550406775 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -111,12 +111,12 @@
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1556463070 4098340 b2f7ce587b344747534ab48af9d66be6 ""
   "LuThesis.cls" 1558987001 7129 86a436b3f54bde4973627eda0bd7018d ""
   "build/paraugs.aux" 1559091094 8192 a320c9226a68d501185a61c93ce8e70d ""
-  "paraugs.tex" 1559131725 2445 3d59f7c4bdabc62766ba7021195ccc57 ""
+  "paraugs.tex" 1559134341 2445 3d59f7c4bdabc62766ba7021195ccc57 ""
   (generated)
-  "build/paraugs.run.xml"
-  "build/paraugs.toc"
-  "build/paraugs.log"
+  "build/paraugs-blx.bib"
   "build/paraugs.xdv"
   "build/paraugs.out"
-  "build/paraugs-blx.bib"
   "build/paraugs.aux"
+  "build/paraugs.run.xml"
+  "build/paraugs.log"
+  "build/paraugs.toc"
