@@ -17,6 +17,133 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{CloudCoverageImpactOnIrradiance}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaGPRLMJBL}{%
+         prefix={et.},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={G.\bibnamedelima Pfister; R. L. McKenzie; J. B.\bibnamedelima
+  Liley},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aGPRLMJBLe1}
+    \strng{fullhash}{aGPRLMJBLe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    In Lauder, Central Otago, New Zealand, two all-sky imaging systems have
+  been in operation for more than 1 yr, measuring the total, opaque, and thin
+  cloud fraction, as well as indicating whether the sun is obscured by clouds.
+  The data provide a basis for investigating the impact of clouds on the
+  surface radiation field. The all-sky cloud parameters were combined with
+  measurements of global, direct, and diffuse surface solar irradiance over the
+  spectral interval from 0.3 to 3 μm. Here, the results of ongoing analysis of
+  this dataset are described. As a reference for the magnitude of the cloud
+  influence, clear-sky irradiance values are estimated as a simple function of
+  solar zenith angle and the earth–sun distance. The function is derived from
+  a least squares fit to measurements taken when available cloud images show
+  clear-sky situations. Averaged over a longer time period, such as 1 month,
+  cloud fraction and surface irradiance are clearly negatively correlated.
+  Monthly means in the ratio of the measured surface irradiance to the
+  clear-sky value had a correlation coefficient of about −0.9 with means of
+  cloud fraction for the months from July 2000 to June 2001. In the present
+  work reductions in the surface irradiance and situations in which clouds
+  cause radiation values to exceed the expected clear-sky amount are analyzed.
+  Over 1 yr of observations, 1-min-averaged radiation measurements exceeding
+  the expected clear-sky value by more than 10\% were observed with a frequency
+  of 5\%. In contrast, a reduction of more than 10\% below estimated clear-sky
+  values occurred in 66\% of the cases, while clear-sky irradiances (measured
+  irradiance within ±10\% of estimated clear-sky value) were observed 29\% of
+  the time. Low cloud fractions frequently lead to moderate enhancement,
+  because the sun is often unobscured and the clouds are brighter than the sky
+  that they hide. As cloud fraction increases the sun is likely to be obscured,
+  causing irradiance values to fall well below clear-sky values. However, in
+  the case of unobscured sun, there is a tendency for strongest enhancements
+  when cloud fractions are highest. Enhancements, especially at high solar
+  zenith angle, are also often observed in association with thin clouds.%
+    }
+    \verb{doi}
+    \verb 10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
+    \endverb
+    \field{number}{10}
+    \field{pages}{1421\bibrangedash 1434}
+    \field{title}{Cloud Coverage Based on All-Sky Imaging and Its Impact on
+  Surface Solar Irradiance}
+    \verb{url}
+    \verb https://doi.org/10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
+    \endverb
+    \field{volume}{42}
+    \field{journaltitle}{Journal of Applied Meteorology}
+    \field{year}{2003}
+  \endentry
+
+  \entry{observVSModel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaRDCMHZPM}{%
+         prefix={et.},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={R.\bibnamedelima D. Cess; M. H. Zhang; P.\bibnamedelima
+  Minnis},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  H\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{aRDCMHZPMe1}
+    \strng{fullhash}{aRDCMHZPMe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    There has been a long history of unexplained anomalous absorption of solar
+  radiation by clouds. Collocated satellite and surface measurements of solar
+  radiation at five geographically diverse locations showed significant solar
+  absorption by clouds, resulting in about 25 watts per square meter more
+  global-mean absorption by the cloudy atmosphere than predicted by theoretical
+  models. It has often been suggested that tropospheric aerosols could increase
+  cloud absorption. But these aerosols are temporally and spatially
+  heterogeneous, whereas the observed cloud absorption is remarkably invariant
+  with respect to season and location. Although its physical cause is unknown,
+  enhanced cloud absorption substantially alters our understanding of the
+  atmosphere{\textquoteright}s energy budget.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.267.5197.496
+    \endverb
+    \verb{eprint}
+    \verb https://science.sciencemag.org/content/267/5197/496.full.pdf
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{5197}
+    \field{pages}{496\bibrangedash 499}
+    \field{title}{Absorption of Solar Radiation by Clouds: Observations Versus
+  Models}
+    \verb{url}
+    \verb https://science.sciencemag.org/content/267/5197/496
+    \endverb
+    \field{volume}{267}
+    \field{journaltitle}{Science}
+    \field{year}{1995}
+  \endentry
+
   \entry{ThermalProcesses}{book}{}
     \name{author}{1}{}{%
       {{hash=BJADWA}{%
@@ -62,6 +189,18 @@
     }
     \field{type}{techreport}
     \field{year}{2018/2001}
+  \endentry
+
+  \entry{fronius}{report}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Energy balance}
+    \list{institution}{1}{%
+      {Fronius International GmbH}%
+    }
+    \field{type}{techreport}
+    \field{year}{2019}
   \endentry
 
   \entry{Frohlich2012}{article}{}
@@ -121,6 +260,23 @@
     \field{journaltitle}{Surveys in Geophysics}
     \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{JAtips}{manual}{}
+    \list{organization}{1}{%
+      {JA Solar}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{note}{Skatīts: 2019-05-25}
+    \field{title}{JA Solar solar module JAP60-275/4BB data sheet}
+    \verb{url}
+    \verb https://www.zonnepanelen-groothandel.com/uploads/documents/0b2218adfe
+    \verb 6914c23838b87c95e7d0aa.pdf
+    \endverb
+    \field{month}{04}
+    \field{year}{2016}
   \endentry
 
   \entry{TSIdata}{report}{}
@@ -207,102 +363,21 @@
     \field{year}{2016}
   \endentry
 
-  \entry{CloudCoverageImpactOnIrradiance}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LGPRLMJBLATBWFCN}{%
-         family={Long},
-         familyi={L\bibinitperiod},
-         given={G.\bibnamedelima Pfister; R. L. McKenzie; J. B. Liley; A.
-  Thomas; B. W. Forgan; C.\bibnamedelima N.},
-         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
-  B\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
+  \entry{LGtips}{manual}{}
+    \list{organization}{1}{%
+      {LG Electronics}%
     }
-    \strng{namehash}{LGPRLMJBLATBWFCN1}
-    \strng{fullhash}{LGPRLMJBLATBWFCN1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
     \field{sortinithash}{L}
-    \field{abstract}{%
-    In Lauder, Central Otago, New Zealand, two all-sky imaging systems have
-  been in operation for more than 1 yr, measuring the total, opaque, and thin
-  cloud fraction, as well as indicating whether the sun is obscured by clouds.
-  The data provide a basis for investigating the impact of clouds on the
-  surface radiation field. The all-sky cloud parameters were combined with
-  measurements of global, direct, and diffuse surface solar irradiance over the
-  spectral interval from 0.3 to 3 μm. Here, the results of ongoing analysis of
-  this dataset are described. As a reference for the magnitude of the cloud
-  influence, clear-sky irradiance values are estimated as a simple function of
-  solar zenith angle and the earth–sun distance. The function is derived from
-  a least squares fit to measurements taken when available cloud images show
-  clear-sky situations. Averaged over a longer time period, such as 1 month,
-  cloud fraction and surface irradiance are clearly negatively correlated.
-  Monthly means in the ratio of the measured surface irradiance to the
-  clear-sky value had a correlation coefficient of about −0.9 with means of
-  cloud fraction for the months from July 2000 to June 2001. In the present
-  work reductions in the surface irradiance and situations in which clouds
-  cause radiation values to exceed the expected clear-sky amount are analyzed.
-  Over 1 yr of observations, 1-min-averaged radiation measurements exceeding
-  the expected clear-sky value by more than 10\% were observed with a frequency
-  of 5\%. In contrast, a reduction of more than 10\% below estimated clear-sky
-  values occurred in 66\% of the cases, while clear-sky irradiances (measured
-  irradiance within ±10\% of estimated clear-sky value) were observed 29\% of
-  the time. Low cloud fractions frequently lead to moderate enhancement,
-  because the sun is often unobscured and the clouds are brighter than the sky
-  that they hide. As cloud fraction increases the sun is likely to be obscured,
-  causing irradiance values to fall well below clear-sky values. However, in
-  the case of unobscured sun, there is a tendency for strongest enhancements
-  when cloud fractions are highest. Enhancements, especially at high solar
-  zenith angle, are also often observed in association with thin clouds.%
-    }
-    \verb{doi}
-    \verb 10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
-    \endverb
-    \verb{eprint}
-    \verb https://doi.org/10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
-    \endverb
-    \field{number}{10}
-    \field{pages}{1421\bibrangedash 1434}
-    \field{title}{Cloud Coverage Based on All-Sky Imaging and Its Impact on
-  Surface Solar Irradiance}
+    \field{note}{Skatīts: 2019-05-24}
+    \field{title}{LG NeON R solar module LG365Q1C-A5 data sheet}
     \verb{url}
-    \verb https://doi.org/10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
+    \verb https://www.lg.com/us/business/download/resources/BT00002151/LGS04021
+    \verb 9_DS_LG350-365Q1C-A5.pdf
     \endverb
-    \field{volume}{42}
-    \field{journaltitle}{Journal of Applied Meteorology}
-    \field{year}{2003}
-  \endentry
-
-  \entry{cloudsModlab}{report}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={NOSKAIDRO},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{note}{Skatīts: 2019-05-26}
-    \field{title}{Mākoņainība Latvijā}
-    \verb{url}
-    \verb http://www.modlab.lv/klimats/Parametri/cloud/Cloud.html
-    \endverb
-    \list{institution}{1}{%
-      {Latvijas Universitātes Vides un tehnoloģisko procesu matemātiskās
-  modelēšanas laboratorija}%
-    }
-    \field{type}{techreport}
-    \field{year}{NOSKAIDRO}
+    \field{month}{02}
+    \field{year}{2019}
   \endentry
 
   \entry{SSIdata}{report}{}
@@ -334,6 +409,92 @@
       {Information Services Center (GES DISC)}%
     }
     \field{type}{techreport}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Sani_2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SA}{%
+         family={Sani},
+         familyi={S\bibinitperiod},
+         given={Arman},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Warman},
+         familyi={W\bibinitperiod},
+         given={Eddy},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DAPS}{%
+         family={Depari},
+         familyi={D\bibinitperiod},
+         given={Andre Pranata\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=S}{%
+         family={Suherman},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SAWEDAPSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Solar panel operation depends on sunlight intensity where solar panels are
+  placed. This study aims to design a real-time monitoring device for measuring
+  the performance of solar panels. From the assessment sample, the designed
+  device is successfully measure the parameters of solar panel characteristics
+  and environmental parameters. The designed monitoring system is also able to
+  identify the effect of wind speed and humidity.%
+    }
+    \verb{doi}
+    \verb 10.1088/1757-899x/420/1/012051
+    \endverb
+    \field{pages}{012051}
+    \field{title}{Measuring the commercial solar panel performance}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1757-899x%2F420%2F1%2F012051
+    \endverb
+    \field{volume}{420}
+    \field{journaltitle}{{IOP} Conference Series: Materials Science and
+  Engineering}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Sivaram}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SV}{%
+         family={Sivaram},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The MIT Press}%
+    }
+    \strng{namehash}{SV1}
+    \strng{fullhash}{SV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{isbn}{978-0-262-03768-6}
+    \field{title}{Taming the Sun: Innovations to Harness Solar Energy and Power
+  the Planet}
+    \verb{url}
+    \verb http://gen.lib.rus.ec/book/index.php?md5=80eb8a6b6e8f1bb713a1d7b11c1d
+    \verb 4188
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -432,82 +593,95 @@
     \field{year}{2009}
   \endentry
 
-  \entry{observVSModel}{article}{}
+  \entry{cloudsModlab}{report}{}
     \name{author}{1}{}{%
-      {{hash=ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY}{%
-         family={Zhou},
-         familyi={Z\bibinitperiod},
-         given={R.\bibnamedelima D. Cess; M. H. Zhang; P. Minnis; L. Corsetti;
-  E. G. Dutton; B. W. Forgan; D. P. Garber; W. L. Gates; J. J. Hack; E. F.
-  Harrison; X. Jing; J. T. Kiehi; C. N. Long; J. J. Morcrette; G. L. Potter; V.
-  Ramanathan; B. Subasilar; C. H. Whitlock; D. F. Young;\bibnamedelima Y.},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  H\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim
-  P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  E\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
-  D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  W\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
-  L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
-  J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  H\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
-  X\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
-  K\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  N\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
-  L\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  V\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
-  B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
-  W\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      {{hash=UBe}{%
+         family={U.\bibnamedelima Bethers},
+         familyi={U\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={et.al.},
+         giveni={e\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UBe1}
+    \strng{fullhash}{UBe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{note}{Skatīts: 2019-05-26}
+    \field{title}{Mākoņainība Latvijā}
+    \verb{url}
+    \verb http://www.modlab.lv/klimats/Parametri/cloud/Cloud.html
+    \endverb
+    \list{institution}{1}{%
+      {Latvijas Universitātes Vides un tehnoloģisko procesu matemātiskās
+  modelēšanas laboratorija}%
+    }
+    \field{type}{techreport}
+  \endentry
+
+  \entry{improvePerformance}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WC}{%
+         family={Wani},
+         familyi={W\bibinitperiod},
+         given={Chandrakant},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KGK}{%
+         family={Kumar\bibnamedelima Gupta},
+         familyi={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Krishna},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCKGK1}
+    \strng{fullhash}{WCKGK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1088/1755-1315/227/2/022009
+    \endverb
+    \field{pages}{022009}
+    \field{title}{Towards improving the performance of solar photovoltaic
+  energy system: A review}
+    \field{volume}{227}
+    \field{journaltitle}{IOP Conference Series: Earth and Environmental
+  Science}
+    \field{month}{03}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Yahyaoui}{book}{}
+    \name{author}{1}{}{%
+      {{hash=YI}{%
+         family={Yahyaoui},
+         familyi={Y\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {American Association for the Advancement of Science}%
+      {Elsevier Science Ltd, Yahyaoui, Imene}%
     }
-    \strng{namehash}{ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY1}
-    \strng{fullhash}{ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY1}
+    \strng{namehash}{YI1}
+    \strng{fullhash}{YI1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{Z}
-    \field{sortinithash}{Z}
-    \field{abstract}{%
-    There has been a long history of unexplained anomalous absorption of solar
-  radiation by clouds. Collocated satellite and surface measurements of solar
-  radiation at five geographically diverse locations showed significant solar
-  absorption by clouds, resulting in about 25 watts per square meter more
-  global-mean absorption by the cloudy atmosphere than predicted by theoretical
-  models. It has often been suggested that tropospheric aerosols could increase
-  cloud absorption. But these aerosols are temporally and spatially
-  heterogeneous, whereas the observed cloud absorption is remarkably invariant
-  with respect to season and location. Although its physical cause is unknown,
-  enhanced cloud absorption substantially alters our understanding of the
-  atmosphere{\textquoteright}s energy budget.%
-    }
-    \verb{doi}
-    \verb 10.1126/science.267.5197.496
-    \endverb
-    \verb{eprint}
-    \verb https://science.sciencemag.org/content/267/5197/496.full.pdf
-    \endverb
-    \field{issn}{0036-8075}
-    \field{number}{5197}
-    \field{pages}{496\bibrangedash 499}
-    \field{title}{Absorption of Solar Radiation by Clouds: Observations Versus
-  Models}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{edition}{1}
+    \field{isbn}{978-0-12-812959-3,012812959X}
+    \field{pages}{19\bibrangedash 33}
+    \field{title}{Advances in Renewable Energies and Power Technologies: Volume
+  1: Solar and Wind Energies}
     \verb{url}
-    \verb https://science.sciencemag.org/content/267/5197/496
+    \verb http://gen.lib.rus.ec/book/index.php?md5=52151250ca3ff4f0e3772d8122ba
+    \verb a8ed
     \endverb
-    \field{volume}{267}
-    \field{journaltitle}{Science}
-    \field{year}{1995}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput
