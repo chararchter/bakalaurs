@@ -22,7 +22,7 @@
       {{hash=BJADWA}{%
          family={Beckman},
          familyi={B\bibinitperiod},
-         given={John A. Duffie; William\bibnamedelima A.},
+         given={J.\bibnamedelima A. Duffie; W.\bibnamedelima A.},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -44,170 +44,6 @@
     \verb 9d1c
     \endverb
     \field{year}{2013}
-  \endentry
-
-  \entry{observVSModel}{article}{}
-    \name{author}{20}{}{%
-      {{hash=CRD}{%
-         family={Cess},
-         familyi={C\bibinitperiod},
-         given={R.\bibnamedelima D.},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=ZMH}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={M.\bibnamedelima H.},
-         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=MP}{%
-         family={Minnis},
-         familyi={M\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Corsetti},
-         familyi={C\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DEG}{%
-         family={Dutton},
-         familyi={D\bibinitperiod},
-         given={E.\bibnamedelima G.},
-         giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=FBW}{%
-         family={Forgan},
-         familyi={F\bibinitperiod},
-         given={B.\bibnamedelima W.},
-         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=GDP}{%
-         family={Garber},
-         familyi={G\bibinitperiod},
-         given={D.\bibnamedelima P.},
-         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=GWL}{%
-         family={Gates},
-         familyi={G\bibinitperiod},
-         given={W.\bibnamedelima L.},
-         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=HJJ}{%
-         family={Hack},
-         familyi={H\bibinitperiod},
-         given={J.\bibnamedelima J.},
-         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=HEF}{%
-         family={Harrison},
-         familyi={H\bibinitperiod},
-         given={E.\bibnamedelima F.},
-         giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=JX}{%
-         family={Jing},
-         familyi={J\bibinitperiod},
-         given={X.},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=KJT}{%
-         family={Kiehi},
-         familyi={K\bibinitperiod},
-         given={J.\bibnamedelima T.},
-         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=LCN}{%
-         family={Long},
-         familyi={L\bibinitperiod},
-         given={C.\bibnamedelima N.},
-         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=MJJ}{%
-         family={Morcrette},
-         familyi={M\bibinitperiod},
-         given={J.\bibnamedelima J.},
-         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=PGL}{%
-         family={Potter},
-         familyi={P\bibinitperiod},
-         given={G.\bibnamedelima L.},
-         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=RV}{%
-         family={Ramanathan},
-         familyi={R\bibinitperiod},
-         given={V.},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=SB}{%
-         family={Subasilar},
-         familyi={S\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=WCH}{%
-         family={Whitlock},
-         familyi={W\bibinitperiod},
-         given={C.\bibnamedelima H.},
-         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=YDF}{%
-         family={Young},
-         familyi={Y\bibinitperiod},
-         given={D.\bibnamedelima F.},
-         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=ZY}{%
-         family={Zhou},
-         familyi={Z\bibinitperiod},
-         given={Y.},
-         giveni={Y\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Association for the Advancement of Science}%
-    }
-    \strng{namehash}{CRD+1}
-    \strng{fullhash}{CRDZMHMPCLDEGFBWGDPGWLHJJHEFJXKJTLCNMJJPGLRVSBWCHYDFZY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    There has been a long history of unexplained anomalous absorption of solar
-  radiation by clouds. Collocated satellite and surface measurements of solar
-  radiation at five geographically diverse locations showed significant solar
-  absorption by clouds, resulting in about 25 watts per square meter more
-  global-mean absorption by the cloudy atmosphere than predicted by theoretical
-  models. It has often been suggested that tropospheric aerosols could increase
-  cloud absorption. But these aerosols are temporally and spatially
-  heterogeneous, whereas the observed cloud absorption is remarkably invariant
-  with respect to season and location. Although its physical cause is unknown,
-  enhanced cloud absorption substantially alters our understanding of the
-  atmosphere{\textquoteright}s energy budget.%
-    }
-    \verb{doi}
-    \verb 10.1126/science.267.5197.496
-    \endverb
-    \verb{eprint}
-    \verb https://science.sciencemag.org/content/267/5197/496.full.pdf
-    \endverb
-    \field{issn}{0036-8075}
-    \field{number}{5197}
-    \field{pages}{496\bibrangedash 499}
-    \field{title}{Absorption of Solar Radiation by Clouds: Observations Versus
-  Models}
-    \verb{url}
-    \verb https://science.sciencemag.org/content/267/5197/496
-    \endverb
-    \field{volume}{267}
-    \field{journaltitle}{Science}
-    \field{year}{1995}
   \endentry
 
   \entry{ES}{report}{}
@@ -233,7 +69,7 @@
       {{hash=FC}{%
          family={Fr{\"o}hlich},
          familyi={F\bibinitperiod},
-         given={Claus},
+         given={C.},
          giveni={C\bibinitperiod},
       }}%
     }
@@ -292,7 +128,7 @@
       {{hash=KG}{%
          family={Kopp},
          familyi={K\bibinitperiod},
-         given={Greg},
+         given={G.},
          giveni={G\bibinitperiod},
       }}%
     }
@@ -325,7 +161,7 @@
       {{hash=LNS}{%
          family={Lewis},
          familyi={L\bibinitperiod},
-         given={Nathan\bibnamedelima S.},
+         given={N.\bibnamedelima S.},
          giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
@@ -371,155 +207,28 @@
     \field{year}{2016}
   \endentry
 
-  \entry{effectCloudsOnSurface}{article}{}
-    \name{author}{3}{}{%
-      {{hash=LML}{%
-         family={López},
+  \entry{CloudCoverageImpactOnIrradiance}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LGPRLMJBLATBWFCN}{%
+         family={Long},
          familyi={L\bibinitperiod},
-         given={María\bibnamedelima Laura},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=PGG}{%
-         family={Palancar},
-         familyi={P\bibinitperiod},
-         given={Gustavo\bibnamedelima G.},
-         giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=TBM}{%
-         family={Toselli},
-         familyi={T\bibinitperiod},
-         given={Beatriz\bibnamedelima M.},
-         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={G.\bibnamedelima Pfister; R. L. McKenzie; J. B. Liley; A.
+  Thomas; B. W. Forgan; C.\bibnamedelima N.},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
     }
-    \keyw{Clouds properties, Cloud modification factor, Córdoba, Radiative
-  transfer model, Irradiance measurements}
-    \strng{namehash}{LMLPGGTBM1}
-    \strng{fullhash}{LMLPGGTBM1}
+    \strng{namehash}{LGPRLMJBLATBWFCN1}
+    \strng{fullhash}{LGPRLMJBLATBWFCN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
     \field{sortinithash}{L}
-    \field{abstract}{%
-    The effect of clouds on total and UV-B irradiance in Córdoba, Argentina,
-  was studied employing the TUV 4.1 model and measurements obtained with YES
-  UVB-1 and YES TSP-700 radiometers, and a spectral radiometer Ocean Optics
-  USB-4000. The experimental measurements were selected from a 10 years dataset
-  (1999–2008). Clouds were classified by direct observation as cirrus,
-  cumulus, and stratocumulus. The broadband Cloud Modification Factors (CMFs)
-  have been calculated in the range of the total and the UV-B radiation for
-  these types of clouds. The relations between them were analyzed for a
-  significant number of days. The broadband CMF values range from around 0.1 up
-  to 1.25, depending on the wavelength interval and on the cloud type. The
-  CMFUVB versus CMFT plots for different clouds have shown good adjustments and
-  significant differences, which allows the distinction between them.
-  Stratocumulus clouds show large attenuations and a linear relation with
-  larger slopes as the solar zenith angle (SZA) increases. For this type of
-  clouds an average slope of (1.0 ± 0.2) was found. The relation between the
-  CMF for cumulus clouds is linear with an average slope of (0.61 ± 0.01).
-  No dependence with the SZA was observed. Cirrus clouds plots show an
-  exponential behavior with fit parameters equal to (0.48 ± 0.08) and
-  (0.68 ± 0.15). However, when small SZA intervals are analyzed a linear
-  relation is found. When the relations between the CMF were similar (cumulus
-  and cirrus), the spectral variation in the UV range (320–420 nm) of a
-  modified CMF (CMFm) was used to distinguish them. Hence, the spectral
-  differences among the three types of clouds have been also analyzed for
-  several days and SZA. Here, it was found that the effect of cirrus is
-  essentially wavelength independent while cumulus and stratocumulus clouds
-  show exponential decay relations but with different ordinates. In the
-  analyzed relations the microphysical properties of the clouds seem to
-  determine its behavior while the optical thickness leads to the different
-  degrees of attenuation. The results obtained in this work are in agreement
-  with those found for other authors.%
-    }
-    \verb{doi}
-    \verb https://doi.org/10.1016/j.atmosenv.2009.02.065
-    \endverb
-    \field{issn}{1352-2310}
-    \field{number}{19}
-    \field{pages}{3130 \bibrangedash  3136}
-    \field{title}{Effect of different types of clouds on surface UV-B and total
-  solar irradiance at southern mid-latitudes: CMF determinations at Córdoba,
-  Argentina}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S1352231009002349
-    \endverb
-    \field{volume}{43}
-    \field{journaltitle}{Atmospheric Environment}
-    \field{year}{2009}
-  \endentry
-
-  \entry{cloudsModlab}{report}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={NOSKAIDRO},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{note}{Skatīts: 2019-05-26}
-    \field{title}{Mākoņainība Latvijā}
-    \verb{url}
-    \verb http://www.modlab.lv/klimats/Parametri/cloud/Cloud.html
-    \endverb
-    \list{institution}{1}{%
-      {Latvijas Universitātes Vides un tehnoloģisko procesu matemātiskās
-  modelēšanas laboratorija}%
-    }
-    \field{type}{techreport}
-    \field{year}{NOSKAIDRO}
-  \endentry
-
-  \entry{CloudCoverageImpactOnIrradiance}{article}{}
-    \name{author}{6}{}{%
-      {{hash=PG}{%
-         family={Pfister},
-         familyi={P\bibinitperiod},
-         given={G.},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=MRL}{%
-         family={McKenzie},
-         familyi={M\bibinitperiod},
-         given={R.\bibnamedelima L.},
-         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=LJB}{%
-         family={Liley},
-         familyi={L\bibinitperiod},
-         given={J.\bibnamedelima B.},
-         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=TA}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=FBW}{%
-         family={Forgan},
-         familyi={F\bibinitperiod},
-         given={B.\bibnamedelima W.},
-         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=LCN}{%
-         family={Long},
-         familyi={L\bibinitperiod},
-         given={C.\bibnamedelima N.},
-         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PG+1}
-    \strng{fullhash}{PGMRLLJBTAFBWLCN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
     \field{abstract}{%
     In Lauder, Central Otago, New Zealand, two all-sky imaging systems have
   been in operation for more than 1 yr, measuring the total, opaque, and thin
@@ -570,12 +279,38 @@
     \field{year}{2003}
   \endentry
 
+  \entry{cloudsModlab}{report}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={NOSKAIDRO},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{Skatīts: 2019-05-26}
+    \field{title}{Mākoņainība Latvijā}
+    \verb{url}
+    \verb http://www.modlab.lv/klimats/Parametri/cloud/Cloud.html
+    \endverb
+    \list{institution}{1}{%
+      {Latvijas Universitātes Vides un tehnoloģisko procesu matemātiskās
+  modelēšanas laboratorija}%
+    }
+    \field{type}{techreport}
+    \field{year}{NOSKAIDRO}
+  \endentry
+
   \entry{SSIdata}{report}{}
     \name{author}{1}{}{%
       {{hash=RE}{%
          family={Richard},
          familyi={R\bibinitperiod},
-         given={Erik},
+         given={E.},
          giveni={E\bibinitperiod},
       }}%
     }
@@ -627,34 +362,152 @@
     \field{year}{2019}
   \endentry
 
-  \entry{Yahyaoui}{book}{}
+  \entry{effectCloudsOnSurface}{article}{}
     \name{author}{1}{}{%
-      {{hash=YI}{%
-         family={Yahyaoui},
-         familyi={Y\bibinitperiod},
-         given={Imene},
-         giveni={I\bibinitperiod},
+      {{hash=TMLLGGPBM}{%
+         family={Toselli},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima L. López; G. G. Palancar; B.\bibnamedelima
+  M.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Clouds properties, Cloud modification factor, Córdoba, Radiative
+  transfer model, Irradiance measurements}
+    \strng{namehash}{TMLLGGPBM1}
+    \strng{fullhash}{TMLLGGPBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    The effect of clouds on total and UV-B irradiance in Córdoba, Argentina,
+  was studied employing the TUV 4.1 model and measurements obtained with YES
+  UVB-1 and YES TSP-700 radiometers, and a spectral radiometer Ocean Optics
+  USB-4000. The experimental measurements were selected from a 10 years dataset
+  (1999–2008). Clouds were classified by direct observation as cirrus,
+  cumulus, and stratocumulus. The broadband Cloud Modification Factors (CMFs)
+  have been calculated in the range of the total and the UV-B radiation for
+  these types of clouds. The relations between them were analyzed for a
+  significant number of days. The broadband CMF values range from around 0.1 up
+  to 1.25, depending on the wavelength interval and on the cloud type. The
+  CMFUVB versus CMFT plots for different clouds have shown good adjustments and
+  significant differences, which allows the distinction between them.
+  Stratocumulus clouds show large attenuations and a linear relation with
+  larger slopes as the solar zenith angle (SZA) increases. For this type of
+  clouds an average slope of (1.0 ± 0.2) was found. The relation between the
+  CMF for cumulus clouds is linear with an average slope of (0.61 ± 0.01).
+  No dependence with the SZA was observed. Cirrus clouds plots show an
+  exponential behavior with fit parameters equal to (0.48 ± 0.08) and
+  (0.68 ± 0.15). However, when small SZA intervals are analyzed a linear
+  relation is found. When the relations between the CMF were similar (cumulus
+  and cirrus), the spectral variation in the UV range (320–420 nm) of a
+  modified CMF (CMFm) was used to distinguish them. Hence, the spectral
+  differences among the three types of clouds have been also analyzed for
+  several days and SZA. Here, it was found that the effect of cirrus is
+  essentially wavelength independent while cumulus and stratocumulus clouds
+  show exponential decay relations but with different ordinates. In the
+  analyzed relations the microphysical properties of the clouds seem to
+  determine its behavior while the optical thickness leads to the different
+  degrees of attenuation. The results obtained in this work are in agreement
+  with those found for other authors.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.atmosenv.2009.02.065
+    \endverb
+    \field{issn}{1352-2310}
+    \field{number}{19}
+    \field{pages}{3130 \bibrangedash  3136}
+    \field{title}{Effect of different types of clouds on surface UV-B and total
+  solar irradiance at southern mid-latitudes: CMF determinations at Córdoba,
+  Argentina}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1352231009002349
+    \endverb
+    \field{volume}{43}
+    \field{journaltitle}{Atmospheric Environment}
+    \field{year}{2009}
+  \endentry
+
+  \entry{observVSModel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={R.\bibnamedelima D. Cess; M. H. Zhang; P. Minnis; L. Corsetti;
+  E. G. Dutton; B. W. Forgan; D. P. Garber; W. L. Gates; J. J. Hack; E. F.
+  Harrison; X. Jing; J. T. Kiehi; C. N. Long; J. J. Morcrette; G. L. Potter; V.
+  Ramanathan; B. Subasilar; C. H. Whitlock; D. F. Young;\bibnamedelima Y.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  H\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  E\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  W\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  H\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  X\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  K\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  N\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  V\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  W\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Elsevier Science Ltd, Yahyaoui, Imene}%
+      {American Association for the Advancement of Science}%
     }
-    \strng{namehash}{YI1}
-    \strng{fullhash}{YI1}
+    \strng{namehash}{ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY1}
+    \strng{fullhash}{ZRDCMHZPMLCEGDBWFDPGWLGJJHEFHXJJTKCNLJJMGLPVRBSCHWDFYY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{Y}
-    \field{sortinithash}{Y}
-    \field{edition}{1}
-    \field{isbn}{978-0-12-812959-3,012812959X}
-    \field{pages}{19\bibrangedash 33}
-    \field{title}{Advances in Renewable Energies and Power Technologies: Volume
-  1: Solar and Wind Energies}
-    \verb{url}
-    \verb http://gen.lib.rus.ec/book/index.php?md5=52151250ca3ff4f0e3772d8122ba
-    \verb a8ed
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    There has been a long history of unexplained anomalous absorption of solar
+  radiation by clouds. Collocated satellite and surface measurements of solar
+  radiation at five geographically diverse locations showed significant solar
+  absorption by clouds, resulting in about 25 watts per square meter more
+  global-mean absorption by the cloudy atmosphere than predicted by theoretical
+  models. It has often been suggested that tropospheric aerosols could increase
+  cloud absorption. But these aerosols are temporally and spatially
+  heterogeneous, whereas the observed cloud absorption is remarkably invariant
+  with respect to season and location. Although its physical cause is unknown,
+  enhanced cloud absorption substantially alters our understanding of the
+  atmosphere{\textquoteright}s energy budget.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.267.5197.496
     \endverb
-    \field{year}{2018}
+    \verb{eprint}
+    \verb https://science.sciencemag.org/content/267/5197/496.full.pdf
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{5197}
+    \field{pages}{496\bibrangedash 499}
+    \field{title}{Absorption of Solar Radiation by Clouds: Observations Versus
+  Models}
+    \verb{url}
+    \verb https://science.sciencemag.org/content/267/5197/496
+    \endverb
+    \field{volume}{267}
+    \field{journaltitle}{Science}
+    \field{year}{1995}
   \endentry
 \enddatalist
 \endinput
