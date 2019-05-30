@@ -262,6 +262,41 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{hayes_clemens_2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HGJ}{%
+         family={Hayes},
+         familyi={H\bibinitperiod},
+         given={Garrett\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CBM}{%
+         family={Clemens},
+         familyi={C\bibinitperiod},
+         given={Bruce\bibnamedelima M.},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{HGJCBM1}
+    \strng{fullhash}{HGJCBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1557/mrc.2015.2
+    \endverb
+    \field{number}{1}
+    \field{pages}{1–5}
+    \field{title}{Laser liftoff of gallium arsenide thin films}
+    \field{volume}{5}
+    \field{journaltitle}{MRS Communications}
+    \field{year}{2015}
+  \endentry
+
   \entry{JAtips}{manual}{}
     \list{organization}{1}{%
       {JA Solar}%
@@ -496,6 +531,23 @@
     \verb 4188
     \endverb
     \field{year}{2018}
+  \endentry
+
+  \entry{prognoze}{manual}{}
+    \list{organization}{1}{%
+      {Grand View Research}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Skatīts: 2019-05-30}
+    \field{title}{Solar Cell Market Analysis By Product (Silicon Wafer,
+  Monocrystalline, Multicrystalline, Cadmium Telluride, Copper Indium Galium
+  Selenide, Amorphous silica), And Segment Forecasts To 2022}
+    \verb{url}
+    \verb https://www.grandviewresearch.com/industry-analysis/solar-cell-market
+    \endverb
+    \field{year}{2015}
   \endentry
 
   \entry{solargis}{report}{}
