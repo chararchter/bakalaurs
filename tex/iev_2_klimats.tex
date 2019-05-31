@@ -13,7 +13,7 @@ Saskaņā ar LU VTPMML klimatisko datu apkopojumu, kas parādīts \ref{fig:makon
 	\label{fig:makoni_Riga}
 \end{figure}
 
-Mākoņu ietekme uz Saules apstarojumu ir komplicēta un atkarīga no dažādiem parametriem. Piemēram, pētījumā \cite{CloudCoverageImpactOnIrradiance} tiek parādīts, ka dažreiz mākoņainība var pat nedaudz palielināt Saules apstarojumu. Šis šķietami kontraintuitīvais rezultāts izskaidrojams ar to, ka Saule nav nosegta pilnībā, un baltie mākoņi mēdz būt gaišāki nekā pašas debesis saulainā dienā (skat. \ref{fig:makoni_ietekme}.(b) attēlā), tādējādi DNI komponentes samazināšanās tiek kompensēta ar palielinātu gaismas izkliedi. 
+Mākoņu ietekme uz Saules apstarojumu ir netriviāla un atkarīga no dažādiem parametriem. Piemēram, dažreiz mākoņainība var pat nedaudz palielināt Saules apstarojumu~\cite{CloudCoverageImpactOnIrradiance}. Šis šķietami kontraintuitīvais rezultāts izskaidrojams ar to, ka Saule nav nosegta pilnībā, un baltie mākoņi mēdz būt gaišāki nekā pašas debesis saulainā dienā (skat. \ref{fig:makoni_ietekme}.(b) attēlā), tādējādi DNI komponentes samazināšanās tiek kompensēta ar palielinātu gaismas izkliedi. 
 
 Savukārt gadījumos, kad mākoņi aizsedz Sauli (skat. \ref{fig:makoni_ietekme}.(c) attēlā), apstarojums $\approx99\%$ gadījumu samazinās, kā tas bija paredzams.
 % Tomēr korelācija starp iegūto enerģiju un mākoņu daudzumu ir pat nedaudz pozitīva, kas atkal notiek palielinātas gaismas izkliedes dēļ. 
@@ -41,12 +41,22 @@ Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinā
 	\label{tab:CMF}
 \end{table}
 
-Modelēt saules apstarojumu, kas nonāk paneļu virsmas, laikā komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo globālais horizontālais apstarojums (GHI) mainās tikai ap 0.7~W/m$^2$ gadā. Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.~\ref{fig:SSI}. att.), šis grafiks (skat.~\ref{fig:zudumi}. att.) attēlo enerģijas zudumus dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumus saules šūnā.
+Modelēt saules apstarojumu, kas nonāk paneļu virsmas, laikā komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo globālais horizontālais apstarojums (GHI) mainās tikai ap $\pm 0.7$ W/m$^2$ gadā ($\pm x \% solāro paneļu datu uzņemšanas laikā$), kā tas ir redzams\ref{fig:TSI2}. attēlā.
+
+Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.~\ref{fig:SSI}. att.), šis grafiks (skat.~\ref{fig:zudumi}. att.) attēlo enerģijas zudumus dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumus saules šūnā.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{figures/misc/TSI.pdf}
+    \caption{TSI izmaiņas solāro paneļu datu ieguves laikā 1 AU attālumā (24 h vidējā vērtība)\cite{TSIdata}.}
+    \label{fig:TSI2}
+\end{figure}
+
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{figures/misc/energyLosses.png}
-    \caption{Saules enerģijas zudumi silīcijā balstītā saules šūnā (a) atmosfēras, (b) siltuma, (c) sprieguma, kā arī (d) producētā jauda  ~\cite{Sivaram}.}
+    \caption{Saules enerģijas zudumi silīcijā balstītā saules šūnā.  ~\cite{Sivaram}.}
     \label{fig:zudumi}
 \end{figure}
 

@@ -52,7 +52,7 @@
 \RequirePackage{siunitx}
 
 % Bibliogrāfija
-\RequirePackage[backend=bibtex]{biblatex}
+\RequirePackage[backend=bibtex, sorting=none]{biblatex}
 
 % TODO noņemt ja nestrādā
 % \RequirePackage{ulem}
