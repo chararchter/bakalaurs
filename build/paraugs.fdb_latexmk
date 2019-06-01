@@ -1,18 +1,18 @@
 # Fdb version 3
-["bibtex build/paraugs"] 1559299651 "build/paraugs.aux" "build/paraugs.bbl" "build/paraugs" 1559299696
+["bibtex build/paraugs"] 1559390341 "build/paraugs.aux" "build/paraugs.bbl" "build/paraugs" 1559390798
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1550405455 64114 9f5431e5c511cac88d0dcd7e87bd2d0e ""
   "bachelor.bib" 1559211783 19496 0af98ffcb7072f35112884f571fa762d ""
-  "build/paraugs-blx.bib" 1559299690 333 e73afbf90c0297b8ee7de670b3109526 ""
-  "build/paraugs.aux" 1559299691 25120 4d24bc3bc475159dc3e3e2e9d0a2dbe0 ""
+  "build/paraugs-blx.bib" 1559390792 333 e73afbf90c0297b8ee7de670b3109526 ""
+  "build/paraugs.aux" 1559390793 25766 8eab08ab77328b8de573ec80610a7992 ""
   (generated)
   "build/paraugs.bbl"
   "build/paraugs.blg"
-["xdvipdfmx"] 1559299692 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559299696
-  "build/paraugs.xdv" 1559299691 448300 fcd854fd0db496ba9f9d8dc9e330a054 "xelatex"
+["xdvipdfmx"] 1559390793 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559390798
+  "build/paraugs.xdv" 1559390793 468848 b5daa08a614890ca07b462d66ed23c94 "xelatex"
   (generated)
   "build/paraugs.pdf"
-["xelatex"] 1559299688 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559299696
-  "/dev/null" 1559296975 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1559390790 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559390798
+  "/dev/null" 1559375118 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1550406775 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1550406775 1004 54797486969f23fa377b128694d548df ""
@@ -64,6 +64,7 @@
   "/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty" 1550406775 85093 77cfa18ddbae4d9b74ade33d843686d3 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty" 1550406775 4116 32e6abd27229755a83a8b7f18e583890 ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty" 1550406775 2432 8ff93b1137020e8f21930562a874ae66 ""
+  "/usr/share/texmf-dist/tex/latex/appendix/appendix.sty" 1550406342 8526 d0d9b5e2dd0c996c69c3bd05eb25b943 ""
   "/usr/share/texmf-dist/tex/latex/base/fontenc.sty" 1550406775 4573 e9e01f5b11821a77b916dad378cb86b8 ""
   "/usr/share/texmf-dist/tex/latex/base/ifthen.sty" 1550406775 5161 c004ea5a189d4bdcf42e86754ad75a58 ""
   "/usr/share/texmf-dist/tex/latex/base/inputenc.sty" 1550406775 5052 b64c57f4a38aae0d2745f8298fa50814 ""
@@ -144,11 +145,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1556463070 4098340 b2f7ce587b344747534ab48af9d66be6 ""
   "LuThesis.cls" 1559297285 7143 7666f6c62ed82d3631efef48f4d73d69 ""
-  "build/paraugs.aux" 1559299691 25120 4d24bc3bc475159dc3e3e2e9d0a2dbe0 ""
-  "build/paraugs.bbl" 1559299651 25817 f9d48342d8f7d88d12d2178d22b70777 "bibtex build/paraugs"
-  "build/paraugs.out" 1559299690 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "build/paraugs.run.xml" 1559299691 2613 d9a74824073b313f63420ffa9f72d2ef ""
-  "build/paraugs.toc" 1559299691 2078 0a0a19241a2f74e0b8310f1660fb5719 ""
+  "build/paraugs.aux" 1559390793 25766 8eab08ab77328b8de573ec80610a7992 ""
+  "build/paraugs.bbl" 1559390342 25817 f9d48342d8f7d88d12d2178d22b70777 "bibtex build/paraugs"
+  "build/paraugs.out" 1559390792 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "build/paraugs.run.xml" 1559390793 2613 d9a74824073b313f63420ffa9f72d2ef ""
+  "build/paraugs.toc" 1559390793 2326 6169f8d6aebed686a89700afadfdae36 ""
   "figures/ja_whm2.tex" 1559160807 820 422fe1b7f38b9290596c671ddb7cb2b9 ""
   "figures/ja_whm2_eff_percent.tex" 1559160658 679 b5d16d7af807529cb36342ce30573e5c ""
   "figures/lg_whm2.tex" 1559160799 819 264638421894dcc66b7c93aa6e6f8333 ""
@@ -165,6 +166,7 @@
   "figures/misc/TSI.pdf" 1559160658 14444 e85d302b46065ff81c4462c96c64021c ""
   "figures/misc/TSI_8-19.pdf" 1559160658 128738 9911fc2dc9fc03c78482588bde7b51fe ""
   "figures/misc/TSI_misijas.png" 1559160658 191297 e147872e33c898e1929714fd16406d7c ""
+  "figures/misc/contributions.png" 1559387509 34225 85ec80006e970f6b169545460070241a ""
   "figures/misc/cos-theta-apr.pdf" 1559160658 27139 54008ef1c1bf172e9443616c253ed4e7 ""
   "figures/misc/cos-theta-jan.pdf" 1559160658 26246 ea6fedc63e5729d12ffcc0cf9201c6c1 ""
   "figures/misc/energyLosses.png" 1559160658 351334 60ae1b8382be08eeace893056938616a ""
@@ -189,7 +191,7 @@
   "figures/sol_month/jan_m_m2.pdf" 1559160658 30066 4b283a140fc566fb3e7bb8356bc9a57a ""
   "figures/sol_month/mar_m_m2.pdf" 1559160658 32472 4129a5e51337b56bfa921e034c5f0f84 ""
   "figures/stenduBildes/overview2.JPG" 1559160659 6942292 69cf691a1d6fbb7bdf750e703894339b ""
-  "paraugs.tex" 1559273797 2420 a0384986015299d9d1ad970d3e2bf64f ""
+  "paraugs.tex" 1559390787 4315 77802d4f6849f4be0128e721b1b01885 ""
   "tex/abbrev.tex" 1559289843 1494 8c85ce33db6ba042ab1a47e6a7628174 ""
   "tex/abstract-en.tex" 1559299685 985 98237c0360168dea5b620b15fbee5c5d ""
   "tex/abstract-lv.tex" 1559299642 1020 496947d2757e7498dbbf901b3f57d410 ""
@@ -205,10 +207,10 @@
   "tex/rezultati.tex" 1559160659 0 d41d8cd98f00b204e9800998ecf8427e ""
   "tex/secinajumi.tex" 1559299632 725 9f62957f4dcd82cfe5bfb6a052eb899f ""
   (generated)
-  "build/paraugs.log"
   "build/paraugs-blx.bib"
-  "build/paraugs.out"
-  "build/paraugs.run.xml"
   "build/paraugs.toc"
-  "build/paraugs.aux"
+  "build/paraugs.run.xml"
+  "build/paraugs.log"
+  "build/paraugs.out"
   "build/paraugs.xdv"
+  "build/paraugs.aux"
