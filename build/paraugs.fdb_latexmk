@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex build/paraugs"] 1559406409 "build/paraugs.aux" "build/paraugs.bbl" "build/paraugs" 1559406417
+["bibtex build/paraugs"] 1559406409 "build/paraugs.aux" "build/paraugs.bbl" "build/paraugs" 1559406966
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1550405455 64114 9f5431e5c511cac88d0dcd7e87bd2d0e ""
   "bachelor.bib" 1559403320 19964 b3c8fb6b33b014a8dbcd3b08f01bf613 ""
-  "build/paraugs-blx.bib" 1559406411 333 e73afbf90c0297b8ee7de670b3109526 ""
-  "build/paraugs.aux" 1559406413 26842 7d4ddc187e5a5e8b6622cce0ff8efe9d ""
+  "build/paraugs-blx.bib" 1559406960 333 e73afbf90c0297b8ee7de670b3109526 ""
+  "build/paraugs.aux" 1559406961 26842 7d4ddc187e5a5e8b6622cce0ff8efe9d ""
   (generated)
-  "build/paraugs.bbl"
   "build/paraugs.blg"
-["xdvipdfmx"] 1559406413 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559406417
-  "build/paraugs.xdv" 1559406413 489564 d3c87a02ba0cb547921f7c7d03354824 "xelatex"
+  "build/paraugs.bbl"
+["xdvipdfmx"] 1559406961 "build/paraugs.xdv" "build/paraugs.pdf" "build/paraugs" 1559406966
+  "build/paraugs.xdv" 1559406961 489788 698505bee2b3fe114a910b14ef152545 "xelatex"
   (generated)
   "build/paraugs.pdf"
-["xelatex"] 1559406409 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559406417
+["xelatex"] 1559406958 "paraugs.tex" "build/paraugs.xdv" "paraugs" 1559406966
   "/dev/null" 1559395491 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1550406775 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -145,11 +145,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1556463070 4098340 b2f7ce587b344747534ab48af9d66be6 ""
   "LuThesis.cls" 1559297285 7143 7666f6c62ed82d3631efef48f4d73d69 ""
-  "build/paraugs.aux" 1559406413 26842 7d4ddc187e5a5e8b6622cce0ff8efe9d ""
+  "build/paraugs.aux" 1559406961 26842 7d4ddc187e5a5e8b6622cce0ff8efe9d ""
   "build/paraugs.bbl" 1559406409 26270 61ad10e4d2a0385e0d984f960d01b72c "bibtex build/paraugs"
-  "build/paraugs.out" 1559406411 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "build/paraugs.run.xml" 1559406413 2613 d9a74824073b313f63420ffa9f72d2ef ""
-  "build/paraugs.toc" 1559406413 2628 c8d1855535609e5ada872c29478fb4ee ""
+  "build/paraugs.out" 1559406960 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "build/paraugs.run.xml" 1559406961 2613 d9a74824073b313f63420ffa9f72d2ef ""
+  "build/paraugs.toc" 1559406961 2628 c8d1855535609e5ada872c29478fb4ee ""
   "figures/ja_whm2.tex" 1559160807 820 422fe1b7f38b9290596c671ddb7cb2b9 ""
   "figures/ja_whm2_eff_percent.tex" 1559160658 679 b5d16d7af807529cb36342ce30573e5c ""
   "figures/lg_whm2.tex" 1559160799 819 264638421894dcc66b7c93aa6e6f8333 ""
@@ -196,8 +196,8 @@
   "figures/sol_month/jan_m_m2.pdf" 1559160658 30066 4b283a140fc566fb3e7bb8356bc9a57a ""
   "figures/sol_month/mar_m_m2.pdf" 1559160658 32472 4129a5e51337b56bfa921e034c5f0f84 ""
   "figures/stenduBildes/overview2.JPG" 1559160659 6942292 69cf691a1d6fbb7bdf750e703894339b ""
-  "paraugs.tex" 1559406401 2766 445ff7e7e67f9533a5d68b6c941f60f1 ""
-  "tex/abbrev.tex" 1559404609 1544 e9c7587d8f71c22c14ff44c98b641f70 ""
+  "paraugs.tex" 1559406647 2766 445ff7e7e67f9533a5d68b6c941f60f1 ""
+  "tex/abbrev.tex" 1559406955 1559 b10cd2d9b899a70bcdab3e207de1ac94 ""
   "tex/abstract-en.tex" 1559299685 985 98237c0360168dea5b620b15fbee5c5d ""
   "tex/abstract-lv.tex" 1559299642 1020 496947d2757e7498dbbf901b3f57d410 ""
   "tex/ievads.tex" 1559297474 3919 22841fe34a30aae4b758cce0722e3a4f ""
@@ -215,10 +215,10 @@
   "tex/rezultati.tex" 1559160659 0 d41d8cd98f00b204e9800998ecf8427e ""
   "tex/secinajumi.tex" 1559299632 725 9f62957f4dcd82cfe5bfb6a052eb899f ""
   (generated)
-  "build/paraugs-blx.bib"
-  "build/paraugs.run.xml"
-  "build/paraugs.log"
-  "build/paraugs.toc"
-  "build/paraugs.out"
-  "build/paraugs.xdv"
   "build/paraugs.aux"
+  "build/paraugs.xdv"
+  "build/paraugs.out"
+  "build/paraugs.toc"
+  "build/paraugs-blx.bib"
+  "build/paraugs.log"
+  "build/paraugs.run.xml"
