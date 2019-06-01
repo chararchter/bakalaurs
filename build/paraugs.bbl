@@ -535,36 +535,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{LGtips}{manual}{}
-    \list{organization}{1}{%
-      {LG Electronics}%
-    }
-    \field{labeltitlesource}{title}
-    \field{note}{Skatīts: 2019-05-24}
-    \field{title}{LG NeON R solar module LG365Q1C-A5 data sheet}
-    \verb{url}
-    \verb https://www.lg.com/us/business/download/resources/BT00002151/LGS04021
-    \verb 9_DS_LG350-365Q1C-A5.pdf
-    \endverb
-    \field{month}{02}
-    \field{year}{2019}
-  \endentry
-
-  \entry{JAtips}{manual}{}
-    \list{organization}{1}{%
-      {JA Solar}%
-    }
-    \field{labeltitlesource}{title}
-    \field{note}{Skatīts: 2019-05-25}
-    \field{title}{JA Solar solar module JAP60-275/4BB data sheet}
-    \verb{url}
-    \verb https://www.zonnepanelen-groothandel.com/uploads/documents/0b2218adfe
-    \verb 6914c23838b87c95e7d0aa.pdf
-    \endverb
-    \field{month}{04}
-    \field{year}{2016}
-  \endentry
-
   \entry{prognoze}{manual}{}
     \list{organization}{1}{%
       {Grand View Research}%
@@ -709,6 +679,36 @@
     }
     \field{type}{techreport}
     \field{year}{2019}
+  \endentry
+
+  \entry{LGtips}{manual}{}
+    \list{organization}{1}{%
+      {LG Electronics}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Skatīts: 2019-05-24}
+    \field{title}{LG NeON R solar module LG365Q1C-A5 data sheet}
+    \verb{url}
+    \verb https://www.lg.com/us/business/download/resources/BT00002151/LGS04021
+    \verb 9_DS_LG350-365Q1C-A5.pdf
+    \endverb
+    \field{month}{02}
+    \field{year}{2019}
+  \endentry
+
+  \entry{JAtips}{manual}{}
+    \list{organization}{1}{%
+      {JA Solar}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Skatīts: 2019-05-25}
+    \field{title}{JA Solar solar module JAP60-275/4BB data sheet}
+    \verb{url}
+    \verb https://www.zonnepanelen-groothandel.com/uploads/documents/0b2218adfe
+    \verb 6914c23838b87c95e7d0aa.pdf
+    \endverb
+    \field{month}{04}
+    \field{year}{2016}
   \endentry
 \enddatalist
 \endinput
