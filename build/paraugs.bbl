@@ -443,6 +443,21 @@
     \field{year}{2009}
   \endentry
 
+  \entry{cloudAtlas}{manual}{}
+    \list{organization}{1}{%
+      {World Meteorological Organization (WMO)}%
+    }
+    \field{labeltitlesource}{title}
+    \field{edition}{WMO-No. 407}
+    \field{note}{Skatīts: 2019-05-31}
+    \field{title}{International Cloud Atlas: Manual on the Observation of
+  Clouds and Other Meteors}
+    \verb{url}
+    \verb https://cloudatlas.wmo.int/definitions-of-clouds.html
+    \endverb
+    \field{year}{2017}
+  \endentry
+
   \entry{Sivaram}{book}{}
     \name{author}{1}{}{%
       {{hash=SV}{%
