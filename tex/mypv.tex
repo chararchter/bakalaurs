@@ -1,7 +1,9 @@
-\section{Tipi}
+% Komentārs: oriģināla metodika, mērījumu/aprēķinu precizitātes novērtējums
+
+\section{Tipi} \label{section:tipi}
 
 Rindkopa par to, kādi materiāli un ka ir mono un polikristāli un monokristāli labāki un kāpēc.
-
+Monokristāla Si šūnas (rekorda efektivitāte 25.6\%).
 Darbā ir apskatīti divi Saules paneļu tipi. Ražotāju referenču lapās LG tiek prognozēta labāka atdeve saulainās dienās~\cite{LGtips}, bet JA labāka atdeve vājas gaismas intensitātes vidēs~\cite{JAtips}.
 
 \begin{table}[h]
@@ -36,14 +38,41 @@ Saules izstarojums 800 W/m$^2$; apkārtējā temperatūra 20 \textdegree C; vēj
 
 \section{Elektriskā shēma}
 
-Šeit ir paskaidrots kas lācītim vēderā un kā tas strādā.
-(buckle your seat-belts, cuz I'm gonna teach you something that I only learned two hours ago)
+Šajā nodaļā tiek paskaidrotas elektroniskās shēmas (skat.\ref{fig:shema}.att.) komponentes un to funkcionalitāte.
+
+\begin{enumerate}
+\item Saules baterijas (skat. ~\ref{section:mechanism}.~\ref{section:tipi}. nodaļas)
+\item \emph{SmartSolar MPPT} --
+Saules enerģijas lādētājs savāc enerģiju no saules bateriju paneļiem un noglabā to akumulatoros. Tā mērķis ir novērst bateriju izlādēšanās izraisītos bojājumus. Pirmais skaitlis modeļa nosaukumā apzīmē maksimālo PV slēguma spriegumu, otrais -- maksimālo uzlādes strāvu.
+\item Līdzstrāvas drošinātāju skapis --
+strāvas elektroniskais slēdzis, kas nepieciešamības gadījumā atvieno slēgumu un izolē to no barošanas avota.
+\item \emph{Cyrix-Li-Charge 12/24V -120 A} --
+Lādēšanas ierobežotājs atslēdzas, kad tā kontroles izvade kļūs brīvi peldoša (\textit{free floathing}), signalizējot par baterijas pārspriegumu vai paaugstinātu temperatūru. Tas pievieno akumulatora lādētāju ar 3 sekunžu aizkavi, ja VE.Bus BMS lādiņa atvienošanas (\textit{Charge Disconnect}) izvade ir augsta (\textit{high}), spriegums uz akumulatora lādētāja savienojuma spailes ir $>= 13.7$ V vai spriegums uz akumulatora spailes ir $>= 2$V.
+\item Kūstošais drošinātais --
+izkūst pārslodzes gadījumā, novēršot dārgāku instrumentu bojāšanu.
+\item \emph{LiFeO4 akumulators 13.8V/90Ah - BMS}
+\item Šunts ir mazas pretestības ceļš, ko pieslēdz paralēli galvenajam elektriskās ķēdes posmam, lai tajā samazinātu strāvu. PV sistēmās lietots, lai apietu nevēlamu īssavienojumu starp saules baterijas priekšējo un aizmugurējo virsmas kontaktu, ko parasti izraisa pusvadītāja plāksnes bojājumi.
+\item \emph{BMV-702 Smart} --
+Akumulatora monitors aprēķina akumulatora spriegumu, strāvas stiprumu, patērēto ampērstundu skaitu, uzlādes stāvokli un atlikušo sistēmas darbības laiku pie pašreizējās izlādes ātruma.
+\item \emph{VE.BUS BMS} --
+Bateriju vadības bloks pasargā no akumulatoru bojājumiem uzlādes nelīdzsvatorības dēļ. Baterija ar nedaudz lielāku iekšējās noplūdes strāvu
+%bateriju bankā ar daudzām virknē vai paralēli savienotām baterijām
+izraisīs konkrētās baterijas un paralēli savienoto bateriju nepietiekamu uzlādi un virknē savienoto bateriju pārlādi. Taču virknē savienotām baterijām nepieciešams vienāds sākotnējais uzlādes līmenis. Mazas atšķirības uzlādes līmenī tiks novērstas absorbcijas vai izlīdzināšanās ceļā, bet lielas atšķirības izraisīs bojājumus pārmērīgas pārlādes izraisītas gazifikācijas dēļ baterijām ar lielāku sākotnējo uzlādes līmeni un nepietiekamas uzlādes izraisītās sulfācijas dēļ baterijām ar mazāku sākotnējo uzlādes līmeni.
+
+Bateriju vadības bloks pielīdzina uzlādes līmeni divām bateriju virknēm vai daudzām paralēli savienotām bateriju virknēm. Kad uzlādes spriegums bateriju sistēmai palielinās līdz sistēmā iestatītajai robežai, baterijas vadības bloks salīdzina spriegumus divās virknēs savienotajās baterijās un samazina strāvas padevi akumulatoram (vai paralēli savienotām baterijām) ar augstāko spriegumu. Rezultātā izveidotais uzlādes strāvas diferenciālis nodrošinās, ka visas baterijas konverģēs vienā uzlādes stāvoklī.
+% http://www.ultraflexgroup.com/en/catalogue/batteries/09909d-1/1170/vebus-bms.html
+% sulfācija - Organiskā savienojuma ūdeņraža atoma aizstāšana ar sulfāta (- OSO2OH) funkcionālo grupu vai divu molekulu ūdeņraža atomu aizstāšana, lai veidotu sulfātu (R-OSO2O-R)
+\item \emph{Octo GX} -- instalācijas sakaru centrs ar tālvadības konsoli tiešraides datu uzraudzībai un iestatījumu maiņai, kurai var piekļūt caur Victorn Attālinātās Pārvaldības Portālu(\textit{Victron Remote Management Portal}, VRM) vai lokālo LAN/WiFI tīklu.
+% The Octo GX is particularly suited to medium size installations which have many MPPT Solar Chargers, as it has 10 VE.Direct ports
+\item \emph{MultiPlus 24/3000/70-16 230V VE.Bus}  --
+Autonoms strāvas inventors DC/AC pārņēm strāvas padevi tīkla avārijas vai ģeneratora strāva atvienošanās gadījumā $<20$ ms laikā, lai elektroniskās iekārtas turpina darboties bez traucējumiem. 
+\end{enumerate}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/misc/shema.pdf}
     \caption{Saules paneļu elektriskā shēma}
-    \label{fig:paneli666}
+    \label{fig:shema}
 \end{figure}
 
 \section{Telpiskās orientācijas}
@@ -60,6 +89,6 @@ Kas kā kāpēc. \\
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/stenduBildes/overview2.JPG}
-    \caption{Saules paneļu telpiskās orientācijas dabā (autors Māris Šinka)}
+    \caption{Saules paneļu telpiskās orientācijas dabā (fotogrāfijas autors Māris Šinka)}
     \label{fig:paneli}
 \end{figure}

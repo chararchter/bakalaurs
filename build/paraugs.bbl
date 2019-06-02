@@ -710,5 +710,20 @@
     \field{month}{04}
     \field{year}{2016}
   \endentry
+
+  \entry{pyranometer}{manual}{}
+    \list{organization}{1}{%
+      {Hukseflux Thermal Sensors}%
+    }
+    \field{labeltitlesource}{title}
+    \field{edition}{v1606}
+    \field{note}{Skatīts: 2019-06-01}
+    \field{title}{User manual: LP02 Second class pyranometer}
+    \verb{url}
+    \verb https://www.hukseflux.com/uploads/product-documents/LP02_manual_v1606
+    \verb .pdf
+    \endverb
+    \field{year}{2016}
+  \endentry
 \enddatalist
 \endinput
