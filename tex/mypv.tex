@@ -52,7 +52,7 @@ Saules izstarojums 800 W/m$^2$; apkārtējā temperatūra 20 \textdegree C; vēj
 Šajā nodaļā tiek paskaidrotas elektroniskās shēmas (skat.\ref{fig:shema}.att.) komponentes un to funkcionalitāte.
 
 \begin{enumerate}
-\item Saules baterijas (skat. ~\ref{section:mechanism}.~\ref{section:tipi}. nodaļas)
+\item Saules baterijas (skat. ~\ref{section:mechanism}. un ~\ref{section:tipi}. nodaļas)
 \item \emph{SmartSolar MPPT} --
 Saules enerģijas lādētājs savāc enerģiju no saules bateriju paneļiem un noglabā to akumulatoros. Tā mērķis ir novērst bateriju izlādēšanās izraisītos bojājumus. Pirmais skaitlis modeļa nosaukumā apzīmē maksimālo PV slēguma spriegumu, otrais -- maksimālo uzlādes strāvu.
 \item Līdzstrāvas drošinātāju skapis --
@@ -62,7 +62,7 @@ Lādēšanas ierobežotājs atslēdzas, kad tā kontroles izvade kļūs brīvi p
 \item Kūstošais drošinātais --
 izkūst pārslodzes gadījumā, novēršot dārgāku instrumentu bojāšanu.
 \item \emph{LiFeO4 akumulators 13.8V/90Ah - BMS}
-\item Šunts ir mazas pretestības ceļš, ko pieslēdz paralēli galvenajam elektriskās ķēdes posmam, lai tajā samazinātu strāvu. PV sistēmās lietots, lai apietu nevēlamu īssavienojumu starp saules baterijas priekšējo un aizmugurējo virsmas kontaktu, ko parasti izraisa pusvadītāja plāksnes bojājumi.
+\item Šunts -- mazas pretestības ceļš, ko pieslēdz paralēli galvenajam elektriskās ķēdes posmam, lai tajā samazinātu strāvu. PV sistēmās lietots, lai apietu nevēlamu īssavienojumu starp saules baterijas priekšējo un aizmugurējo virsmas kontaktu, ko parasti izraisa pusvadītāja plāksnes bojājumi.
 \item \emph{BMV-702 Smart} --
 Akumulatora monitors aprēķina akumulatora spriegumu, strāvas stiprumu, patērēto ampērstundu skaitu, uzlādes stāvokli un atlikušo sistēmas darbības laiku pie pašreizējās izlādes ātruma.
 \item \emph{VE.BUS BMS} --
@@ -82,18 +82,24 @@ Autonoms strāvas inventors DC/AC pārņēm strāvas padevi tīkla avārijas vai
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/misc/shema.pdf}
-    \caption{Saules paneļu elektriskā shēma}
+    \caption{Saules paneļu elektriskā shēma (autors Valdis Gailītis, modifikācijas Viktorija Leimane)}
     \label{fig:shema}
 \end{figure}
 
 \section{Telpiskās orientācijas}
 
-Kas kā kāpēc. \\
+Pēc telpiskās orientācijas saules paneļi tiek iedalīti divās grupās:
+\begin{itemize}
+\item 13 grādu leņķī (R13, A13, D13)
+\item D virzienā (D13, D40, D90)
+\end{itemize}
+
+Lai lasītājam atvieglotu rezultātu interpretāciju, šīs grupas grafikos tiek apzinātas ar krāsām: leņķu grupa tiek apzīmēta ar zaļo krāsu, D virziena grupa ar zilo, abām grupām kopīgais panelis D13 -- ar tirkīzzilu.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/misc/uzstadijumaShema.jpg}
-    \caption{Saules paneļu telpisko orientāciju shēma}
+    \includegraphics[width=0.7\linewidth]{figures/misc/krasas_izvietojums.pdf}
+    \caption{Saules paneļu telpisko orientāciju shēma (autors Valdis Gailītis, modifikācijas Viktorija Leimane)}
     \label{fig:paneli}
 \end{figure}
 

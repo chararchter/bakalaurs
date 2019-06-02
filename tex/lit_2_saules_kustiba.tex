@@ -7,22 +7,22 @@
 \section{Saules diennakts kustība}
 
 Šajā nodaļā Saules apstarojums tiek aplūkots no ģeometriskajiem apsvērumiem - virziena, no kura staru kūlis sasniedz virsmu, leņķi uz virsmas un gada gaitā saņemtā starojuma daudzuma.\\
-Ģeometriskās sakarības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgas starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>=90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, kā arī saules paneļa novietojums ir ievēroti izteiksmē, kas ļauj aprēķināt $\cos{\theta}$ \cite{ThermalProcesses}:
+Ģeometriskās sakarības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgas starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta>=90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, kā arī saules paneļa novietojums ir ievēroti $\cos{\theta}$ aprēķina izteiksmē \ref{eq:theta}, kur lietotie leņķi definēti \ref{tab:theta} tabulā~\cite{ThermalProcesses}.
 
 \begin{equation}
 \label{eq:apgaismojums}
 E = I \cdot cos(\theta)
 \end{equation}
-
 \begin{equation}
 \label{eq:theta}
 \begin{aligned}
-	\cos{\theta} = {} & \sin{\delta} \sin{\phi} \cos{\beta} - \sin{\delta} \cos{\phi} \sin{\beta} \cos{\gamma} +                           \\
-	                  & \cos{\delta} \cos{\phi} \cos{\beta} \cos{\omega} + \cos{\delta} \sin{\phi} \sin{\beta} \cos{\gamma} \cos{\omega} + \\
-	                  & \cos{\delta} \sin{\beta} \sin{\gamma} \sin{\omega},
+\cos{\theta} = {} & \sin{\delta} \sin{\phi} \cos{\beta} - \sin{\delta} \cos{\phi} \sin{\beta} \cos{\gamma} +                           \\
+	& \cos{\delta} \cos{\phi} \cos{\beta} \cos{\omega} + \cos{\delta} \sin{\phi} \sin{\beta} \cos{\gamma} \cos{\omega} + \\
+	& \cos{\delta} \sin{\beta} \sin{\gamma} \sin{\omega},
 \end{aligned}
 \end{equation}
-kur lietoti leņķi, kas definēti \ref{tab:theta} tabulā. Saules deklināciju solārajā pusdienlaikā var aprēķināt pēc formulas
+
+Saules deklināciju solārajā pusdienlaikā var aprēķināt pēc lietderīgas aproksimācijas \cite{cooper1969}.
 \begin{equation}
 \label{eq:delta}
     \delta = 23 \sin \left( 360 \cdot \frac{284+n}{365} \right),
