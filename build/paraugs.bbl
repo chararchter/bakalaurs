@@ -681,6 +681,40 @@
     \field{year}{2019}
   \endentry
 
+  \entry{polman2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Polman},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1126/science.aad4424
+    \endverb
+    \verb{eprint}
+    \verb https://science.sciencemag.org/content/352/6283/aad4424.full.pdf
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{6283}
+    \field{title}{Photovoltaic materials: Present efficiencies and future
+  challenges}
+    \verb{url}
+    \verb https://science.sciencemag.org/content/352/6283/aad4424
+    \endverb
+    \field{volume}{352}
+    \field{journaltitle}{Science}
+    \field{year}{2016}
+  \endentry
+
   \entry{LGtips}{manual}{}
     \list{organization}{1}{%
       {LG Electronics}%
