@@ -1,11 +1,11 @@
-\section{Mākoņainība Latvijā}
+\section{Mākoņainība Latvijā}\label{section:clouds}
 %Enter antagonists. Mākoņi. Bloķē daudz saules apstarojuma. Cik LV mākoņainu dienu?
 %Izanalizēt VTPMML meteo datus no 2013.
 %Pajautāt Stasim kļūdas.
 
 Tiek apskatīta atmosfēras un mākoņu ietekme uz virsmas saņemto saules starojumu, un tās praktiskā nozīme, apstrādājot pieejamos Saules starojuma datus.
 
-Kopējais mākoņu daudzums tiek iedalīts 10 klasēs no 0 (pilnīgi skaidrs) līdz 1 (pilnīgi apmācies). Mākoņainība Rīgā var sasniegt līdz 60\% jūlijā un līdz pat 90\% decembrī (skat.~\ref{fig:makoni_Riga}. att.). Tas nozīmē, ka Saules paneļu efektivitātes novērtējumam Latvijas klimatā mākoņainība ir ļoti būtiska un tā palīdzēs prognozēt nepieciešamos enerģijas uzkrājumus un papildavotus, ja solārā enerģija tiek izmantota kā pamata enerģijas avots.
+Kopējais mākoņu daudzums tiek iedalīts 10 klasēs no 0 (pilnīgi skaidrs) līdz 1 (pilnīgi apmācies). Mākoņainība Rīgā var sasniegt līdz 60\% jūlijā un līdz pat 90\% decembrī (skat.~\ref{fig:makoni_Riga}. att.). Tas nozīmē, ka Saules paneļu efektivitātes novērtējumam Latvijas klimatā mākoņainība ir ļoti būtiska un tā palīdzēs prognozēt nepieciešamos enerģijas uzkrājumus un papildavotus, ja solārā enerģija tiek izmantota kā pamata enerģijas avots~\cite{cloudsModlab}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\linewidth]{figures/misc/makoni_riga.jpg}
@@ -42,9 +42,9 @@ Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinā
 	\label{tab:CMF}
 \end{table}
 
-Modelēt saules apstarojumu, kas nonāk paneļu virsmas, komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo TSI mainās tikai ap $\pm 0.7$ W/m$^2$ gadā (solāro paneļu datu uzņemšanas laikā tas mainās par $\pm 0.225$ W/m$^2$ jeb 0.03 \%), kā tas ir redzams~\ref{fig:TSI2}. attēlā.
+Modelēt saules apstarojumu, kas nonāk uz paneļu virsmas, sarežģī ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo TSI mainās tikai ap $\pm 0.7$ W/m$^2$ gadā (solāro paneļu datu uzņemšanas laikā tas mainās par $\pm 0.225$ W/m$^2$ jeb 0.03 \%), kā tas ir redzams~\ref{fig:TSI2}. attēlā.
 
-Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.~\ref{fig:SSI}. att.), šis grafiks (skat.~\ref{fig:zudumi}. att.) attēlo enerģijas zudumus dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumus saules šūnā.
+Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģijas spektrālo sadalījumu (skat.~\ref{fig:SSI}. att.), attēlā ~\ref{fig:zudumi}. parādīti enerģijas zudumi dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumi saules šūnā (par saules šūnu šeit un turpmāk tiek dēvēts fotoelektriskais elements, kuru apvienojums veido saules paneļa modeli)~\cite{Sivaram}. 
 
 \begin{figure}[h]
     \centering
@@ -64,16 +64,15 @@ Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.
 % DNI vidēji 1025 kWh/m2
 % GHI vidēji arī bet vairāk
 
-Pēc Solargis modeļa no satelītu un atmosfēras mērījumu datiem ar kļūdu 3\% līdz 10\% robežās secināms, ka piekrastē nonāk vairāk saules apstarojuma, tāpēc tur tiek prognozēta lielāka jauda~\ref{fig:lv_DNI}. Apstarojums iedalās vairākās kategorijās:
-tiešais normālais apstarojums ir Saules apstarojums bez izkliedes atmosfērā.
-Globālais horizontālais apstarojums (\textit{Global horizontal irradiance}, GHI) ir kopējais virsmas saņemtais apstarojums, ieskaitot gan DNI, gan starojumu, kas izkliedējas atmosfērā (\textit{Diffuse Horizontal Irradiance}, DHI). Šos lielumus savā starpā saista attiecība \ref{eq:YUCMWUH}, kur z ir zenīta leņķis, kas atbilst $\theta$ no \ref{tab:theta}. tab.)~\cite{Sivaram}.
+Pēc \emph{Solargis} modeļa no satelītu un atmosfēras mērījumu datiem (kļūda 3\% līdz 10\% robežās) secināms, ka piekrastē nonāk vairāk saules apstarojuma, tāpēc tur tiek prognozēta lielāka jauda~\ref{fig:lv_DNI}. Apstarojums iedalās vairākās kategorijās:
+tiešais normālais apstarojums ir Saules apstarojums bez izkliedes atmosfērā. Globālais horizontālais apstarojums (\textit{Global horizontal irradiance}, GHI) ir kopējais virsmas saņemtais apstarojums, ieskaitot gan DNI, gan starojumu, kas izkliedējas atmosfērā (\textit{Diffuse Horizontal Irradiance}, DHI). Šos lielumus savā starpā saista attiecība \ref{eq:YUCMWUH}, kur z ir zenīta leņķis, kas atbilst $\theta$ no \ref{tab:theta}. tab.)~\cite{Sivaram}.
 
 \begin{equation}
 \label{eq:YUCMWUH}
 \text{GHI}=\text{DHI} + \text{DNI}\times \cos(z)
 \end{equation}
 
-Salīdzinot \ref{fig:lv_GHI}. un  \ref{fig:lv_DNI}. attēlus redzams, ka GHI ir nedaudz lielāks par DNI, tātad redzams izkliedētā starojuma ieguldījums. Saules fotoelementa potenciālās jaudas (\textit{Photovoltaic power potential}, PVOUT) karte sniedz apkopojumu par prognozēto saules fotoelektrisko elementu (\textit{photovoltaics}, PV) enerģijas ražošanas apjomu, pieņemot 1kW jaudas Si materiāla PV spēkstacijas, gada patēriņam optimizētu slīpuma leņķi (skat. \ref{fig:lv_PVOUT}. att.). Pēc šiem datiem kopumā var secināt, ka saules paneļi ir piemērots risinājums enerģijas ieguvei arī Latvijā.
+Salīdzinot \ref{fig:lv_DNI}. un  \ref{fig:lv_GHI}. attēlus redzams, ka GHI ir nedaudz lielāks par DNI, tātad redzams izkliedētā starojuma ieguldījums. Saules fotoelementa potenciālās jaudas (\textit{Photovoltaic power potential}, PVOUT) karte sniedz apkopojumu par prognozēto saules fotoelektrisko elementu (\textit{photovoltaics}, PV) enerģijas ražošanas apjomu, pieņemot 1kW jaudas Si materiāla PV spēkstacijas, gada patēriņam optimizētu slīpuma leņķi, kas pēc dotā modeļa ir 40\textdegree (skat. \ref{fig:lv_PVOUT}. att.). Pēc šiem datiem kopumā var secināt, ka saules paneļiem ir potenciāls kļūt par enerģijas ieguves risinājumu arī Latvijā.
 
 \begin{figure}[h]
     \centering

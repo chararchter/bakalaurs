@@ -23,15 +23,19 @@ E = I \cdot cos(\theta)
 \end{aligned}
 \end{equation}
 
-Saules deklināciju solārajā pusdienlaikā var aprēķināt pēc lietderīgas aproksimācijas, kur $n$ apzīmē dienas kārtas numuru gadā. \cite{cooper1969}.
+Saules deklināciju solārajā pusdienlaikā var aprēķināt pēc lietderīgas aproksimācijas, kur $n$ apzīmē dienas kārtas numuru gadā un pārējie mainīgie atbilst empīriskiem koeficientiem A = 23; k = 0.9863; b = 285 \cite{cooper1969}.
+% \begin{equation}
+% \label{eq:delta}
+%     \delta = 23 \sin \left( 360 \cdot \frac{284+n}{365} \right),
+% \end{equation}
 \begin{equation}
 \label{eq:delta}
-    \delta = 23 \sin \left( 360 \cdot \frac{284+n}{365} \right),
+    \delta = A \sin \left( k (b + n) \right),
 \end{equation}
 
 Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprēķināt $\cos{\theta}$ laika atkarību, kas ir pirmais tuvinājums Saules apstarojuma izmaiņām dienas laikā.
 Parametru vērtības katram no darbā lietotajiem Saules paneļiem ir apkopotas \ref{tab:param}. tabulā.
-Lietojot šos parametrus, tika aprēķināta $\cos{\theta}$ atkarība no laika trīs datumiem: 1. janvārim, 1. martam un 30. aprīlim (skat. \ref{fig:cos-theta}. att.). No tā secināms, ka austrumu virzienā uzstādītais panelis saņem vairāk apstarojuma no rīta nekā rietumu virzienā vērstais panelis. Pēc šī aprēķina iespējams prognozēt paneļu saražotās enerģijas izmaiņas gada griezumā, piemēram, no dienvidu paneļiem janvārī efektīvākais ir 90$^\circ$ leņķī vērstais, jo Saule atrodas zemu pie horizonta, bet aprīlī efektīvākais ir 40$^\circ$ leņķī.
+Lietojot šos parametrus, tika aprēķināta $\cos{\theta}$ atkarība no laika trīs datumiem: 1. janvārim, 1. martam un 30. aprīlim (skat. \ref{fig:cos-theta}. att.). No tā secināms, ka austrumu virzienā uzstādītais panelis saņem vairāk apstarojuma no rīta nekā rietumu virzienā vērstais panelis. Pēc šī aprēķina iespējams prognozēt paneļu saražotās enerģijas izmaiņas gada griezumā, piemēram, starp uz dienvidiem orientētajiem paneļiem janvārī efektīvākais ir 90$^\circ$ leņķī vērstais, jo Saule atrodas zemu pie horizonta, bet aprīlī efektīvākais ir 40$^\circ$ leņķī.
 
 \begin{table}[h!]
 \caption{Leņķu, kas lietoti \ref{eq:theta} vienādojumā, definīcijas.}
