@@ -2,6 +2,8 @@
 \documentclass[12pt,oneside]{LuThesis}
 \usepackage[dvipsnames]{xcolor}
 \definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+\definecolor{awesome}{rgb}{1.0, 0.13, 0.32}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
 \usepackage{listings}
 \lstset{language=R,%
     %basicstyle=\color{red},
@@ -14,8 +16,9 @@
     numbers=left,%
     numberstyle={\tiny \color{black}},% size of the numbers
     numbersep=9pt, % this defines how far the numbers are from the text
-    emph=[1]{for,end,break},emphstyle=[1]\color{bostonuniversityred}, %some words to emphasise
-    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+    emph=[1]{for,in,end,break},emphstyle=[1]\color{bostonuniversityred}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style}, 
+    emph=[1]{data.frame},emphstyle=[1]\color{awesome}, %some words to emphasise   
 }
 
 \title{Saules paneļu efektivitāte Latvijas klimatā}
