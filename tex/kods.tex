@@ -1,15 +1,11 @@
-% \section{Izveidotās datu apstrāde sistēmas darbības principi}
-
-% VRM piedāvā lejupielādēt aptuveni 300 kolonnu \emph{.csv} failu, turklāt Sistēma arbitrāros laikos ievieš fundamentālas datu struktūras izmaiņas un nepiedāvā programmatūras izstrādātājiem bezmaksas migrāciju, tāpēc datu ielase notiek dinamiski, kas ir ievieš papildu sarezģītību programmā. 
-
+\vspace{-3 mm}
 \begin{lstlisting}[language=R]
 library(lubridate)
 
-pltMonth = function(solName){
+findCol = function(solName){
     colIndex = which( colnames(datSol)==solName )
     return(data.frame(timestamp, datSol[, datSol$timestamp]))
 }
-
 trapezoidArea = function(x, y, t = 0, s = 0){ 
     for (i in 1:(length(x)-1)){
         yvid = (y[i] + y[i+1])/2
@@ -18,7 +14,6 @@ trapezoidArea = function(x, y, t = 0, s = 0){
     }
     return(t)
 }
-
 findIndex = function(x, lower, delta_t, upper = lower + delta_t){
     strtIndex = which(date(x) == date(lower) & hour(x) == hour(lower) & minute(x) == minute(lower))[1]
     endIndex = which(date(x) == date(upper) & hour(x) == hour(upper) & minute(x) == minute(upper))[1]
@@ -32,7 +27,6 @@ findIndex = function(x, lower, delta_t, upper = lower + delta_t){
     }
     return(c(strtIndex, endIndex))
 }
-
 integrateInterval = function(x, y, delta_t, solname, from = min(x, na.rm=TRUE), to = max(x, na.rm=TRUE)){
     lowerLimit = from
     upperLimit = lowerLimit + delta_t    
@@ -55,23 +49,20 @@ integrateInterval = function(x, y, delta_t, solname, from = min(x, na.rm=TRUE), 
     colnames(sumInt)[2] <- toString(paste0(solname["dir"], solname["degree"], solname["type"]))
     return(sumInt)
 }
-
 solNames = c("solD40", "solD13","solA13", "solR13", "solD90")
 types = c('JA','LG')
 devices = '_PV_'
 units = c('V', 'A', 'W')
-
 for (solName in solNames){
     for (type in types){
         for (unit in units){
             solname = paste0(solName, type, device, unit)
             solName = interpretSolPanel(solname)
             if (solName["unit"] == "W"){
-                datTemp = pltMonth(solname)
+                datTemp = findCol(solname)
                 sumMin = integrateInterval(datTemp$timestamp, datTemp$solVar, dminutes(5), "min", solname)
             }
         }
     }
 }
-
 \end{lstlisting}
