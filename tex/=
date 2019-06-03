@@ -1,0 +1,793 @@
+res_klimats.tex:\section{Saules apstarojums}
+res_klimats.tex:% \begin{figure}[h]
+res_klimats.tex:%     \centering
+res_klimats.tex:%     \includegraphics[width=\linewidth]{figures/meteo/statsYears.pdf}
+res_klimats.tex:%     \caption{Solārā apstarojuma laika integrāļa atšķirības gada gaitā. Eksperimentālā poligona meteostacijas stacijas dati 2013 -- 2019 periodā.}
+res_klimats.tex:%     \label{fig:metYears}
+res_klimats.tex:% \end{figure}
+res_klimats.tex:% izlabo visur lu meteoroloģiju uz poligonu
+res_klimats.tex:% pārsaukt grafikā Em^-2 uz E_{norm} (normētais enerģijas blīvums)
+res_klimats.tex:Tieši ilgtermiņa saules apstarojuma monitorings saules paneļu uzstādīšanas vietā ir svarīgs paneļu efektivitātes prognozēšanas rīks, jo ļauj izslēgt anomālu saulaina laika periodu svaru, kādi, piemēram, ir 2014. un 2019. gada aprīļi (skat. \ref{fig:metYears_mean}. att.). PV sistēmas veiktspējas monitoringam lietots Saules apstarojuma sensors (piranometrs), kas atrodas eksperimentālā poligona teritorijā. Šī mērierīce saules apstarojumu uztver ar plaknes virsmu no 180\textdegree skata leņķa, ko sauc par puslodes saules apstarojumu. Mērierīces kļūda ir  $\pm 1 \%$ ~\cite{pyranometer}.
+res_klimats.tex:Attēlos \ref{fig:met_Irrad} un \ref{fig:met_Irrad_mean} redzams dienas saules apstarojuma izmaiņas integrētas 5 minūšu intervālos novēroto četru mēnešu laikā, kas izskaidro turpmāk minētās atšķirības paneļu ražīgumā atkarībā no mēneša -- palielinās gan Saules spīdēšanas ilgums dienā, gan saņemtās enerģijas daudzums.
+res_klimats.tex:\begin{figure}[h]
+res_klimats.tex:    \centering
+res_klimats.tex:    \includegraphics[width=\linewidth]{figures/meteo/meanYears.pdf}
+res_klimats.tex:    \caption{Solārā apstarojuma laika integrāļa atšķirības gada gaitā un to vidējās vērtības. Eksperimentālā poligona meteostacijas stacijas dati 2013 -- 2019 periodā.}
+res_klimats.tex:    \label{fig:metYears_mean}
+res_klimats.tex:\end{figure}
+res_klimats.tex:\begin{figure}[h]
+res_klimats.tex:    \centering
+res_klimats.tex:    \includegraphics[width=\linewidth]{figures/meteo/sun19.pdf}
+res_klimats.tex:    \caption{Solārā apstarojuma izmaiņas dienas gaitā. Eksperimentālā poligona meteostacijas stacijas dati 2019-01-01 -- 2019-04-31 periodā.}
+res_klimats.tex:    \label{fig:met_Irrad}
+res_klimats.tex:\end{figure}
+res_klimats.tex:\begin{figure}[h]
+res_klimats.tex:    \centering
+res_klimats.tex:    \includegraphics[width=\linewidth]{figures/meteo/mean19.pdf}
+res_klimats.tex:    \caption{Mēnesī vidējotas solārā apstarojuma izmaiņas dienas gaitā. Eksperimentālā poligona meteostacijas stacijas dati 2019-01-01 -- 2019-04-31 periodā.}
+res_klimats.tex:    \label{fig:met_Irrad_mean}
+res_klimats.tex:\end{figure}
+res_paneli.tex:\section{Saules paneļi}
+res_paneli.tex:\subsection{Saules paneļa tipa ietekme uz ražīgumu}
+res_paneli.tex:Pēc tabulām \ref{tab:JA} un \ref{tab:LG}, kā arī grafikiem, kas integrēti diskusijā par citu saules paneļu parametru efektivitātēm (skat. gada griezumā), redzams, ka LG tipa paneļi konsistenti ir efektīvāki par JA tipu. Tas ir saistīts gan ar kristāla veidu - monokristāliska silīcija paneļi tipiski ir ražīgāki par polikristāliem, % kāda iemesla pēc
+res_paneli.tex:gan paneļu maksimālajām jaudām - LG tā ir lielāka nekā JA.
+res_paneli.tex:\begin{table}[h]
+res_paneli.tex:    \caption{JA tipa paneļu saražotā enerģija uz kvadrātmetru}
+res_paneli.tex:    \begin{center}
+res_paneli.tex:    \input{figures/ja_whm2.tex}
+res_paneli.tex:    \end{center}
+res_paneli.tex:    \label{tab:JA}
+res_paneli.tex:\end{table}
+res_paneli.tex:\begin{table}[h]
+res_paneli.tex:    \caption{LG tipa paneļu saražotā enerģija uz kvadrātmetru}
+res_paneli.tex:    \begin{center}
+res_paneli.tex:    \input{figures/lg_whm2.tex}
+res_paneli.tex:    \end{center}
+res_paneli.tex:    \label{tab:LG}
+res_paneli.tex:\end{table}
+res_paneli.tex:\subsection{Efektivitāte}
+res_paneli.tex:Efektivitāte atšķiras no ražotāju tehniskajā dokumentācijā dotā. Iespējams tāpēc, ka visu paneļu saules apstarojuma references punktu izvēlējos eksperimentālā poligona meteostacijas datus un nepiereizināju tiem panelim atbilstošo leņķi, jo saules apstarojums mainās no leņķa.
+res_paneli.tex:% you better do it fast 
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/ja_m2.pdf}
+res_paneli.tex:    \caption{JA tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
+res_paneli.tex:    \label{fig:ja}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{table}[h]
+res_paneli.tex:    \caption{JA tipa paneļu efektivitāte procentos}
+res_paneli.tex:    \begin{center}
+res_paneli.tex:    \input{figures/ja_whm2_eff_percent.tex}
+res_paneli.tex:    \end{center}
+res_paneli.tex:    \label{tab:JA_eff}
+res_paneli.tex:\end{table}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/lg_m2.pdf}
+res_paneli.tex:    \caption{LG tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
+res_paneli.tex:    \label{fig:lg}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{table}[h]
+res_paneli.tex:    \caption{LG tipa paneļu efektivitāte procentos}
+res_paneli.tex:    \begin{center}
+res_paneli.tex:    \input{figures/lg_whm2_eff_percent.tex}
+res_paneli.tex:    \end{center}
+res_paneli.tex:    \label{tab:LG_eff}
+res_paneli.tex:\end{table}
+res_paneli.tex:%%%%%%%%%
+res_paneli.tex:\subsection{Saules paneļa leņķa ietekme uz ražīgumu}
+res_paneli.tex:Kopumā var secināt, ka 90 grādu leņķi ir ražīgāki ziemas mēnešos un 13 grādu leņķi -- vasaras mēnešos, jo tā paredz Saules diennakts kustības maiņa gada griezumā. Apkopojot četru mēnešu datus un abus paneļu tipus, visražīgākais leņķis ir 40 grādu.
+res_paneli.tex:% Tas sakrīt ar [ielikt grafiku ar LV karti un optimālo leņķi bet es neatceros no kurienes paņēmu to].
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/jan_all_deg.pdf}
+res_paneli.tex:    \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa}
+res_paneli.tex:    \label{fig:ja_deg}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/degType.pdf}
+res_paneli.tex:    \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa}
+res_paneli.tex:    \label{fig:lg_ja_deg}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\subsection{Saules paneļa virziena ietekme uz ražīgumu}
+res_paneli.tex:Dienvidi ir visražīgākais virziens, tad austrumi, tad rietumi.
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/jan_all_dir.pdf}
+res_paneli.tex:    \caption{13 grādu leņķī vērsto saules paneļu atkarība no virziena un saules paneļu tipa}
+res_paneli.tex:    \label{fig:ja_dir}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/results/dirType.pdf}
+res_paneli.tex:    \caption{13 grādu leņķī vērsto saules paneļu atkarība no virziena un saules paneļu tipa}
+res_paneli.tex:    \label{fig:lg_ja_dir}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\subsection{Saules paneļa leņķa un virziena ietekme uz dienā saražotās enerģījas sadalījumu}
+res_paneli.tex:Kā redzams \ref{fig:feb_ar}, \ref{fig:mar_ar}, \ref{fig:apr_ar}. att., eksperimentāli noteiktais dienas sadalījums sakrīt ar teorētiski prognozēto \ref{fig:cos-theta}.att.
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/feb_A13JA.pdf}
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/feb_R13JA.pdf}
+res_paneli.tex:    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi februārī}
+res_paneli.tex:    \label{fig:feb_ar}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/mar_A13JA.pdf}
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/mar_R13JA.pdf}
+res_paneli.tex:    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi martā}
+res_paneli.tex:    \label{fig:mar_ar}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/apr_A13JA.pdf}
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_day/apr_R13JA.pdf}
+res_paneli.tex:    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi aprīlī}
+res_paneli.tex:    \label{fig:apr_ar}
+res_paneli.tex:\end{figure}
+res_paneli.tex:% \begin{figure}[h]
+res_paneli.tex:%     \centering
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/feb_Dir_d.pdf}
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/feb_Deg_d.pdf}
+res_paneli.tex:%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa februārī}
+res_paneli.tex:%     \label{fig:feb_degDir}
+res_paneli.tex:% \end{figure}
+res_paneli.tex:% \begin{figure}[h]
+res_paneli.tex:%     \centering
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/mar_Dir_d.pdf}
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/mar_Deg_d.pdf}
+res_paneli.tex:%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa martā}
+res_paneli.tex:%     \label{fig:mar_degDir}
+res_paneli.tex:% \end{figure}
+res_paneli.tex:% \begin{figure}[h]
+res_paneli.tex:%     \centering
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/apr_Dir_d.pdf}
+res_paneli.tex:%     \includegraphics[width=\linewidth]{figures/sol_month/apr_Deg_d.pdf}
+res_paneli.tex:%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa aprīlī}
+res_paneli.tex:%     \label{fig:apr_degDir}
+res_paneli.tex:% \end{figure}
+res_paneli.tex:\subsection{Gada mēneša ietekme uz ražīgumu} % label chapter un atsaukties pirmajā apakšnodaļā uz šo
+res_paneli.tex:Pēc \ref{fig:jan_sum}, \ref{fig:feb_sun}, \ref{fig:apr_sum}, \ref{fig:apr_sum}. att., tiek izdarīti secinājumi par saules paneļu ražīguma atkarību no gada mēneša. Janvārī visražīgākais panelis ir D.90, otrs ražīgākais - D.40, kas atbilst janvārim raksturīgajai Saules diennakts kustībai -- zemu pie horzionta. \ref{fig:feb_sun}. att. redzams, ka februārī D.40 kļūst ražīgāks nekā D.90, tāpat redzams, ka mazāku leņķu paneļi - R.13 un A.13 ir palielinājuši ražīgumu. Šī tendence turpinās arī marta un aprīļa mēnešos.
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_month/jan_m_m2.pdf}
+res_paneli.tex:    \caption{Saules paneļu saražotā enerģija janvārī}
+res_paneli.tex:    \label{fig:jan_sum}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_month/feb_m_m2.pdf}
+res_paneli.tex:    \caption{Saules paneļu saražotā enerģija februārī}
+res_paneli.tex:    \label{fig:feb_sum}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_month/mar_m_m2.pdf}
+res_paneli.tex:    \caption{Saules paneļu saražotā enerģija martā}
+res_paneli.tex:    \label{fig:mar_sum}
+res_paneli.tex:\end{figure}
+res_paneli.tex:\begin{figure}[h]
+res_paneli.tex:    \centering
+res_paneli.tex:    \includegraphics[width=\linewidth]{figures/sol_month/apr_m_m2.pdf}
+res_paneli.tex:    \caption{Saules paneļu saražotā enerģija aprīlī}
+res_paneli.tex:    \label{fig:apr_sum}
+res_paneli.tex:\end{figure}
+pv_1_darbibas_princips.tex:\section{Darbības princips} \label{section:mechanism}
+pv_1_darbibas_princips.tex:% fotons uzspīd elektronam un viņu ierosina un tad tas aiziet pāri vadītspējas zonai un aizpeld uz elektrodu un caurums aizpeld uz otru elektrodu un rodas potenciālu starpība no kurienes strāva.
+pv_1_darbibas_princips.tex:Saules paneļi sastāv no fotoelementiem, kas pārveido gaismas enerģiju elektriskā lauka enerģijā. Fotoelements, kura uzbūves shēma ir parādīta \ref{fig:PV}. attēlā, ir p-n pāreja ar elektriskajiem kontaktiem, kas pieslēgti pie lādētāja vai cita enerģijas patērētāja. Fotoelementa apakšējā daļa sastāv no n-tipa pusvadītāja, kurā lādiņa pamatnesēji ir elektroni, bet augšējā daļa -- no p-tipa pusvadītāja, kur lādiņa pamatnesēji ir caurumi. 
+pv_1_darbibas_princips.tex:\begin{figure}[h]
+pv_1_darbibas_princips.tex:    \centering
+pv_1_darbibas_princips.tex:    \includegraphics[width=0.6\linewidth]{figures/misc/PV.jpg}
+pv_1_darbibas_princips.tex:    \caption{Saules paneļa shēma. Tas sastāv no fotoelementiem, kuru augšējais slānis veidots no p-tipa pusvadītāja, bet apakšējais --- no n-tipa pusvadītāja~\cite{Yahyaoui}.}
+pv_1_darbibas_princips.tex:    \label{fig:PV}
+pv_1_darbibas_princips.tex:\end{figure}
+pv_1_darbibas_princips.tex:P-tipa un n-tipa pusvadītāja īpašības var panākt, piemēram, dopējot silīcija kristālu ar attiecīgi III vai V grupas elementiem. Ja silīcija kristālam pievieno bora atomus nelielā koncentrācijā, izveidojas \ref{fig:p-n-type}. att. pa kreisi redzamā situācija. Katram Si atomam ir četri elektroni ārējā čaulā, ar kuru palīdzību atoms izveido četras kovalentās saites ar četriem citiem atomiem. Savukārt bors, būdams III grupas elements, var izveidot tikai trīs saites. Tādā veidā pie bora atoma parādās "caurums" -- nenoslēgta kovalentā saite, kas attēlā apzīmēta ar sarkanu apli. Uz šo vietu var pārvietoties kāds no blakus esošiem elektroniem, bet tad neaizpildīta vieta parādīsies pie blakus esošā atoma. Tādā veidā var uzskatīt, ka caurums pārvietojas, un nosaukt to par pozitīvo lādiņa nesēju. Šādus pusvadītājus sauc par p-tipa pusvadītājiem. ~\cite{Yahyaoui}
+pv_1_darbibas_princips.tex:Ja silīcija kristālam pievieno fosfora atomus, izveidojas pretēja situācija -- pie P atoma parādās elektrons, kas nepiedalās saites veidošanā (sk. att. \ref{fig:p-n-type}., pa labi). Lai pārvietotos, brīvajam elektronam ir nepieciešams mazāk enerģijas nekā elektroniem, kas veido kovalentās saites starp Si atomiem. Tātad, lādiņa pamatnesēji n-tipa pusvadītājos ir elektroni.
+pv_1_darbibas_princips.tex:Dopējot divus blakus esošus Si kristāla apgabalus dažādā veidā, iegūst p-n pāreju. Uz robežas starp apgabaliem elektroni no n-tipa apgabala var rekombinēties jeb difūzijas ceļā nokļūt uz p-tipa apgabalu un aizpildīt pietiekami tuvu esošus caurumus, tāpēc p-tipa pusvadītājā mala uzlādējas negatīvi.
+pv_1_darbibas_princips.tex:\begin{figure}[h]
+pv_1_darbibas_princips.tex:	\centering
+pv_1_darbibas_princips.tex:	\includegraphics[width=0.5\linewidth]{figures/misc/p_n_type.pdf}
+pv_1_darbibas_princips.tex:	\caption{Silīcija kristāla 2D izklājums, atomu ārējās čaulas elektroni ir apzīmēti ar punktiem. Pievienojot bora atomu, iegūst p-tipa pusvadītāju (pa kreisi), bet fosfora atomu --- n-tipa pusvadītāju (pa labi).}
+pv_1_darbibas_princips.tex:	\label{fig:p-n-type}
+pv_1_darbibas_princips.tex:\end{figure}
+pv_1_darbibas_princips.tex:Fotoelementa darbība balstās uz iekšējo fotoelektrisko efektu -- parādību, kad elektrons tiek ierosināts ar gaismas kvantu un pāriet no valences zonas uz vadītspējas zonu. Kad tas notiek augšējā slānī (p-tipa pusvadītājā), elektrons atgrūžas no robežas starp slāņiem, kura ir negatīvi lādēta rekombinācijas dēļ. Negatīvi lādētā (no p-tipa pusvadītāja puses) robeža rada potenciālu starpību, kas veicina elektronu kustību pa vadiem uz patērētāju, tādā veidā radot elektrisko strāvu.
+pateicibas.tex:% Pateicos paroksetīnam, xanax, GNU/Linux, Pētera Draguna dzejas krājumam 'Tumšās stundas', Tarvi Verro for teaching me git, Valtam Krūmiņam un Annai Bulei par emocionālo atbalstu, Paulīnai Lodbrukai un Pēterim Ratniekam par ticību maniem spēkiem, Žeņam par kucēnu video, Solvitai par maģiju un Cilvēkam par pacietību.
+pateicibas.tex:Pateicos darba vadītājam un Mihailam Birjukovam par vērtīgiem komentāriem. Paldies Aleksandrai Elbakjanai par sci-hub. Paldies "Puratos Latvia" un Asjas un Berndta Everts piemiņas fondam par stipendiju studiju laikā.\\
+pateicibas.tex:Darbs veikts ar Eiropas Reģionālās attīstības fonta projekta "Viedo risinājumu gandrīz nulles enerģijas ēkām izstrāde, optimizācija un ilgtspējas izpēte reāla klimata apstākļos" Nr ESS2017/209 1.1.1.1/16/A/192 finansiālo atbalstu.
+lit_2_saules_kustiba.tex:% intensity
+lit_2_saules_kustiba.tex:% spectral distribution
+lit_2_saules_kustiba.tex:% solar geometry
+lit_2_saules_kustiba.tex:% saules stāvoklis debesīs
+lit_2_saules_kustiba.tex:% un virziens, kurā stara starojums krīt uz dažādu virzienu un ēnojuma virsmām
+lit_2_saules_kustiba.tex:\section{Saules diennakts kustība}
+lit_2_saules_kustiba.tex:Šajā nodaļā Saules apstarojums tiek aplūkots no ģeometriskajiem apsvērumiem - virziena, no kura staru kūlis sasniedz virsmu, leņķi uz virsmas un gada gaitā saņemtā starojuma daudzuma.\\
+lit_2_saules_kustiba.tex:Ģeometriskās sakarības starp saules paneļa virsmas plakni un ienākošo Saules starojuma kūli jeb Saules pozīcija relatīvi pret šo plakni tiek aprakstīta ar vairākiem leņķiem. Ar $\theta$ apzīmēsim staru krišanas leņķi uz saules paneli, pieņemot saules paneli par nekustīgu plakni. Tad, pie nemainīgas starojuma intensitātes, paneļa saņemtā enerģija būs proporcionāla $\cos{\theta}$ (ja $\theta<90^\circ$) vai būs vienāda ar 0 (ja $\theta \geq 90^\circ$, t.i., Saules stari krīt uz paneļa apakšējo virsmu) pēc formulas \ref{eq:apgaismojums}. Saules diennakts kustība, gadalaiku cikls, kā arī saules paneļa novietojums ir ievēroti $\cos{\theta}$ aprēķina izteiksmē \ref{eq:theta}, kur lietotie leņķi definēti \ref{tab:theta} tabulā~\cite{ThermalProcesses}.
+lit_2_saules_kustiba.tex:\begin{equation}
+lit_2_saules_kustiba.tex:\label{eq:apgaismojums}
+lit_2_saules_kustiba.tex:E = I \cdot cos(\theta)
+lit_2_saules_kustiba.tex:\end{equation}
+lit_2_saules_kustiba.tex:\begin{equation}
+lit_2_saules_kustiba.tex:\label{eq:theta}
+lit_2_saules_kustiba.tex:\begin{aligned}
+lit_2_saules_kustiba.tex:\cos{\theta} = {} & \sin{\delta} \sin{\phi} \cos{\beta} - \sin{\delta} \cos{\phi} \sin{\beta} \cos{\gamma} +                           \\
+lit_2_saules_kustiba.tex:	& \cos{\delta} \cos{\phi} \cos{\beta} \cos{\omega} + \cos{\delta} \sin{\phi} \sin{\beta} \cos{\gamma} \cos{\omega} + \\
+lit_2_saules_kustiba.tex:	& \cos{\delta} \sin{\beta} \sin{\gamma} \sin{\omega},
+lit_2_saules_kustiba.tex:\end{aligned}
+lit_2_saules_kustiba.tex:\end{equation}
+lit_2_saules_kustiba.tex:Saules deklināciju solārajā pusdienlaikā var aprēķināt pēc lietderīgas aproksimācijas \cite{cooper1969}.
+lit_2_saules_kustiba.tex:\begin{equation}
+lit_2_saules_kustiba.tex:\label{eq:delta}
+lit_2_saules_kustiba.tex:    \delta = 23 \sin \left( 360 \cdot \frac{284+n}{365} \right),
+lit_2_saules_kustiba.tex:\end{equation}
+lit_2_saules_kustiba.tex:kur $n$ ir dienas kārtas numurs gadā.
+lit_2_saules_kustiba.tex:Ar vienādojumu \ref{eq:theta} un \ref{eq:delta} palīdzību ir iespējams aprēķināt $\cos{\theta}$ laika atkarību, kas ir pirmais tuvinājums Saules apstarojuma izmaiņām dienas laikā.
+lit_2_saules_kustiba.tex:Parametru vērtības katram no darbā lietotajiem Saules paneļiem ir apkopotas \ref{tab:param}. tabulā.
+lit_2_saules_kustiba.tex:Lietojot šos parametrus, tika aprēķināta $\cos{\theta}$ atkarība no laika diviem datumiem: 1. janvārim un 30. aprīlim (skat. \ref{fig:cos-theta}. att.). No tā secināms, ka austrumu virzienā uzstādītais panelis saņem vairāk apstarojuma no rīta nekā rietumu virzienā vērstais panelis. Pēc šī aprēķina iespējams prognozēt paneļu saražotās enerģijas izmaiņas gada griezumā, piemēram, no dienvidu paneļiem janvārī efektīvākais ir 90$^\circ$ leņķī vērstais, jo Saule atrodas zemu pie horizonta, bet aprīlī efektīvākais ir 40$^\circ$ leņķī.
+lit_2_saules_kustiba.tex:\begin{table}[h!]
+lit_2_saules_kustiba.tex:\caption{Leņķu, kas lietoti \ref{eq:theta} vienādojumā, definīcijas.}
+lit_2_saules_kustiba.tex:\begin{center}
+lit_2_saules_kustiba.tex:\begin{tabular}{|c|c|l|}\hline
+lit_2_saules_kustiba.tex:	         &         Apgabals         & Definīcija\\ \hline
+lit_2_saules_kustiba.tex:	$\theta$ &  $(0^\circ;180^\circ)$   & staru krišanas leņķis uz Saules paneli\\ \hline
+lit_2_saules_kustiba.tex:	$\delta$ &  $(-23^\circ;23^\circ)$  & Saules deklinācija\\ \hline
+lit_2_saules_kustiba.tex:	 $\phi$  &  $(-90^\circ;90^\circ)$  & ģeogrāfiskais platums\\ \hline
+lit_2_saules_kustiba.tex:	$\beta$  &  $(0^\circ;180^\circ)$   & paneļa slīpums \\ \hline
+lit_2_saules_kustiba.tex:	$\gamma$ & $(-180^\circ;180^\circ)$ & paneļa azimuts \\ \hline
+lit_2_saules_kustiba.tex:	$\omega$ & $(-180^\circ;180^\circ)$ & solārais stundu leņķis\\ \hline
+lit_2_saules_kustiba.tex:\end{tabular}
+lit_2_saules_kustiba.tex:\end{center}
+lit_2_saules_kustiba.tex:\label{tab:theta}
+lit_2_saules_kustiba.tex:\end{table}
+lit_2_saules_kustiba.tex:\begin{table}[h!]
+lit_2_saules_kustiba.tex:	\caption{Darbā lietotajiem Saules paneļiem atbilstošās leņķisko parametru vērtības, grādos.}
+lit_2_saules_kustiba.tex:	\begin{center}
+lit_2_saules_kustiba.tex:		\begin{tabular}{|r|c|c|c|c|c|}
+lit_2_saules_kustiba.tex:			\hline
+lit_2_saules_kustiba.tex:			         & R.13 & A.13 &   D.13   & D.40 & D.90 \\ \hline
+lit_2_saules_kustiba.tex:			paneļa slīpums $\beta$  & \multicolumn{3}{c|}{13} &  40  &  90  \\ \hline
+lit_2_saules_kustiba.tex:			paneļa azimuts $\gamma$ &  90  & -90  & \multicolumn{3}{c|}{0}  \\ \hline
+lit_2_saules_kustiba.tex:			ģeogrāfiskais platums $\phi$  &        \multicolumn{5}{c|}{57}        \\ \hline
+lit_2_saules_kustiba.tex:		\end{tabular}
+lit_2_saules_kustiba.tex:	\end{center}
+lit_2_saules_kustiba.tex:	\label{tab:param}
+lit_2_saules_kustiba.tex:\end{table}
+lit_2_saules_kustiba.tex:\begin{figure}[h]
+lit_2_saules_kustiba.tex:	\centering
+lit_2_saules_kustiba.tex:	\includegraphics[width=\linewidth]{figures/meteo/jan.pdf}
+lit_2_saules_kustiba.tex:	\includegraphics[width=\linewidth]{figures/meteo/mar.pdf}
+lit_2_saules_kustiba.tex:	\includegraphics[width=\linewidth]{figures/meteo/apr.pdf}
+lit_2_saules_kustiba.tex:	\caption{Diennakts laikā paredzētas $\cos(\theta)$ vērtības darbā lietotajiem Saules paneļiem, aprēķinātas pēc \ref{eq:theta} izteiksmes 1. janvārim (a), 1. martam (b), 30. aprīlim (c).}
+lit_2_saules_kustiba.tex:	\label{fig:cos-theta}
+lit_2_saules_kustiba.tex:\end{figure}
+abbrev.tex:\noindent 
+abbrev.tex:\textbf{Klimats}\\
+abbrev.tex:TSI - Kopējais saules apstarojums, $\textrm{Wm}^{-2}$\\
+abbrev.tex:SSI - Saules spektrālais apstarojums, $\textrm{Wm}^{-2}\textrm{nm}^{-1}$\\
+abbrev.tex:% $G_{sc}$ - Solārā konstante, $\textrm{Wm}^{-2}$\\
+abbrev.tex:%Photovoltaic power potential
+abbrev.tex:GHI – Globālais horizontālais apstarojums,  $\textrm{kWh/m}^2$\\ %Global horizontal irradiation
+abbrev.tex:DNI – Tiešais normālais apstarojums, $\textrm{kWh/m}^2$\\ %Direct normal irradiation
+abbrev.tex:CMF - Mākoņu modifikācijas reizinātājs\\
+abbrev.tex:AU - astronomiskā vienība\\  %astronomical unit
+abbrev.tex:\textbf{Saules kustības leņķi}\\
+abbrev.tex:$\theta$ - staru krišanas leņķis uz saules paneli.\\
+abbrev.tex:$\delta$ - Saules deklinācija --- leņķis starp virzieniem uz Sauli un uz debess ekvatoru solārajā pusdienlaikā, pozitīvs Z virzienā.\\
+abbrev.tex: $\phi$  - ģeogrāfiskais platums, pozitīvs Z virzienā.\\
+abbrev.tex:$\beta$  - paneļa slīpums --- leņķis starp Saules paneļa virsmu un horizontāli.\\
+abbrev.tex:$\gamma$ - paneļa azimuts --- leņķis starp virsmas normāles projekciju uz horizontālu  plakni un D virzienu, negatīvs A virzienā.\\
+abbrev.tex:$\omega$ - solārais stundu leņķis --- leņķis starp Saules stara virziena projekciju uz horizontālu plakni un D virzienu (kas mainās Zemes rotācijas ap  savu asi dēļ), negatīvs no rīta.\\
+abbrev.tex:\textbf{Saules paneļi}\\
+abbrev.tex:PV - fotoelektriskais elements\\ %fotogalvanisks?
+abbrev.tex:Si - silīcijs\\
+abbrev.tex:P - jauda, 	W\\
+abbrev.tex:Pmax - maksimālā jauda, W\\
+abbrev.tex:PVOUT – Saules fotoelementa potenciālā jauda, $\textrm{kWh/kWp}$\\ %Photovoltaic power potential
+abbrev.tex:\textbf{Debespuses}\\
+abbrev.tex:A - austrumi\\
+abbrev.tex:R - rietumi\\
+abbrev.tex:D - dienvidi\\
+pv_3_rest.tex:\section{Izmantošana pasaulē}
+pv_3_rest.tex:Silīcija Saules paneļu attīstības intensīvākais posms bija apmēram no 1980. līdz 2000. gadam, kad to maksimālā efektivitāte palielinājās no 15\% līdz 25\%
+pv_3_rest.tex:\cite{Sivaram}. Nākamajos 20 gados efektivitātes pieaugums bija gandrīz desmit reizes mazāks. Tiek pētīti arī citi Saules paneļu pusvadītāju veidi, piemēram CdTe vai GaAs, tomēr monokristāliskā un polikristāliskā silīcija Saules paneļi joprojām aizņem lielāko daļu no tirgus, piemēram, Vācijā Si sastādīja vairāk nekā 90\% no Saules paneļu tirgus pēdējo septiņu gadu laikā ~\cite{prognoze}. Tas tādēļ, ka Si ir pieejamāks un lētāks nekā GaAs\cite{hayes_clemens_2015}, un vairāk izpētīts nekā CdTe pusvadītāji~\cite{Sivaram}.
+pv_3_rest.tex:Svarīgi ievērot, ka Saules paneļu efektivitāte ir atkarīga no vairākiem faktoriem, kas mainās līdz ar ģeogrāfisko novietojumu: ģeogrāfiskā platuma, gadalaika, mākoņainības un gaisa piesārņojuma. Tātad, detalizēta Saules paneļu efektivitātes analīze var būt noderīga katrā valstī, lai precīzāk izvērtētu solārās enerģijas lietošanas perspektīvas tajā. Var minēt dažus šādu pētījumu piemērus.
+pv_3_rest.tex:\begin{itemize}
+pv_3_rest.tex:  \item Indijas pilsētā Bangalorē izpētīja, ka efektivitāte musona un pēc-musona periodos ir augstāka, nekā ziemā un vasarā. To var saistīt ar lielu nokrišņu daudzumu musona periodā, kas labi dzesē Saules paneļus, un ar lielāku saulaino dienu skaitu pēc-musona periodā~\cite{effectCloudsOnSurface}.
+pv_3_rest.tex:  \item Eksperiments Mumbajā \cite{improvePerformance} ļauj secināt, ka karsts un sauss klimats ne tikai samazina enerģijas pārvērtības lietderības koeficientu, bet arī izraisa defektus un silīcija bojājumus, kas palielina enerģijas zudumus. Tiek norādīts, ka šādā klimatā tipiskais Saules paneļu dzesēšanas risinājums -- ūdens izsmidzināšana -- nav pielietojams, jo tieši šādā klimatā ūdens trūkums ir svarīga problēma.
+pv_3_rest.tex:  \item Indonēzijā pētnieki novēroja, ka mitruma un vēja ātruma palielināšana samazina Saules paneļu efektivitāti~\cite{improvePerformance}.
+pv_3_rest.tex:  \cite{Sani_2018}. Atšķirībā no iepriekšējā pētījumā, aplūkotajā temperatūras apgabalā (42 -- 52 \textdegree C) temperatūra pozitīvi korelē ar paneļu efektivitāti, kas iespējams saistīts ar GHI palielināšanos. 
+pv_3_rest.tex:  \item Arī Latvijā jau ir uzstādītas saules paneļu sistēmas. Piemēram, Ulbrokā 2017. gadā 20 paneļu sistēma kopā saražoja 4554.06 kWh -- vidēji 227.703 kWh gadā no viena paneļa (skat.~\ref{fig:ulbroka}).
+pv_3_rest.tex:\end{itemize}
+pv_3_rest.tex:\begin{figure}[h]
+pv_3_rest.tex:  \centering
+pv_3_rest.tex:  \includegraphics[width=\linewidth]{figures/misc/2017.png}
+pv_3_rest.tex:  \caption{20 Saules paneļu sistēmas saražotā enerģija Ulbrokā 2017. gadā. Virziens: D, leņķis 15 grādi \cite{fronius}}
+pv_3_rest.tex:  \label{fig:ulbroka}
+pv_3_rest.tex:\end{figure}
+pv_3_rest.tex:\section{Darba aktualitāte}
+pv_3_rest.tex:Latvijā veikto pētījumu daudzums un kvalitāte pagaidām neļauj iegūt pilnīgu priekšstatu par Saules paneļu lietošanas iespējām un prognozēt dažādu paneļu tipu efektivitāti reālā Latvijas klimatā. Tāpēc šī darba novitāte ietverta programmatūras izveidē, kas ļauj attēlot un apstrādāt Saules paneļu monitoringa datus, kas dos iespēju veikt turpmākus dziļākus pētījumus par dažādiem solārās enerģijas pielietojuma aspektiem Latvijā.
+lit_1_saule.tex:\section{Saules apstarojums}
+lit_1_saule.tex:Lielākā daļa Saules izstarotās enerģijas tiek saražota kodolreakcijās fotosfērā. 
+lit_1_saule.tex:Kopējais saules apstarojums (\textit{Total Solar Irradiance} -- TSI) raksturo Saules starojuma absolūto intensitāti -- enerģiju uz virsmas perpendikulāri starojuma izplatīšanas virzienam 1 AU attālumā no Saules, integrētu visā saules enerģijas diskā un visā saules enerģijas spektrā. TSI vērtībai novērojama aptuveni 11 gadus ilga periodiska variācija, kas korelē ar saules plankumu skaitli (\ref{fig:TSI_misijas}. att.) -- par Saules plankumu sauc magnētiskās plūsmas koncentrāciju bipolāros klāsteros vai grupās izraisītos tumšos plankums uz Saules fotosfēras; Saules plankumu skaitlis ir atkarīgs no individuālu Saules plankumu un to grupu skaita \cite{ThermalProcesses}.
+lit_1_saule.tex:TSI norāda uz solārās radiācijas izmaiņām, kas ietekmē saņemto solārās enerģijas apjomu, kas nonāk Zemes atmosfēras augšējos slāņos. Papildus ir noderīgi zināt Saules emitētā starojuma spektrālo sadalījumu (\textit{Spectral Solar Irradiance} -- SSI) -- \ref{fig:SSI}. att. redzams, ka aptuveni puse starojuma tiek saņemta salīdzinoši mazu viļņu garumu - 380 -- 780 nm diapazonā.
+lit_1_saule.tex: % kas padara iespējumu no tā iegūt enerģiju ar saules paneļu paņēmienu pēc formulām \ref{eq:proof}. 
+lit_1_saule.tex:% kādēļ tieši šis diapazons?
+lit_1_saule.tex:% atradu cik šī diapazona laukums ir procenti no visa laukuma un negribēju rēķināt citu
+lit_1_saule.tex:% mazs viļņu garums, tātad ar lielu frekvenci, tātad daudz enerģijas
+lit_1_saule.tex:% \begin{equation}
+lit_1_saule.tex:% \label{eq:proof}
+lit_1_saule.tex:% \nu \uparrow = \frac{c}{\lambda \downarrow} \qquad E \uparrow = h \nu \uparrow 
+lit_1_saule.tex:% \end{equation}
+lit_1_saule.tex:TSI novērojumi no kosmosa tiek veikti kopš 1978. gada un instrumentu specifikas dēļ iegūtas dažādas absolūtās vērtības (skat. att. \ref{fig:TSI_misijas}.), tāpēc šī fizikālā lieluma tikai daļēji pārkājušos novērojumu laikrindu apvienošana kompozītā ir gan zinātnisks, gan statistisks izaicinājums un neviens kompozīts (piemēram, PMOD, ACRIM, IRBM) līdz šim nav kļuvis par absolūtu standartu solārā apstarojuma pētnieku kopienā.
+lit_1_saule.tex:\begin{figure}[h]
+lit_1_saule.tex:    \centering
+lit_1_saule.tex:    \includegraphics[width=\linewidth]{figures/misc/TSI_misijas.png}
+lit_1_saule.tex:    \caption{Salīdzinājums dienā vidējotiem saules kopējā apstarojuma datiem no dažādām kosmiskajām misijām un Saules plankuma skaitlis, lai ilustrētu solārās aktivitātes variabilitāti trīs ciklos \cite{Frohlich2012}.}
+lit_1_saule.tex:    \label{fig:TSI_misijas}
+lit_1_saule.tex:\end{figure}
+lit_1_saule.tex:Par labāko Saules apstarojuma mērījumu reprezentāciju tiek uzskatīti Saules Radiācijas un Klimata Eksperimenta (SORCE) misijas Kopējā apstarojuma novērošanas (Total Irradiance Monitor, TIM) instrumenta dati mēraparāta uzbūves -- atšķirībā no citiem radiometriem TIM precizitātes apertūra atrodas tuvu dobumam un redzeslauku bloķējošā apertūra ir pie instrumenta ieejas -- un augstās precizitātes -- nenoteiktība tiek novērtēta esam mazāk nekā $0.014$ $\textrm{W  m}^{-2}\textrm{yr}^{-1}$ un precizitāte ar $0.48$ $\textrm{W  m}^{-2}$ \cite{TSIdata} -- dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $(1360.8 \pm 0.5) \textrm{W m}^{-2}$ ~\cite{Frohlich2012}.
+lit_1_saule.tex:\begin{figure}[h]
+lit_1_saule.tex:    \centering
+lit_1_saule.tex:    \includegraphics[width=\linewidth]{figures/misc/SSI.pdf}
+lit_1_saule.tex:    \caption{SSI 1AU attālumā (24 h vidējā vērtība) \cite{SSIdata}.}
+lit_1_saule.tex:    \label{fig:SSI}
+lit_1_saule.tex:\end{figure}
+lit_1_saule.tex:\begin{figure}[h]
+lit_1_saule.tex:    \centering
+lit_1_saule.tex:    \includegraphics[width=\linewidth]{figures/misc/TSI_8-19.pdf}
+lit_1_saule.tex:    \caption{TSI 24. saules ciklā 1 AU attālumā (24 h vidējā vērtība)\cite{TSIdata}.}
+lit_1_saule.tex:    \label{fig:TSI1}
+lit_1_saule.tex:\end{figure}
+ievads_teorijai.tex:% TEORIJAS KOPSAVILKUMS
+ievads_teorijai.tex:Vispirms tiek aplūkota Saules emitētā starojuma daba un ģeometriskie apsvērumi - virziens, no kura staru kūlis sasniedz virsmu, leņķis uz virsmas un laika gaitā saņemtais starojuma daudzums. Tiek apskatīta atmosfēras un mākoņu ietekme uz virsmas saņemto saules starojumu, un tās praktiskā nozīme, apstrādājot pieejamos Saules starojuma datus, lai aprakstītu radiācijas gadījumus uz virsmas dažādās orientācijās.
+ievads_teorijai.tex:% atjaunojamā enerģija
+ievads_teorijai.tex:% kāpēc ir svarīgi
+ievads_teorijai.tex:% 	politika (direktīva)
+ievads_teorijai.tex:% 	klimata pārmaiņas
+ievads_teorijai.tex:% atjaunojamās enerģijas veidi (vējš, saule, utml)
+ievads_teorijai.tex:% mērķis ir salīdzināt solāro paneļu saražoto enerģiju atkarībā no modeļa, telpiskās orientācijas, leņķa un kā mainās pa gadalaikiem tieši latvijā
+ievads_teorijai.tex:% citos klimatiskajos apstākļos līdzīgas analīzes ir veiktas ko var iegūt dažādās klimatiskajās zonās
+ievads_teorijai.tex:% pierakstīt par pv paneļu darbību un efektivitāti
+ievads_teorijai.tex:% aprakstīt ko tu darīji, lai pēc iespējas automatizētu datu apstrādes sistēmu
+ievads_teorijai.tex:% kādus datus uzkrāj kādā attēlojumā
+ievads_teorijai.tex:% datu menedžmentu aprakstīt
+ievads_teorijai.tex:% paskatīties kā nosaka solāro paneļu efektivitātes standartu
+ievads_teorijai.tex:% sarēķināt attiecības starp paneļu saražoto (normēt uz lielāko paneli)
+ievads_teorijai.tex:% ielikt grafikus no februāra un aprīļa
+ievads_teorijai.tex:% pierakstīt salīdzinājumu
+ievads_teorijai.tex:% aprakstīt gļukus, kur dienā nav nekā saražots bet blakus ir. tā gadās.
+ievads_teorijai.tex:% nomaini februāra sol_month grafikos virsrakstu uz februāri
+ievads_teorijai.tex:% nomaini $Em^-2$ uz $E_norm$
+ievads.tex:Apvienoto Nāciju Organizācijas Klimata konferencē Parīzē 2015. gada decembrī daudzas pasaules valstis vienojās ierobežot globālo sasilšanu zem 2\textdegree C salīdzinājumā ar pirmsindustriālo laikmetu.
+ievads.tex:%, tāpēc ES ir apņēmusies līdz 2030. gadam samazināt siltumnīcefekta gāzu emisijas vismaz par 40\% salīdzinājumā ar 1990. gada līmeni.
+ievads.tex:Tāpēc Eiropas Savienībā noteikts dalībvalstīm saistošs mērķrādītājs  –  vismaz 32\%  atjaunojamās enerģijas īpatsvars līdz 2030. gadam \cite{ES}.
+ievads.tex:Ne mazāk būtiska ir atjaunojamo energoresursu loma energoapgādes neatkarības un drošības veicināšanā, tehnoloģiju attīstībā un inovācijās, vienlaikus sniedzot labumu videi un sabiedrībai, kā arī nodrošinot svarīgus priekšnosacījums nodarbinātībai, reģionālajai attīstībai un elektrības nodrošināšanai grūti pieejamās vietās \cite{ES}.
+ievads.tex:Dažādu pieejamo atjaunojamo resursu - Saule, vējš, zeme, ūdens - starpā Saules enerģija ir viens no kandidātiem klimata pārmaiņu un to seku mazināšanai un efektīvas energoapgādes nodrošināšanai. Pēdējā desmitgadē veiktās investīcijas Saules enerģijas izmantošanā manifestējās inovācijās saules paneļu ražošanā, un gala rezultātā tie ir kļuvuši efektīvāki un finansiāli pieejamāki patērētājiem, piemēram, silīcija saules paneļu cena sastāda mazāk nekā 30\% no kopējām saules paneļu sistēmas uzstādīšanas izmaksām un to saražotā enerģija atmaksājas vidēji trīs gadu periodā \cite{researchOpp}. Tomēr bez klimata to efektivitāti ietekmē arī daudzi citi faktori, to skaitā telpiskā orientācija.
+ievads.tex:Šī pētījuma \textbf{mērķis} ir analizēt un praktiski pārbaudīt divu tipu (JA un LG) saules paneļu efektivitāti atšķirīgos telpiskās orientācijās risinājumos -- pētītas trīs dažādu virzienu (dienvidi, rietumi, austrumi) un trīs leņķu pret horizontu (13\textdegree, 40\textdegree, 90\textdegree) paneļu grupas -- un tiek salīdzināta to piemērotība Latvijas klimatiskajiem apstākļiem.
+ievads.tex:\textbf{Darba uzdevumi}
+ievads.tex:\begin{itemize}
+ievads.tex:\item Ievākt, atlasīt un analizēt saules paneļu jaudas (P) datus.
+ievads.tex:\item Izveidot iespējami automatizētu datu apstrādes sistēmu R valodā ilgtermiņa montioringa vajadzībām.
+ievads.tex:\item Salīdzināt paneļu efektivitāti gada laikā mēnešu intervālos atbilstoši tipa un telpiskās orientācijas apakšgrupām.
+ievads.tex:% \item Balstoties uz ilgtermiņa saules izstarojuma monitoringu, novērtēt saules paneļu saražoto enerģiju no fizikālajiem apsvērumiem.
+ievads.tex:\item Novērtēt datu kvalitāti no fizikālo apsvērumu un saules apstarojuma mērījumu viedokļa.
+ievads.tex:\end{itemize}
+ievads.tex:\textbf{Darba struktūra}\\
+ievads.tex:Darba pirmo daļu veido literatūrā pieejamo Saules apstarojuma novērtējumu raksturojums un apskata par Saules redzamo pārvietošanās pie debess sfēras diennakts laikā janvāra un aprīļa mēnešos. Otrajā daļā aplūkota saules paneļu uzbūve un darbības princips, kā arī apskatīta sistēmas shēma un saues paneļu konkrētās instalācijas LU Botāniskajā dārzā parametru raksturojums.
+ievads.tex:Trešā daļā ir aprakstīti iegūtie rezultāti, tie ir salīdzināti savā starpā, ar cita saules paneļa uzstādījuma mērījumu rezultātiem un ar eksperimentālā poligona meteostacijas datiem par solāro apstarojumu šajā laika periodā.
+ievads.tex:% un lai to analīzi veiktu ir darīti uzdevumi
+ievads.tex:% uzstādīti paneļi (profesionāļi to darīja)
+ievads.tex:% Ievākti un analizēti dati
+ievads.tex:% Datu kvalitātes novērtējums
+ievads.tex:% novērtēt vai iegūtie resultāti ir ticami
+ievads.tex:% citos klimatiskajos apstākļos līdzīgas analīzes ir veiktas ko var iegūt dažādās klimatiskajās zonās 
+ievads.tex:% pierakstīt par pv paneļu darbību un efektivitāti
+ievads.tex:% aprakstīt ko tu darīji, lai pēc iespējas automatizētu datu apstrādes sistēmu
+ievads.tex:% kādus datus uzkrāj kādā attēlojumā
+ievads.tex:% datu menedžmentu aprakstīt
+abstract-lv.tex:Darba mērķis ir noteikt optimālo saules paneļu izvietojuma veidu Latvijas klimatiskajos apstākļos. 
+abstract-lv.tex:Pētot divu veidu saules paneļus, kas novietoti piecās dažādās telpiskajās orientācijās Latvijas Universitātes Botāniskā dārza teritorijā, tiek noteikta solāro paneļu efektivitātes atkarība no parametriem:
+abstract-lv.tex:\begin{enumerate}
+abstract-lv.tex:\item Saules paneļu tips (JA vai LG)
+abstract-lv.tex:\item Telpiskā orientācija (R.13, A.13, D.13, D.40, D.90)
+abstract-lv.tex:\item Gada mēnesis (janvāris - aprīlis)
+abstract-lv.tex:\item Meteoroloģiskie apstākļi (saules apstarojums un mākoņainība).
+abstract-lv.tex:\end{enumerate}
+abstract-lv.tex:Iegūtie monitoringa rezultāti tiek analizēti kontekstā ar saules izstarojuma intensitāti, paneļu potenciālās efektivitātes fizikālo novērtējumu un citu mērījumu rezultātiem.\\
+abstract-lv.tex:Rezultāti liecina, ka optimālie parametri ir LG panelis D virziena 40 grādu leņķī. Pētījuma datu analīzes rīks ir pieejams \url{https://github.com/chararchter/solR}.
+abstract-lv.tex:\keywords{Saules enerģijas paneļi, atjaunojamo energoresursu enerģija}
+lit_3_klimats.tex:\section{Mākoņainība Latvijā}
+lit_3_klimats.tex:%Enter antagonists. Mākoņi. Bloķē daudz saules apstarojuma. Cik LV mākoņainu dienu?
+lit_3_klimats.tex:%Izanalizēt VTPMML meteo datus no 2013.
+lit_3_klimats.tex:%Pajautāt Stasim kļūdas.
+lit_3_klimats.tex:Tiek apskatīta atmosfēras un mākoņu ietekme uz virsmas saņemto saules starojumu, un tās praktiskā nozīme, apstrādājot pieejamos Saules starojuma datus.
+lit_3_klimats.tex:Saskaņā ar LU VTPMML klimatisko datu apkopojumu, kas parādīts \ref{fig:makoni_Riga}. att., mākoņainība Rīgā var sasniegt līdz 60\% jūlijā un līdz pat 90\% decembrī. Tas nozīmē, ka Saules paneļu efektivitātes novērtējumam Latvijas klimatā mākoņainība ir ļoti būtiska un tā palīdzēs prognozēt nepieciešamos enerģijas uzkrājumus un papildavotus, ja solārā enerģija tiek izmantota kā pamata enerģijas avots.
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:	\centering
+lit_3_klimats.tex:	\includegraphics[width=0.8\linewidth]{figures/misc/makoni_riga.jpg}
+lit_3_klimats.tex:	\caption{Vidējā mākoņainība Rīgā gada laikā, vidējota pa 20 gadu periodu~\cite{cloudsModlab}.}
+lit_3_klimats.tex:	\label{fig:makoni_Riga}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:Mākoņu ietekme uz Saules apstarojumu ir netriviāla un atkarīga no dažādiem parametriem. Piemēram, dažreiz mākoņainība var pat nedaudz palielināt Saules apstarojumu~\cite{CloudCoverageImpactOnIrradiance}. Šis šķietami kontraintuitīvais rezultāts izskaidrojams ar to, ka Saule nav nosegta pilnībā, un baltie mākoņi mēdz būt gaišāki nekā pašas debesis saulainā dienā (skat. \ref{fig:makoni_ietekme}.(b) attēlā), tādējādi DNI komponentes samazināšanās tiek kompensēta ar palielinātu gaismas izkliedi. 
+lit_3_klimats.tex:Savukārt gadījumos, kad mākoņi aizsedz Sauli (skat. \ref{fig:makoni_ietekme}.(c) attēlā), apstarojums $\approx99\%$ gadījumu samazinās, kā tas bija paredzams.
+lit_3_klimats.tex:% Tomēr korelācija starp iegūto enerģiju un mākoņu daudzumu ir pat nedaudz pozitīva, kas atkal notiek palielinātas gaismas izkliedes dēļ. 
+lit_3_klimats.tex:Apskatot visu datu kopu, var secināt, ka vairākumā gadījumu mākoņu ietekmi uz Saules paneļu saražoto enerģiju var uzskatīt par nelabvēlīgu.
+lit_3_klimats.tex:Pētījumi rāda, ka mākoņi absorbē par 25 W/m$^2$ vairāk gaismas, nekā teorētiski paredzams, un šī vērtība nevar būt izskaidrojama ar troposfēras aerosoliem ~\cite{observVSModel}. Neskatoties uz to, ka mākoņainība ir galvenais Saules paneļu efektivitāti ietekmējošs faktors, ar informāciju par mākoņainību nepietiek, lai pilnvērtīgi izskaidrotu un paredzētu paneļu saražotās enerģijas izmaiņas.
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:	\centering
+lit_3_klimats.tex:	\includegraphics[width=\linewidth]{figures/misc/makoni_ietekme.jpg}
+lit_3_klimats.tex:	\caption{Attiecība starp izmērīto apstarojumu un tīrās debess gadījuma apstarojumu (a) visiem datiem, (b) gadījumos ar neaizsegtu Sauli un (c) gadījumos ar aizsegtu Sauli~\cite{CloudCoverageImpactOnIrradiance}.}
+lit_3_klimats.tex:	\label{fig:makoni_ietekme}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinātājs (\textit{Cloud Modification Factor} - CMF), ko definē kā attiecību starp apstarojumu gadījumos ar un bez mākoņiem, atkarībā no mākoņu tipa ir apkopots \ref{tab:CMF}. tabulā. Ir jāņem vērā, ka CMF ir atkarīgs no viļņa garuma. Tomēr ultravioletais CMF no redzamās gaismas CMF ir atkarīgs lineāri ar koeficientiem $\approx0.6-1$ gubumākoņu gadījumā un eksponenciāli spalvmākoņu gadījumā.
+lit_3_klimats.tex:\begin{table}[h]
+lit_3_klimats.tex:	\caption{CMF intervāls atkarībā no mākoņu tipa~\cite{effectCloudsOnSurface},~\cite{cloudAtlas}}
+lit_3_klimats.tex:	\begin{center}
+lit_3_klimats.tex:		\begin{tabular}{| r | c | c |}
+lit_3_klimats.tex:			\hline
+lit_3_klimats.tex:			Augstie gubumākoņi (\textit{Altocumulus}) & $<0.7$ & \includegraphics[width=0.1\linewidth]{figures/meteo/cloud_Altocumulus.jpg} \\ \hline
+lit_3_klimats.tex:			Gubumākoņi (\textit{Cumulus})        & $0.2-1.3$ & \includegraphics[width=0.1\linewidth]{figures/meteo/cloud_Cumulus.jpg} \\ \hline
+lit_3_klimats.tex:			Spalvmākoņi (\textit{Cirrus})        & $0.6-1$  & \includegraphics[width=0.1\linewidth]{figures/meteo/cloud_Cirrus.jpg} \\ \hline
+lit_3_klimats.tex:		\end{tabular}
+lit_3_klimats.tex:	\end{center}
+lit_3_klimats.tex:	\label{tab:CMF}
+lit_3_klimats.tex:\end{table}
+lit_3_klimats.tex:Modelēt saules apstarojumu, kas nonāk paneļu virsmas, laikā komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo TSI mainās tikai ap $\pm 0.7$ W/m$^2$ gadā (solāro paneļu datu uzņemšanas laikā tas mainās par $\pm 0.225$ W/m$^2$ jeb 0.03 \%), kā tas ir redzams\ref{fig:TSI2}. attēlā.
+lit_3_klimats.tex:Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.~\ref{fig:SSI}. att.), šis grafiks (skat.~\ref{fig:zudumi}. att.) attēlo enerģijas zudumus dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumus saules šūnā.
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:    \centering
+lit_3_klimats.tex:    \includegraphics[width=\linewidth]{figures/misc/TSI.pdf}
+lit_3_klimats.tex:    \caption{TSI izmaiņas solāro paneļu datu ieguves laikā 1 AU attālumā (24 h vidējā vērtība)\cite{TSIdata}.}
+lit_3_klimats.tex:    \label{fig:TSI2}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:    \centering
+lit_3_klimats.tex:    \includegraphics[width=\linewidth]{figures/misc/energyLosses.png}
+lit_3_klimats.tex:    \caption{Saules enerģijas zudumi silīcijā balstītā saules šūnā.  ~\cite{Sivaram}.}
+lit_3_klimats.tex:    \label{fig:zudumi}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:% DNI vidēji 1025 kWh/m2
+lit_3_klimats.tex:% GHI vidēji arī bet vairāk
+lit_3_klimats.tex:Pēc Solargis modeļa no satelītu un atmosfēras mērījumu datiem ar kļūdu 3\% līdz 10\% robežās secināms, ka piekrastē ir vairāk saules apstarojuma un līdz ar to arī lielāka prognozētā jauda. 
+lit_3_klimats.tex:Tiešais normālais apstarojums (\textit{Direct normal irradiance} - DNI) ir Saules apstarojums bez izkliedes atmosfērā
+lit_3_klimats.tex:Globālais horizontālais apstarojums (\textit{Global horizontal irradiance} - GHI) ir kopējais virsmas saņemtais apstarojums, ieskaitot gan DNI, gan starojumu, kas izkliedējas atmosfērā.
+lit_3_klimats.tex:Salīdzinot \ref{fig:lv_DNI}. un  \ref{fig:lv_DNI}. attēlus redzams, ka GHI ir nedaudz lielāks par DNI, tātad redzams izkliedētā starojuma ieguldījums. PVOUT karte sniedz apkopojumu par prognozēto saules fotoelementu (PV) enerģijas ražošanas apjomu, pieņemot 1kW jaudas silīcija PV spēkstacijas, gada patēriņam optimizētu slīpuma leņķi \ref{fig:lv_PVOUT}. Pēc šiem datiem kopumā var secināt, ka saules paneļi ir piemērots risinājums enerģijas ieguvei arī Latvijā.
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:    \centering
+lit_3_klimats.tex:    \includegraphics[width=0.8\linewidth]{figures/misc/LV_DNI.png}
+lit_3_klimats.tex:    \caption{Tiešais normālais apstarojums Latvijā \cite{solargis}}
+lit_3_klimats.tex:    \label{fig:lv_DNI}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:    \centering
+lit_3_klimats.tex:    \includegraphics[width=0.8\linewidth]{figures/misc/LV_GHI.png}
+lit_3_klimats.tex:    \caption{Globālais horizontālais apstarojums Latvijā \cite{solargis}}
+lit_3_klimats.tex:    \label{fig:lv_GHI}
+lit_3_klimats.tex:\end{figure}
+lit_3_klimats.tex:\begin{figure}[h]
+lit_3_klimats.tex:    \centering
+lit_3_klimats.tex:    \includegraphics[width=0.8\linewidth]{figures/misc/LV_PVOUT.png}
+lit_3_klimats.tex:    \caption{PV potenciālā jauda Latvijā \cite{solargis}}
+lit_3_klimats.tex:    \label{fig:lv_PVOUT}
+lit_3_klimats.tex:\end{figure}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Degbar.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Dienvidu saules paneļu saražotā enerģija dienā atkarībā no leņķa}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Dirbar.pdf}
+exp_grafiki.tex:%     \captionof{figure}{13 grādu leņķī esošo saules paneļu saražotā enerģija dienā atkarībā no debespuses}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Degbarm2.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Dienvidu saules paneļu saražotā enerģija dienā atkarībā no leņķa normēta uz saules paneļu laukumiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Dirbarm2.pdf}
+exp_grafiki.tex:%     \captionof{figure}{13 grādu leņķī esošo saules paneļu saražotā enerģija dienā atkarībā no leņķa normēta uz saules paneļu laukumiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Deg_l.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Tipisks saražotās enerģijas sadalījums dienā dienvidu saules paneļiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Dir_l.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Tipisks saražotās enerģijas sadalījums dienā 13 grādu leņķī esošajiem saules paneļiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Deg_lm2.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Tipisks saražotās enerģijas sadalījums dienā dienvidu saules paneļiem nrmēts uz saules paneļu laukumiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Dir_m2.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Tipisks saražotās enerģijas sadalījums dienā 13 grādu leņķī esošajiem saules paneļiem normēts uz saules paneļu laukumiem}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_difDeg.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Dienvidu saules paneļu enerģijas starpība dienā atkarībā no leņķa}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_Dirbarm2.pdf}
+exp_grafiki.tex:%     \captionof{figure}{13 grādu leņķī esošo saules paneļu enerģijas starpība dienā atkarībā no debespuses}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_bar.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saules paneļu martā saražotā enerģija}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D13JA.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D13LG.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D40JA.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D40LG.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D90JA.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_D90LG.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_R13JA.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_R13LG.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_A13JA.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+exp_grafiki.tex:% \begin{center}
+exp_grafiki.tex:%     \includegraphics[width=\linewidth]{figures/mar_day/mar_A13LG.pdf}
+exp_grafiki.tex:%     \captionof{figure}{Saražotās enerģijas sadalījuma izmaiņas mēneša dienās saules panelim martā}
+exp_grafiki.tex:% \end{center}
+iev_3_pv.tex:\section{Saules paneļu darbības princips}
+iev_3_pv.tex:% fotons uzspīd elektronam un viņu ierosina un tad tas aiziet pāri vadītspējas zonai un aizpeld uz elektrodu un caurums aizpeld uz otru elektrodu un rodas potenciālu starpība no kurienes strāva.
+iev_3_pv.tex:Saules paneļi sastāv no fotoelementiem, kas pārveido gaismas enerģiju elektriskā lauka enerģijā. Fotoelements, kura uzbūves shēma ir parādīta \ref{fig:PV}. attēlā, ir p-n pāreja ar elektriskajiem kontaktiem, kas pieslēgti pie lādētāja vai cita enerģijas patērētāja. Fotoelementa apakšējā daļa sastāv no n-tipa pusvadītāja, kurā lādiņa pamatnesēji ir elektroni, bet augšējā daļa -- no p-tipa pusvadītāja, kur lādiņa pamatnesēji ir caurumi. 
+iev_3_pv.tex:\begin{figure}[h]
+iev_3_pv.tex:    \centering
+iev_3_pv.tex:    \includegraphics[width=0.6\linewidth]{figures/misc/PV.jpg}
+iev_3_pv.tex:    \caption{Saules paneļa shēma. Tas sastāv no fotoelementiem, kuru augšējais slānis veidots no p-tipa pusvadītāja, bet apakšējais --- no n-tipa pusvadītāja~\cite{Yahyaoui}.}
+iev_3_pv.tex:    \label{fig:PV}
+iev_3_pv.tex:\end{figure}
+iev_3_pv.tex:P-tipa un n-tipa pusvadītāja īpašības var panākt, piemēram, dopējot silīcija kristālu ar attiecīgi III vai V grupas elementiem. Ja silīcija kristālam pievieno bora atomus nelielā koncentrācijā, izveidojas \ref{fig:p-n-type}. att. pa kreisi redzamā situācija. Katram Si atomam ir četri elektroni ārējā čaulā, ar kuru palīdzību atoms izveido četras kovalentās saites ar četriem citiem atomiem. Savukārt bors, būdams III grupas elements, var izveidot tikai trīs saites. Tādā veidā pie bora atoma parādās "caurums" -- nenoslēgta kovalentā saite, kas attēlā apzīmēta ar sarkanu apli. Uz šo vietu var pārvietoties kāds no blakus esošiem elektroniem, bet tad neaizpildīta vieta parādīsies pie blakus esošā atoma. Tādā veidā var uzskatīt, ka caurums pārvietojas, un nosaukt to par pozitīvo lādiņa nesēju. Šādus pusvadītājus sauc par p-tipa pusvadītājiem. ~\cite{Yahyaoui}
+iev_3_pv.tex:Ja silīcija kristālam pievieno fosfora atomus, izveidojas pretēja situācija -- pie P atoma parādās elektrons, kas nepiedalās saites veidošanā (sk. att. \ref{fig:p-n-type}., pa labi). Lai pārvietotos, brīvajam elektronam ir nepieciešams mazāk enerģijas nekā elektroniem, kas veido kovalentās saites starp Si atomiem. Tātad, lādiņa pamatnesēji n-tipa pusvadītājos ir elektroni.
+iev_3_pv.tex:Dopējot divus blakus esošus Si kristāla apgabalus dažādā veidā, iegūst p-n pāreju. Uz robežas starp apgabaliem elektroni no n-tipa apgabala var rekombinēties jeb difūzijas ceļā nokļūt uz p-tipa apgabalu un aizpildīt pietiekami tuvu esošus caurumus, tāpēc p-tipa pusvadītājā mala uzlādējas negatīvi.
+iev_3_pv.tex:\begin{figure}[h]
+iev_3_pv.tex:	\centering
+iev_3_pv.tex:	\includegraphics[width=0.5\linewidth]{figures/misc/p_n_type.pdf}
+iev_3_pv.tex:	\caption{Silīcija kristāla 2D izklājums, atomu ārējās čaulas elektroni ir apzīmēti ar punktiem. Pievienojot bora atomu, iegūst p-tipa pusvadītāju (pa kreisi), bet fosfora atomu --- n-tipa pusvadītāju (pa labi).}
+iev_3_pv.tex:	\label{fig:p-n-type}
+iev_3_pv.tex:\end{figure}
+iev_3_pv.tex:Fotoelementa darbība balstās uz iekšējo fotoelektrisko efektu -- parādību, kad elektrons tiek ierosināts ar gaismas kvantu un pāriet no valences zonas uz vadītspējas zonu. Kad tas notiek augšējā slānī (p-tipa pusvadītājā), elektrons atgrūžas no robežas starp slāņiem, kura ir negatīvi lādēta rekombinācijas dēļ. Negatīvi lādētā (no p-tipa pusvadītāja puses) robeža rada potenciālu starpību, kas veicina elektronu kustību pa vadiem uz patērētāju, tādā veidā radot elektrisko strāvu.
+iev_3_pv.tex:\section{Saules paneļu veidi}
+iev_3_pv.tex:Darbā ir apskatīti divi Saules paneļu veidi. Ražotāju referenču lapās LG tiek prognozēta labāka atdeve saulainās dienās~\cite{LGtips}, bet JA labāka atdeve vājas gaismas intensitātes vidēs~\cite{JAtips}.
+iev_3_pv.tex:\begin{table}[h]
+iev_3_pv.tex:    \caption{JA un LG paneļu tipu salīdzinājums~\cite{JAtips}~\cite{LGtips}} % uzrakstīt kādu absolūto TSI izmērīja vai norādīt uz grafiku?
+iev_3_pv.tex:    \begin{center}
+iev_3_pv.tex:    \begin{tabular}{| r | c | c |}
+iev_3_pv.tex:    \hline
+iev_3_pv.tex:    Tips & JA & LG \\ \hline
+iev_3_pv.tex:    Modelis &  JAP60-275/4BB & LG365Q1C-A5\\ \hline
+iev_3_pv.tex:    % materiāls & silikons &   \\ \hline
+iev_3_pv.tex:	Kristāla veids & Polikristālisks & Monokristālisks \\ \hline
+iev_3_pv.tex:	% šūnas izmērs, mm  &156x156  & \\ \hline
+iev_3_pv.tex:	Šūnu skaits  &60  &60 \\ \hline
+iev_3_pv.tex:	Virsmas laukums, $m^2$ &1.64  &1.72 \\ \hline
+iev_3_pv.tex:	STC Pmax, $W$ 	&270 &365\\ \hline
+iev_3_pv.tex:	NOCT Pmax, $W$  &196 &275\\ \hline
+iev_3_pv.tex:	Efektivitāte, \% &16 & 20\\ \hline
+iev_3_pv.tex:    \end{tabular}
+iev_3_pv.tex:    \end{center}
+iev_3_pv.tex:    \label{tab:ja_lg_tipi}
+iev_3_pv.tex:\end{table}
+iev_3_pv.tex:Paneļu maksimālā jauda ($P_{max}$) tiek testēta pie:
+iev_3_pv.tex:\begin{itemize}
+iev_3_pv.tex:\item standarta testa nosacījumiem (\textit{Standart test condition} - STC):\\
+iev_3_pv.tex:Saules izstarojums 1000 W/m$^2$; apkārtējā temperatūra 25\textdegree C.
+iev_3_pv.tex:\item nominālās šūnas darba temperatūras (\textit{Nominal operating cell temperature} - NOCT):\\
+iev_3_pv.tex:Saules izstarojums 800 W/m$^2$; apkārtējā temperatūra 20 \textdegree C; vēja ātrums 1 m/s
+iev_3_pv.tex:\end{itemize}
+iev_3_pv.tex:% ielikt bildi ar to kas saules apstarojumā pazūd no imene
+iev_3_pv.tex:% \begin{figure}[h]
+iev_3_pv.tex:%     \centering
+iev_3_pv.tex:%     \includegraphics[width=0.7\linewidth]{figures/misc/shema.pdf}
+iev_3_pv.tex:%     \caption{Saules paneļu elektriskā shēma}
+iev_3_pv.tex:%     \label{fig:paneli666}
+iev_3_pv.tex:% \end{figure}
+iev_3_pv.tex:\begin{figure}[h]
+iev_3_pv.tex:    \centering
+iev_3_pv.tex:    \includegraphics[width=0.7\linewidth]{figures/misc/uzstadijumaShema.jpg}
+iev_3_pv.tex:    \caption{Saules paneļu telpisko orientāciju shēma}
+iev_3_pv.tex:    \label{fig:paneli}
+iev_3_pv.tex:\end{figure}
+iev_3_pv.tex:\begin{figure}[h]
+iev_3_pv.tex:    \centering
+iev_3_pv.tex:    \includegraphics[width=0.7\linewidth]{figures/stenduBildes/overview2.JPG}
+iev_3_pv.tex:    \caption{Saules paneļu telpiskās orientācijas dabā (autors Māris Šinka)}
+iev_3_pv.tex:    \label{fig:paneli}
+iev_3_pv.tex:\end{figure}
+iev_3_pv.tex:\section{Saules paneļu izmantošana pasaulē}
+iev_3_pv.tex:Silīcija Saules paneļu attīstības intensīvākais posms bija apmēram no 1980. līdz 2000. gadam, kad to maksimālā efektivitāte palielinājās no 15\% līdz 25\%
+iev_3_pv.tex:\cite{Sivaram}. Nākamajos 20 gados efektivitātes pieaugums bija gandrīz desmit reizes mazāks. Tiek pētīti arī citi Saules paneļu pusvadītāju veidi, piemēram CdTe vai GaAs, tomēr monokristāliskā un polikristāliskā silīcija Saules paneļi joprojām aizņem lielāko daļu no tirgus, piemēram, Vācijā Si sastādīja vairāk nekā 90\% no Saules paneļu tirgus pēdējo septiņu gadu laikā ~\cite{prognoze}. Tas tādēļ, ka Si ir pieejamāks un lētāks nekā GaAs\cite{hayes_clemens_2015}, un vairāk izpētīts nekā CdTe pusvadītāji~\cite{Sivaram}.
+iev_3_pv.tex:Svarīgi ievērot, ka Saules paneļu efektivitāte ir atkarīga no vairākiem faktoriem, kas mainās līdz ar ģeogrāfisko novietojumu: ģeogrāfiskā platuma, gadalaika, mākoņainības un gaisa piesārņojuma. Tātad, detalizēta Saules paneļu efektivitātes analīze var būt noderīga katrā valstī, lai precīzāk izvērtētu solārās enerģijas lietošanas perspektīvas tajā. Var minēt dažus šādu pētījumu piemērus.
+iev_3_pv.tex:\begin{itemize}
+iev_3_pv.tex:  \item Indijas pilsētā Bangalorē izpētīja, ka efektivitāte musona un pēc-musona periodos ir augstāka, nekā ziemā un vasarā. To var saistīt ar lielu nokrišņu daudzumu musona periodā, kas labi dzesē Saules paneļus, un ar lielāku saulaino dienu skaitu pēc-musona periodā~\cite{effectCloudsOnSurface}.
+iev_3_pv.tex:  \item Eksperiments Mumbajā \cite{improvePerformance} ļauj secināt, ka karsts un sauss klimats ne tikai samazina enerģijas pārvērtības lietderības koeficientu, bet arī izraisa defektus un silīcija bojājumus, kas palielina enerģijas zudumus. Tiek norādīts, ka šādā klimatā tipiskais Saules paneļu dzesēšanas risinājums -- ūdens izsmidzināšana -- nav pielietojams, jo tieši šādā klimatā ūdens trūkums ir svarīga problēma.
+iev_3_pv.tex:  \item Indonēzijā pētnieki novēroja, ka mitruma un vēja ātruma palielināšana samazina Saules paneļu efektivitāti~\cite{improvePerformance}.
+iev_3_pv.tex:  \cite{Sani_2018}. Atšķirībā no iepriekšējā pētījumā, aplūkotajā temperatūras apgabalā (42 -- 52 \textdegree C) temperatūra pozitīvi korelē ar paneļu efektivitāti, kas iespējams saistīts ar GHI palielināšanos. 
+iev_3_pv.tex:  \item Arī Latvijā jau ir uzstādītas saules paneļu sistēmas. Piemēram, Ulbrokā 2017. gadā 20 paneļu sistēma kopā saražoja 4554.06 kWh -- vidēji 227.703 kWh gadā no viena paneļa (skat.~\ref{fig:ulbroka}).
+iev_3_pv.tex:\end{itemize}
+iev_3_pv.tex:\begin{figure}[h]
+iev_3_pv.tex:  \centering
+iev_3_pv.tex:  \includegraphics[width=\linewidth]{figures/misc/2017.png}
+iev_3_pv.tex:  \caption{20 Saules paneļu sistēmas saražotā enerģija Ulbrokā 2017. gadā. Virziens: D, leņķis 15 grādi \cite{fronius}}
+iev_3_pv.tex:  \label{fig:ulbroka}
+iev_3_pv.tex:\end{figure}
+iev_3_pv.tex:\section{Darba aktualitāte}
+iev_3_pv.tex:Latvijā veikto pētījumu daudzums un kvalitāte pagaidām neļauj iegūt pilnīgu priekšstatu par Saules paneļu lietošanas iespējām un prognozēt dažādu paneļu tipu efektivitāti reālā Latvijas klimatā. Tāpēc šī darba novitāte ietverta programmatūras izveidē, kas ļauj attēlot un apstrādāt Saules paneļu monitoringa datus, kas dos iespēju veikt turpmākus dziļākus pētījumus par dažādiem solārās enerģijas pielietojuma aspektiem Latvijā.
+pielikums.tex:\section*{Autora rezultātu dalība konferencēs}
+pielikums.tex:\begin{itemize}
+pielikums.tex:\item Zinātniski praktisks seminārs "Ceļā uz gandrīz nulles enerģijas ēkām (gNEĒ) Latvijā". \emph{LU eksperimentālā poligona monitoringa jaunumi: energoefektivitāte un solārā enerģija}. Rīga, Latvija, 2019.g. 11. aprīlis (prezentācija).
+pielikums.tex:% autors: Viktorija Leimane; prezentēja: Andris Jakovičs
+pielikums.tex:\item 7th European conference on renewable energy systems. \emph{The role of solar panel arrangement on their efficency in typical for Latvia weather conditions}. 2019. g. 10.--12. jūnijs, Madride (prezentācija).
+pielikums.tex:\end{itemize}
+pielikums.tex:\section*{Autora ieguldījums darbā}
+pielikums.tex:% the \\ insures the section title is centered below the phrase: Appendix B
+pielikums.tex:Saules paneļu uzstādīšanu veica SIA EG Inženieri Valda Gailīša vadībā.
+pielikums.tex:Par datu ievākšanu no saules paneļu sistēmas datu uzkrājējiem jāpateicas Victron Energy B.V. izstrādātājai Victorn Attālinātās Pārvaldības Portāla (\textit{Victron Remote Management Portal}, VRM)) sistēmai.
+pielikums.tex:Mans ieguldījums ir koda arhitektūras plānošana, rakstīšana un uzturēšana līdz šim brīdim. Esmu vienīgais koda bāzes izstrādātājs. Darbā kopā veikti 318 iesūtījumi (\textit{commits}) trīs zaros (105, 123 un 90 iesūtījumi attiecīgi), kas rezultējās 3140 koda rindās. 
+pielikums.tex:Darba gaitā veicu datu lejupielādi, datu informācijas aptveršanu, kā arī datu programmatisku atlasīšanu, apstrādi, apkopošanu, transformēšanu vizualizācijas vajadzību pielāgošanai un datu vizualizāciju. 
+pielikums.tex:\begin{figure}[h]
+pielikums.tex:	\centering
+pielikums.tex:	\includegraphics[width=0.6\linewidth]{figures/misc/contributions.png}
+pielikums.tex:	\caption{Darba autores ieguldījums master zarā.}
+pielikums.tex:	\label{fig:retribution}
+pielikums.tex:\end{figure}
+pielikums.tex:% 105 commits master
+pielikums.tex:% 123 commits february
+pielikums.tex:% 90 commits march
+abstract-en.tex:The aim of this thesis is to determine optimal solar panel arrangement for the climatic conditions of Latvia.
+abstract-en.tex:By studying two types of solar panels placed in five different spatial orientations in the University of Latvia Botanical Garden area, the dependency of solar panel efficiency on following variable parameters is established:
+abstract-en.tex:\begin{enumerate}
+abstract-en.tex:\item Type of solar panels (JA or LG)
+abstract-en.tex:\item Spatial orientation (W.13, E.13, S.13, S.40, S.90)
+abstract-en.tex:\item Month of year (january - april)
+abstract-en.tex:\item Meteorological conditions (solar irradiance and clouds)
+abstract-en.tex:\end{enumerate}
+abstract-en.tex:The results of the monitoring are analysed in the context of solar irradiance intensity, the physical assessment of the potential efficiency of the panels and the results of other measurements.
+abstract-en.tex:The results show that the optimal parameters are LG panel at a direction south 40 degree angle. The study data analysis tool is available in \url{https://github.com/chararchter/solR}.
+abstract-en.tex:\keywords{Solar panels, renewable energy}
+mypv.tex:% Komentārs: oriģināla metodika, mērījumu/aprēķinu precizitātes novērtējums
+mypv.tex:\section{Tipi} \label{section:tipi}
+mypv.tex:% Rindkopa par to, kādi materiāli un ka ir mono un polikristāli un monokristāli labāki un kāpēc.
+mypv.tex:Botāniskā dārza saules paneļu sistēmu raksturo divi saules paneļu tipi. Šajā nodaļā saules paneļu tipi tiek salīdzināti savā starpā, gan apskatīti kontekstā ar maksimālo teorētisko efektivitāti.
+mypv.tex:Ideāli efektīva saules šūna uzņem un iesloga visu krītošo gaismu un 
+mypv.tex:konvertē to elektriskajos nesējos, kas tiek efektīvi savākti, reālās saules šūnas ir nepilnīgas vienā vai abos no šiem aspektiem. Fundamentālās saules šūnu efektivitātes robeža pēc Šokleja-Ķeizara (\textit{Shockley-Queisser}, S-Q) detalizētā balansa modeļa ir 33.7\%, balstoties uz modeli monokristālisks Si ir sasniedzis $>75\%$ no S-Q robežas, bet polikristālisks Si $50$ līdz $75\%$ no S-Q robežas.~\cite{polman2016}
+mypv.tex:Monokristāla Si šūnu efektivitātes rekords ir 25.6\%, tās ir sasniegušas gandrīz pilnīgu gaismas slazdošanu un nesēju savākšanu, un lielākoties tās ierobežo nesēja rekombinācijas zudumi. Polikristālisko Si šūnu efektivitātes rekords ir 21.3\%.
+mypv.tex:% moduļa eff 18.5\%
+mypv.tex:Polikristālisks Si pusvadītāja plāksnes tiek izgrieztas no stieņa ar virzītās kristalizācijas metodi, un to izgatavošanas izmaksas ir mazākas nekā monokristāliskām plāksnēm. Taču polikristāliskam Si ir zemāka elektroniskā kvalitāte kristāla graudu robežu un iekšgraudu defektu dēļ, kā arī lielāka piemaisījumu koncentrācija, tāpēc polikristāliskai saules šūnai ir lieli sprieguma zudumi. Gaismas slazdošana šajās šūnās ir mazāk efektīva, jo ideālā piramīdas virsmas tekstūra, ko normāli izveido sārmainā kodināšana Si(100) uz (111) virsmas plaknēm, nevar realizēties polikristāliskā virsmā.~\cite{polman2016}
+mypv.tex:% alkaline-etching Si(100) to (111) surface facets cannot be realized on a multicrystalline surface
+mypv.tex:% Kontakta rekombinācija reprezentē lielāko daļu zudumu, tāpēc veiksmīgākie risinājumi minimizē saskarsmes laukumu (piem., lokalizēta heavy doping or metal seposition), implementē pasivētus kontkatus vai izmanto šo paņēmienu kombināciju.
+mypv.tex:Ražotāju referenču lapās LG tiek prognozēta labāka atdeve saulainās dienās~\cite{LGtips}, bet JA labāka atdeve vājas gaismas intensitātes vidēs~\cite{JAtips}.
+mypv.tex:\begin{table}[h]
+mypv.tex:    \caption{JA un LG paneļu tipu salīdzinājums~\cite{JAtips}~\cite{LGtips}} % uzrakstīt kādu absolūto TSI izmērīja vai norādīt uz grafiku?
+mypv.tex:    \begin{center}
+mypv.tex:    \begin{tabular}{| r | c | c |}
+mypv.tex:    \hline
+mypv.tex:    Tipa abreviatūra & JA & LG \\ \hline
+mypv.tex:    Modelis &  JAP60-275/4BB & LG365Q1C-A5\\ \hline
+mypv.tex:    % materiāls & silikons &   \\ \hline
+mypv.tex:	Kristāla veids & Polikristālisks & Monokristālisks \\ \hline
+mypv.tex:	% šūnas izmērs, mm  &156x156  & \\ \hline
+mypv.tex:	Šūnu skaits  &60  &60 \\ \hline
+mypv.tex:	Virsmas laukums, $m^2$ &1.64  &1.72 \\ \hline
+mypv.tex:	STC Pmax, $W$ 	&270 &365\\ \hline
+mypv.tex:	NOCT Pmax, $W$  &196 &275\\ \hline
+mypv.tex:	Efektivitāte, \% &16 & 20\\ \hline
+mypv.tex:    \end{tabular}
+mypv.tex:    \end{center}
+mypv.tex:    \label{tab:ja_lg_tipi}
+mypv.tex:\end{table}
+mypv.tex:Paneļu maksimālā jauda ($P_{max}$) tiek testēta pie:
+mypv.tex:\begin{itemize}
+mypv.tex:\item standarta testa nosacījumiem (\textit{Standart test condition} - STC):\\
+mypv.tex:Saules izstarojums 1000 W/m$^2$; apkārtējā temperatūra 25\textdegree C.
+mypv.tex:\item nominālās šūnas darba temperatūras (\textit{Nominal operating cell temperature} - NOCT):\\
+mypv.tex:Saules izstarojums 800 W/m$^2$; apkārtējā temperatūra 20 \textdegree C; vēja ātrums 1 m/s
+mypv.tex:\end{itemize}
+mypv.tex:% ielikt bildi ar to kas saules apstarojumā pazūd no imene
+mypv.tex:\section{Elektriskā shēma}
+mypv.tex:Šajā nodaļā tiek paskaidrotas elektroniskās shēmas (skat.\ref{fig:shema}.att.) komponentes un to funkcionalitāte.
+mypv.tex:\begin{enumerate}
+mypv.tex:\item Saules baterijas (skat. ~\ref{section:mechanism}. un ~\ref{section:tipi}. nodaļas)
+mypv.tex:\item \emph{SmartSolar MPPT} --
+mypv.tex:Saules enerģijas lādētājs savāc enerģiju no saules bateriju paneļiem un noglabā to akumulatoros. Tā mērķis ir novērst bateriju izlādēšanās izraisītos bojājumus. Pirmais skaitlis modeļa nosaukumā apzīmē maksimālo PV slēguma spriegumu, otrais -- maksimālo uzlādes strāvu.
+mypv.tex:\item Līdzstrāvas drošinātāju skapis --
+mypv.tex:strāvas elektroniskais slēdzis, kas nepieciešamības gadījumā atvieno slēgumu un izolē to no barošanas avota.
+mypv.tex:\item \emph{Cyrix-Li-Charge 12/24V -120 A} --
+mypv.tex:Lādēšanas ierobežotājs atslēdzas, kad tā kontroles izvade kļūs brīvi peldoša (\textit{free floathing}), signalizējot par baterijas pārspriegumu vai paaugstinātu temperatūru. Tas pievieno akumulatora lādētāju ar 3 sekunžu aizkavi, ja VE.Bus BMS lādiņa atvienošanas (\textit{Charge Disconnect}) izvade ir augsta (\textit{high}), spriegums uz akumulatora lādētāja savienojuma spailes ir $>= 13.7$ V vai spriegums uz akumulatora spailes ir $>= 2$V.
+mypv.tex:\item Kūstošais drošinātais --
+mypv.tex:izkūst pārslodzes gadījumā, novēršot dārgāku instrumentu bojāšanu.
+mypv.tex:\item \emph{LiFeO4 akumulators 13.8V/90Ah - BMS}
+mypv.tex:\item Šunts -- mazas pretestības ceļš, ko pieslēdz paralēli galvenajam elektriskās ķēdes posmam, lai tajā samazinātu strāvu. PV sistēmās lietots, lai apietu nevēlamu īssavienojumu starp saules baterijas priekšējo un aizmugurējo virsmas kontaktu, ko parasti izraisa pusvadītāja plāksnes bojājumi.
+mypv.tex:\item \emph{BMV-702 Smart} --
+mypv.tex:Akumulatora monitors aprēķina akumulatora spriegumu, strāvas stiprumu, patērēto ampērstundu skaitu, uzlādes stāvokli un atlikušo sistēmas darbības laiku pie pašreizējās izlādes ātruma.
+mypv.tex:\item \emph{VE.BUS BMS} --
+mypv.tex:Bateriju vadības bloks pasargā no akumulatoru bojājumiem uzlādes nelīdzsvatorības dēļ. Baterija ar nedaudz lielāku iekšējās noplūdes strāvu
+mypv.tex:%bateriju bankā ar daudzām virknē vai paralēli savienotām baterijām
+mypv.tex:izraisīs konkrētās baterijas un paralēli savienoto bateriju nepietiekamu uzlādi un virknē savienoto bateriju pārlādi. Taču virknē savienotām baterijām nepieciešams vienāds sākotnējais uzlādes līmenis. Mazas atšķirības uzlādes līmenī tiks novērstas absorbcijas vai izlīdzināšanās ceļā, bet lielas atšķirības izraisīs bojājumus pārmērīgas pārlādes izraisītas gazifikācijas dēļ baterijām ar lielāku sākotnējo uzlādes līmeni un nepietiekamas uzlādes izraisītās sulfācijas dēļ baterijām ar mazāku sākotnējo uzlādes līmeni.
+mypv.tex:Bateriju vadības bloks pielīdzina uzlādes līmeni divām bateriju virknēm vai daudzām paralēli savienotām bateriju virknēm. Kad uzlādes spriegums bateriju sistēmai palielinās līdz sistēmā iestatītajai robežai, baterijas vadības bloks salīdzina spriegumus divās virknēs savienotajās baterijās un samazina strāvas padevi akumulatoram (vai paralēli savienotām baterijām) ar augstāko spriegumu. Rezultātā izveidotais uzlādes strāvas diferenciālis nodrošinās, ka visas baterijas konverģēs vienā uzlādes stāvoklī.
+mypv.tex:% http://www.ultraflexgroup.com/en/catalogue/batteries/09909d-1/1170/vebus-bms.html
+mypv.tex:% sulfācija - Organiskā savienojuma ūdeņraža atoma aizstāšana ar sulfāta (- OSO2OH) funkcionālo grupu vai divu molekulu ūdeņraža atomu aizstāšana, lai veidotu sulfātu (R-OSO2O-R)
+mypv.tex:\item \emph{Octo GX} -- instalācijas sakaru centrs ar tālvadības konsoli tiešraides datu uzraudzībai un iestatījumu maiņai, kurai var piekļūt caur Victorn Attālinātās Pārvaldības Portālu(\textit{Victron Remote Management Portal}, VRM) vai lokālo LAN/WiFI tīklu.
+mypv.tex:% The Octo GX is particularly suited to medium size installations which have many MPPT Solar Chargers, as it has 10 VE.Direct ports
+mypv.tex:\item \emph{MultiPlus 24/3000/70-16 230V VE.Bus}  --
+mypv.tex:Autonoms strāvas inventors DC/AC pārņēm strāvas padevi tīkla avārijas vai ģeneratora strāva atvienošanās gadījumā $<20$ ms laikā, lai elektroniskās iekārtas turpina darboties bez traucējumiem. 
+mypv.tex:\end{enumerate}
+mypv.tex:\begin{figure}[h]
+mypv.tex:    \centering
+mypv.tex:    \includegraphics[width=0.7\linewidth]{figures/misc/shema.pdf}
+mypv.tex:    \caption{Saules paneļu elektriskā shēma (autors Valdis Gailītis, modifikācijas Viktorija Leimane)}
+mypv.tex:    \label{fig:shema}
+mypv.tex:\end{figure}
+mypv.tex:\section{Telpiskās orientācijas}
+mypv.tex:Pēc telpiskās orientācijas saules paneļi tiek iedalīti divās grupās:
+mypv.tex:\begin{itemize}
+mypv.tex:\item 13 grādu leņķī (R13, A13, D13)
+mypv.tex:\item D virzienā (D13, D40, D90)
+mypv.tex:\end{itemize}
+mypv.tex:Lai lasītājam atvieglotu rezultātu interpretāciju, šīs grupas grafikos tiek apzinātas ar krāsām: leņķu grupa tiek apzīmēta ar zaļo krāsu, D virziena grupa ar zilo, abām grupām kopīgais panelis D13 -- ar tirkīzzilu.
+mypv.tex:\begin{figure}[h]
+mypv.tex:    \centering
+mypv.tex:    \includegraphics[width=0.7\linewidth]{figures/misc/krasas_izvietojums.pdf}
+mypv.tex:    \caption{Saules paneļu telpisko orientāciju shēma (autors Valdis Gailītis, modifikācijas Viktorija Leimane)}
+mypv.tex:    \label{fig:paneli}
+mypv.tex:\end{figure}
+mypv.tex:\begin{figure}[h]
+mypv.tex:    \centering
+mypv.tex:    \includegraphics[width=0.7\linewidth]{figures/stenduBildes/overview2.JPG}
+mypv.tex:    \caption{Saules paneļu telpiskās orientācijas dabā (fotogrāfijas autors Māris Šinka)}
+mypv.tex:    \label{fig:paneli}
+mypv.tex:\end{figure}
+definicijas.tex:\section{Definīcijas}
+definicijas.tex:\noindent \textbf{Saules plankums} - magnētiskās plūsmas koncentrācija bipolāros klāsteros vai grupās, kas novērojama kā tumšs plankums uz Saules fotosfēras.\\
+definicijas.tex:\textbf{Saules plankumu cikls} - aptuveni 11 gadus ilga kvaziperiodiska variācija saules plankuma skaitlī. Magnētiskā lauka polaritātes modelis mainās ar katru ciklu.\\
+definicijas.tex:\textbf{Saules plankuma skaitlis} - Dienas saules plankuma aktivitātes indekss (R), definēts kā $R = k(10 \cdot g + s)$, kur
+definicijas.tex:s - individuālo plankumu skaits;
+definicijas.tex:g - saules plankumu grupu skaits;
+definicijas.tex:k - observatorijas faktors.\\
+definicijas.tex:\textbf{SSI} - saules spektrālais starojums vai spektra enerģijas blīvums - saules jaudas izkliede uz virsmas laukuma vienību.\\
+definicijas.tex:% total solar irradiance (TSI) - Solar energy per unit time over a unit area perpendicular to the Sun’s rays at the top of Earth’s atmosphere.
+definicijas.tex:\textbf{TSI} - Saules starojuma absolūtās intensitātes mērījums integrēts visā saules enerģijas diskā un visā saules enerģijas spektrā.\\
+definicijas.tex:% Laboratory for Atmospheric and Space Physics, University of Colorado (2019)
+definicijas.tex:% \\http://lasp.colorado.edu/home/sorce/reference/glossary/
+definicijas.tex:\textbf{Izstarojums} - starojuma avota jaudas incidents uz virsmas laukuma vienību.\\ %Irradiance
+definicijas.tex:\textbf{Saules diennakts kustība} (diurnal motion) - Debess spīdekļu redzamā pārvietošanās pie debess sfēras (rotācija ap pasaules asi) diennakts laikā.\\ %Diurnal motion
+definicijas.tex:% Tās faktiskais cēļonis ir Zemes rotācija ap asi. Diennakts kurstībā visi debess spīdekļi pārvietojas pa debess paralēlēm.
+definicijas.tex:Beam Radiation - the solar radiation received from the sun without having been scattered by the atmosphere (also known as direct solar radiation)
+definicijas.tex:Diffuse Radiation - the solar radiation received from the sun after its direction has been changed by scattering by the atmosphere
+secinajumi.tex:Darba laikā tika izveidota programmatūra, ar kuras palīdzību tika atlasīts, analizēts un apkopots liels datu apjoms par 10 saules paneļu darbību no 2019. gada 1. janvāra līdz 30. aprīlim. Pētījuma datu analīzes rīks ir pieejams \url{https://github.com/chararchter/solR}.
+secinajumi.tex:Darbā iegūtie rezultāti ļauj izdarīt secinājumus, ka no sistēmā esošajiem parametriem efektīvākā kombinācija ir:
+secinajumi.tex:\begin{itemize}
+secinajumi.tex:	\item 40 grādu leņķis
+secinajumi.tex:	\item D virziens
+secinajumi.tex:	\item LG panelis
+secinajumi.tex:	\item aprīļa mēnesis
+secinajumi.tex:\end{itemize}
+secinajumi.tex:% KĻŪDAS!!!?????????
+secinajumi.tex:Saules paneļu efektivitātes dziļāka izpratne pieprasa tālākus pētījumus, it īpaši nolietojuma, putekļu, vēja, nokrišņu un citu apstākļu ietekmes izpētei.

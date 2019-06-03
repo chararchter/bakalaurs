@@ -1,9 +1,15 @@
 \section{Saules apstarojums}
 
 Lielākā daļa Saules izstarotās enerģijas tiek saražota kodolreakcijās fotosfērā. 
-Kopējais saules apstarojums (\textit{Total Solar Irradiance} -- TSI) raksturo Saules starojuma absolūto intensitāti -- enerģiju uz virsmas perpendikulāri starojuma izplatīšanas virzienam 1 AU attālumā no Saules, integrētu visā saules enerģijas diskā un visā saules enerģijas spektrā. TSI vērtībai novērojama aptuveni 11 gadus ilga periodiska variācija, kas korelē ar saules plankumu skaitli (\ref{fig:TSI_misijas}. att.) -- par Saules plankumu sauc magnētiskās plūsmas koncentrāciju bipolāros klāsteros vai grupās izraisītos tumšos plankums uz Saules fotosfēras; Saules plankumu skaitlis ir atkarīgs no individuālu Saules plankumu un to grupu skaita \cite{ThermalProcesses}.
+Kopējais saules apstarojums (\textit{Total Solar Irradiance}, TSI) raksturo Saules starojuma absolūto intensitāti -- enerģiju uz virsmas perpendikulāri starojuma izplatīšanas virzienam 1 AU attālumā no Saules, integrētu visā saules enerģijas diskā un visā saules enerģijas spektrā. TSI vērtībai novērojama aptuveni 11 gadus ilga periodiska variācija, kas korelē ar saules plankumu skaitli (\ref{fig:TSI_misijas}. att.). Par Saules plankumu sauc magnētiskās plūsmas koncentrāciju bipolāros klāsteros vai grupās izraisītos tumšos plankums uz Saules fotosfēras, savukārt Saules plankumu skaitlis ir atkarīgs no individuālu Saules plankumu $s$ un to grupu $g$ skaita, kā arī observatorijas atrašanās vietas faktora $k$
+pēc~\ref{eq:aktivitatesIndex} formulas~\cite{ThermalProcesses}.
 
-TSI norāda uz solārās radiācijas izmaiņām, kas ietekmē saņemto solārās enerģijas apjomu, kas nonāk Zemes atmosfēras augšējos slāņos. Papildus ir noderīgi zināt Saules emitētā starojuma spektrālo sadalījumu (\textit{Spectral Solar Irradiance} -- SSI) -- \ref{fig:SSI}. att. redzams, ka aptuveni puse starojuma tiek saņemta salīdzinoši mazu viļņu garumu - 380 -- 780 nm diapazonā.
+\begin{equation}
+\label{eq:aktivitatesIndex}
+R = k(10 \cdot g + s)
+\end{equation}
+
+TSI norāda uz solārās radiācijas izmaiņām, kas ietekmē saņemto solārās enerģijas apjomu, kas nonāk Zemes atmosfēras augšējos slāņos. Papildus ir noderīgi zināt Saules emitētā starojuma spektrālo sadalījumu (\textit{Spectral Solar Irradiance}, SSI) -- \ref{fig:SSI}. att. redzams, ka aptuveni puse starojuma tiek saņemta salīdzinoši mazu viļņu garumu - 380 -- 780 nm diapazonā.
  % kas padara iespējumu no tā iegūt enerģiju ar saules paneļu paņēmienu pēc formulām \ref{eq:proof}. 
 % kādēļ tieši šis diapazons?
 % atradu cik šī diapazona laukums ir procenti no visa laukuma un negribēju rēķināt citu
@@ -22,7 +28,7 @@ TSI novērojumi no kosmosa tiek veikti kopš 1978. gada un instrumentu specifika
     \label{fig:TSI_misijas}
 \end{figure}
 
-Par labāko Saules apstarojuma mērījumu reprezentāciju tiek uzskatīti Saules Radiācijas un Klimata Eksperimenta (SORCE) misijas Kopējā apstarojuma novērošanas (Total Irradiance Monitor, TIM) instrumenta dati mēraparāta uzbūves -- atšķirībā no citiem radiometriem TIM precizitātes apertūra atrodas tuvu dobumam un redzeslauku bloķējošā apertūra ir pie instrumenta ieejas -- un augstās precizitātes -- nenoteiktība tiek novērtēta esam mazāk nekā $0.014$ $\textrm{W  m}^{-2}\textrm{yr}^{-1}$ un precizitāte ar $0.48$ $\textrm{W  m}^{-2}$ \cite{TSIdata} -- dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $(1360.8 \pm 0.5) \textrm{W m}^{-2}$ ~\cite{Frohlich2012}.
+Par labāko Saules apstarojuma mērījumu reprezentāciju tiek uzskatīti Saules Radiācijas un Klimata Eksperimenta (\textit{Solar Radiation and Climate Experiment}, SORCE) misijas kopējā apstarojuma novērošanas instrumenta (\textit{Total Irradiance Monitor}, TIM)  dati mēraparāta uzbūves -- atšķirībā no citiem radiometriem TIM precizitātes apertūra atrodas tuvu dobumam un redzeslauku bloķējošā apertūra ir pie instrumenta ieejas -- un augstās precizitātes -- nenoteiktība tiek novērtēta esam mazāk nekā $0.014$ $\textrm{W  m}^{-2}\textrm{yr}^{-1}$ un precizitāte ar $0.48$ $\textrm{W  m}^{-2}$ \cite{TSIdata} -- dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $(1360.8 \pm 0.5) \textrm{W m}^{-2}$ ~\cite{Frohlich2012}.
 
 \begin{figure}[h]
     \centering

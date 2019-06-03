@@ -1,144 +1,107 @@
-\section{Saules paneļi}
-\subsection{Saules paneļa tipa ietekme uz ražīgumu}
+\section{Efektivitātes atkarība no parametriem}
+\subsection{Saules paneļa tipa} \label{subsection:tipi}
 
-Pēc tabulām \ref{tab:JA} un \ref{tab:LG}, kā arī grafikiem, kas integrēti diskusijā par citu saules paneļu parametru efektivitātēm (skat. gada griezumā), redzams, ka LG tipa paneļi konsistenti ir efektīvāki par JA tipu. Tas ir saistīts gan ar kristāla veidu - monokristāliska silīcija paneļi tipiski ir ražīgāki par polikristāliem, % kāda iemesla pēc
-gan paneļu maksimālajām jaudām - LG tā ir lielāka nekā JA.
+Pēc tabulām \ref{tab:JA} un \ref{tab:LG}, kā arī grafikiem, kas integrēti diskusijā par citu parametru ietekmi uz efektivitāti (skat. \ref{subsection:gads}. nod.), redzams, ka LG tipa paneļi konsekventi ir efektīvāki par JA tipu. Tas ir saistīts gan ar kristāla veidu -- kā pierādīts \ref{section:tipi}. nod.,  monokristāliska Si paneļi ir ražīgāki par polikristāliem --, gan paneļu maksimālajām jaudām -- LG tā ir lielāka nekā JA.
 
 \begin{table}[h]
-    \caption{JA tipa paneļu saražotā enerģija uz kvadrātmetru}
+    \caption{JA tipa paneļu saražotā enerģija uz kvadrātmetru\\ salīdzināta ar piranometra izmērīto enerģiju}
     \begin{center}
-    \input{figures/ja_whm2.tex}
-    \end{center}
-    \label{tab:JA}
+    \input{figures/ja_kwhm2.tex}
+    \end{center} \label{tab:JA}
 \end{table}
 \begin{table}[h]
-    \caption{LG tipa paneļu saražotā enerģija uz kvadrātmetru}
+    \caption{LG tipa paneļu saražotā enerģija uz kvadrātmetru\\ salīdzināta ar piranometra izmērīto enerģiju}
     \begin{center}
-    \input{figures/lg_whm2.tex}
-    \end{center}
-    \label{tab:LG}
+    \input{figures/lg_kwhm2.tex}
+    \end{center} \label{tab:LG}
 \end{table}
 
-
-\subsection{Efektivitāte}
-
-Efektivitāte atšķiras no ražotāju tehniskajā dokumentācijā dotā. Iespējams tāpēc, ka visu paneļu saules apstarojuma references punktu izvēlējos eksperimentālā poligona meteostacijas datus un nepiereizināju tiem panelim atbilstošo leņķi, jo saules apstarojums mainās no leņķa.
-% you better do it fast 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/results/ja_m2.pdf}
-    \caption{JA tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
-    \label{fig:ja}
-\end{figure}
-\begin{table}[h]
-    \caption{JA tipa paneļu efektivitāte procentos}
-    \begin{center}
-    \input{figures/ja_whm2_eff_percent.tex}
-    \end{center}
-    \label{tab:JA_eff}
-\end{table}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/results/lg_m2.pdf}
-    \caption{LG tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
-    \label{fig:lg}
-\end{figure}
-\begin{table}[h]
-    \caption{LG tipa paneļu efektivitāte procentos}
-    \begin{center}
-    \input{figures/lg_whm2_eff_percent.tex}
-    \end{center}
-    \label{tab:LG_eff}
-\end{table}
-
-
-%%%%%%%%%
-\subsection{Saules paneļa leņķa ietekme uz ražīgumu}
-Kopumā var secināt, ka 90 grādu leņķi ir ražīgāki ziemas mēnešos un 13 grādu leņķi -- vasaras mēnešos, jo tā paredz Saules diennakts kustības maiņa gada griezumā. Apkopojot četru mēnešu datus un abus paneļu tipus, visražīgākais leņķis ir 40 grādu.
+% %%%%%%%%%
+\subsection{Saules paneļa leņķa}\label{subsection:degree}
+Apkopojot četru mēnešu datus un abus paneļu tipus, visražīgākais leņķis ir 40\textdegree.
+Kopumā var secināt, ka paneļi 90\textdegree ~leņķī ir saražo vairāk enerģijas ziemas mēnešos un 13\textdegree ~leņķī -- vasaras mēnešos, tātad apstrinās teorijā prognozētais (skat.\ref{section:kustiba}.nod).
 % Tas sakrīt ar [ielikt grafiku ar LV karti un optimālo leņķi bet es neatceros no kurienes paņēmu to].
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{figures/results/jan_all_deg.pdf}
-    \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa}
-    \label{fig:ja_deg}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/results/degType.pdf}
-    \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa}
-    \label{fig:lg_ja_deg}
+    \includegraphics[width=\linewidth]{figures/results/all_degType.pdf}
+    \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa} \label{fig:lg_ja_deg}
 \end{figure}
 
-\subsection{Saules paneļa virziena ietekme uz ražīgumu}
-Dienvidi ir visražīgākais virziens, tad austrumi, tad rietumi.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/results/jan_all_dir.pdf}
-    \caption{13 grādu leņķī vērsto saules paneļu atkarība no virziena un saules paneļu tipa}
-    \label{fig:ja_dir}
-\end{figure}
 
+\subsection{Saules paneļa virziena}\label{subsection:dir}
+Visražīgākais virziens ir D, tad A, tad R. To paskaidro \ref{subsection:month_day}. nod. redzamie paneļu saražotās enerģijas dienas sadalījumi.
+% no idea why tho
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{figures/results/dirType.pdf}
+    \includegraphics[width=\linewidth]{figures/results/all_dirType.pdf}
     \caption{13 grādu leņķī vērsto saules paneļu atkarība no virziena un saules paneļu tipa}
     \label{fig:lg_ja_dir}
 \end{figure}
 
-\subsection{Saules paneļa leņķa un virziena ietekme uz dienā saražotās enerģījas sadalījumu}
-Kā redzams \ref{fig:feb_ar}, \ref{fig:mar_ar}, \ref{fig:apr_ar}. att., eksperimentāli noteiktais dienas sadalījums sakrīt ar teorētiski prognozēto \ref{fig:cos-theta}.att.
+\subsection{Saules paneļa leņķa un virziena kombinācijas}
+\label{subsection:month_day}
+
+Saules paneļu saņemtā apstarojuma dienas sadalījuma tendenci drīkst salīdzināt ar attiecīgo paneļu saražotās enerģijas tendenci, jo pēdējā ir atkarīga no paneļa virsmas saņemtā Saules apstarojuma, kas savukārt ir funkcija no $cos(\theta)$, tātad proporcionāla tam. Salīdzinot \ref{fig:cos-theta}.(c) ar 
+\ref{fig:toldU}, tiek secināts, ka eksperimentālie rezultāti sakrīt ar teoriju.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\linewidth]{figures/sol_day/feb_A13JA.pdf}
-    \includegraphics[width=\linewidth]{figures/sol_day/feb_R13JA.pdf}
-    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi februārī}
-    \label{fig:feb_ar}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/sol_day/mar_A13JA.pdf}
-    \includegraphics[width=\linewidth]{figures/sol_day/mar_R13JA.pdf}
-    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi martā}
-    \label{fig:mar_ar}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/sol_day/apr_A13JA.pdf}
-    \includegraphics[width=\linewidth]{figures/sol_day/apr_R13JA.pdf}
-    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi aprīlī}
-    \label{fig:apr_ar}
+    \includegraphics[width=\linewidth]{figures/sol_day/apr_LG_13.pdf}
+    \includegraphics[width=\linewidth]{figures/sol_day/apr_LG_D.pdf}
+    \caption{Saules paneļu saražotās enerģijas dienas sadalījuma līkne vidējotiem 27-30. aprīļa datiem} \label{fig:toldU}
 \end{figure}
 
 % \begin{figure}[h]
 %     \centering
-%     \includegraphics[width=\linewidth]{figures/sol_month/feb_Dir_d.pdf}
-%     \includegraphics[width=\linewidth]{figures/sol_month/feb_Deg_d.pdf}
-%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa februārī}
-%     \label{fig:feb_degDir}
+%     \includegraphics[width=\linewidth]{figures/sol_day/feb_A13JA.pdf}
+%     \includegraphics[width=\linewidth]{figures/sol_day/feb_R13JA.pdf}
+%     \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi februārī}
+%     \label{fig:feb_ar}
+% \end{figure}
+
+% Kā redzams \ref{fig:feb_ar}, \ref{fig:mar_ar}, \ref{fig:apr_ar}. att., eksperimentāli noteiktais dienas sadalījums sakrīt ar teorētiski prognozēto \ref{fig:cos-theta}.att.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/sol_day/mar_A13JA.pdf}
+%     \includegraphics[width=\linewidth]{figures/sol_day/mar_R13JA.pdf}
+%     \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi martā}
+%     \label{fig:mar_ar}
 % \end{figure}
 
 % \begin{figure}[h]
 %     \centering
-%     \includegraphics[width=\linewidth]{figures/sol_month/mar_Dir_d.pdf}
-%     \includegraphics[width=\linewidth]{figures/sol_month/mar_Deg_d.pdf}
-%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa martā}
-%     \label{fig:mar_degDir}
+%     \includegraphics[width=\linewidth]{figures/sol_day/apr_A13JA.pdf}
+%     \includegraphics[width=\linewidth]{figures/sol_day/apr_R13JA.pdf}
+%     \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi aprīlī}
+%     \label{fig:apr_ar}
 % \end{figure}
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\linewidth]{figures/sol_month/apr_Dir_d.pdf}
-%     \includegraphics[width=\linewidth]{figures/sol_month/apr_Deg_d.pdf}
-%     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa aprīlī}
-%     \label{fig:apr_degDir}
-% \end{figure}
+% % \begin{figure}[h]
+% %     \centering
+% %     \includegraphics[width=\linewidth]{figures/sol_month/feb_Dir_d.pdf}
+% %     \includegraphics[width=\linewidth]{figures/sol_month/feb_Deg_d.pdf}
+% %     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa februārī}
+% %     \label{fig:feb_degDir}
+% % \end{figure}
 
-\subsection{Gada mēneša ietekme uz ražīgumu} % label chapter un atsaukties pirmajā apakšnodaļā uz šo
-Pēc \ref{fig:jan_sum}, \ref{fig:feb_sun}, \ref{fig:apr_sum}, \ref{fig:apr_sum}. att., tiek izdarīti secinājumi par saules paneļu ražīguma atkarību no gada mēneša. Janvārī visražīgākais panelis ir D.90, otrs ražīgākais - D.40, kas atbilst janvārim raksturīgajai Saules diennakts kustībai -- zemu pie horzionta. \ref{fig:feb_sun}. att. redzams, ka februārī D.40 kļūst ražīgāks nekā D.90, tāpat redzams, ka mazāku leņķu paneļi - R.13 un A.13 ir palielinājuši ražīgumu. Šī tendence turpinās arī marta un aprīļa mēnešos.
+% % \begin{figure}[h]
+% %     \centering
+% %     \includegraphics[width=\linewidth]{figures/sol_month/mar_Dir_d.pdf}
+% %     \includegraphics[width=\linewidth]{figures/sol_month/mar_Deg_d.pdf}
+% %     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa martā}
+% %     \label{fig:mar_degDir}
+% % \end{figure}
+
+% % \begin{figure}[h]
+% %     \centering
+% %     \includegraphics[width=\linewidth]{figures/sol_month/apr_Dir_d.pdf}
+% %     \includegraphics[width=\linewidth]{figures/sol_month/apr_Deg_d.pdf}
+% %     \caption{Saules paneļu saražotā enerģija atkarībā no virziena un leņķa aprīlī}
+% %     \label{fig:apr_degDir}
+% % \end{figure}
+
+\subsection{Gada mēneša} \label{subsection:gads}
+Pēc \ref{fig:jan_sum}, \ref{fig:feb_sun}, \ref{fig:apr_sum}, \ref{fig:apr_sum}. att., tiek izdarīti secinājumi par saules paneļu ražīguma atkarību no gada mēneša. Janvārī visražīgākais panelis ir D.90, otrs ražīgākais - D.40, kas atbilst janvārim raksturīgajai Saules diennakts kustībai -- zemu pie horzionta. \ref{fig:feb_sun}. att. redzams, ka februārī D.40 kļūst ražīgāks nekā D.90, tāpat redzams, ka mazāku leņķu paneļi -- R.13 un A.13 -- ir palielinājuši ražīgumu. Šī tendence turpinās arī marta un aprīļa mēnešos.
 
 \begin{figure}[h]
     \centering
@@ -154,12 +117,12 @@ Pēc \ref{fig:jan_sum}, \ref{fig:feb_sun}, \ref{fig:apr_sum}, \ref{fig:apr_sum}.
     \label{fig:feb_sum}
 \end{figure}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\linewidth]{figures/sol_month/mar_m_m2.pdf}
-    \caption{Saules paneļu saražotā enerģija martā}
-    \label{fig:mar_sum}
-\end{figure}
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/sol_month/mar_m_m2.pdf}
+%     \caption{Saules paneļu saražotā enerģija martā}
+%     \label{fig:mar_sum}
+% \end{figure}
 
 \begin{figure}[h]
     \centering
@@ -167,3 +130,37 @@ Pēc \ref{fig:jan_sum}, \ref{fig:feb_sun}, \ref{fig:apr_sum}, \ref{fig:apr_sum}.
     \caption{Saules paneļu saražotā enerģija aprīlī}
     \label{fig:apr_sum}
 \end{figure}
+
+
+% \subsection{Efektivitāte}\label{subsection:effectivity}
+
+% Izmērītā paneļu efektivitāte atšķiras no ražotāju tehniskajā dokumentācijā dotā. Atšķirības tiek skaidrotas ar efektivitātes mērīšanas veidu -- standarta testi tiek veikti pie konstanta izstarojuma (1000 W/m$^2$ un 800 W/m$^2$), tomēr reālā poligona apstākļos saņemtais starojums ir mainīgs.
+% % Iespējams tāpēc, ka visu paneļu saules apstarojuma references punktu izvēlējos eksperimentālā poligona meteostacijas datus un nepiereizināju tiem panelim atbilstošo leņķi, jo saules apstarojums mainās no leņķa.
+% % you better do it fast 
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/results/ja_m2.pdf}
+%     \caption{JA tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
+%     \label{fig:ja}
+% \end{figure}
+% \begin{table}[h]
+%     \caption{JA tipa paneļu efektivitāte procentos}
+%     \begin{center}
+%     \input{figures/ja_whm2_eff_percent.tex}
+%     \end{center}
+%     \label{tab:JA_eff}
+% \end{table}
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=\linewidth]{figures/results/lg_m2.pdf}
+%     \caption{LG tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas stacijas saules apstarojuma datiem (sarkanā krāsā)}
+%     \label{fig:lg}
+% \end{figure}
+% \begin{table}[h]
+%     \caption{LG tipa paneļu efektivitāte procentos}
+%     \begin{center}
+%     \input{figures/lg_whm2_eff_percent.tex}
+%     \end{center}
+%     \label{tab:LG_eff}
+% \end{table}
