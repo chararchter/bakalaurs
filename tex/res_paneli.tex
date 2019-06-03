@@ -3,13 +3,13 @@
 
 Pēc tabulām \ref{tab:JA} un \ref{tab:LG}, kā arī grafikiem, kas integrēti diskusijā par citu parametru ietekmi uz efektivitāti (skat. \ref{subsection:gads}. nod.), redzams, ka LG tipa paneļi konsekventi ir efektīvāki par JA tipu. Tas ir saistīts gan ar kristāla veidu -- kā pierādīts \ref{section:tipi}. nod.,  monokristāliska Si paneļi ir ražīgāki par polikristāliem --, gan paneļu maksimālajām jaudām -- LG tā ir lielāka nekā JA.
 
-\begin{table}[h]
+\begin{table}[h!]
     \caption{JA tipa paneļu saražotā enerģija uz kvadrātmetru\\ salīdzināta ar piranometra izmērīto enerģiju}
     \begin{center}
     \input{figures/ja_kwhm2.tex}
     \end{center} \label{tab:JA}
 \end{table}
-\begin{table}[h]
+\begin{table}[h!]
     \caption{LG tipa paneļu saražotā enerģija uz kvadrātmetru\\ salīdzināta ar piranometra izmērīto enerģiju}
     \begin{center}
     \input{figures/lg_kwhm2.tex}
@@ -21,7 +21,7 @@ Pēc tabulām \ref{tab:JA} un \ref{tab:LG}, kā arī grafikiem, kas integrēti d
 Apkopojot četru mēnešu datus un abus paneļu tipus, visražīgākais leņķis ir 40\textdegree ~(skat.~\ref{fig:lg_ja_deg}. att.).
 Kopumā var secināt, ka paneļi 90\textdegree ~leņķī ir saražo vairāk enerģijas ziemas mēnešos un 13\textdegree ~leņķī -- vasaras mēnešos, tātad apstrinās teorijā (\ref{section:kustiba}.nod.) prognozētais.
 % Tas sakrīt ar [ielikt grafiku ar LV karti un optimālo leņķi bet es neatceros no kurienes paņēmu to].
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/results/all_degType.pdf}
     \caption{D virzienā vērsto saules paneļu saražotā enerģija atkarībā no leņķa un saules paneļu tipa} \label{fig:lg_ja_deg}
@@ -30,7 +30,7 @@ Kopumā var secināt, ka paneļi 90\textdegree ~leņķī ir saražo vairāk ener
 
 \subsection{Saules paneļa virziena}\label{subsection:dir}
 Visražīgākais virziens ir D, tad A, tad R (skat.~\ref{fig:lg_ja_dir}. att.). To paskaidro \ref{subsection:month_day}. nod. redzamie paneļu saražotās enerģijas dienas sadalījumi.
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/results/all_dirType.pdf}
     \caption{13 grādu leņķī vērsto saules paneļu atkarība no virziena un saules paneļu tipa}
@@ -50,7 +50,7 @@ Saules paneļu saņemtā apstarojuma dienas sadalījuma tendenci drīkst salīdz
     \caption{Saules paneļu saražotās enerģijas dienas sadalījuma līkne vidējotiem 27-30. aprīļa datiem} \label{fig:toldU}
 \end{figure}
 
-Turpmāk apskatīta apstarojuma dienas sadalījums mēnešos. Kā redzams \ref{fig:mar_ar}, \ref{fig:apr_ar}. att., eksperimentāli noteiktais dienas sadalījums sakrīt ar teorētiski prognozēto \ref{fig:cos-theta}. att.
+Turpmāk apskatīts apstarojuma dienas sadalījums mēnešos. Kā redzams \ref{fig:mar_ar}, \ref{fig:apr_ar}. att., eksperimentāli noteiktais dienas sadalījums sakrīt ar teorētiski prognozēto \ref{fig:cos-theta}. att.
 % \begin{figure}[h]
 %     \centering
 %     \includegraphics[width=\linewidth]{figures/sol_day/feb_A13JA.pdf}
@@ -63,7 +63,7 @@ Turpmāk apskatīta apstarojuma dienas sadalījums mēnešos. Kā redzams \ref{f
     \centering
     \includegraphics[width=\linewidth]{figures/sol_day/mar_A13JA.pdf}
     \includegraphics[width=\linewidth]{figures/sol_day/mar_R13JA.pdf}
-    \caption{A un R virzienu saules paneļu 5 minūtēs vidējotu Wh dienas sadalījumi martā}
+    \caption{A un R virzienu saules paneļu 5 min intervālos integrētu jaudu dienas sadalījumi martā}
     \label{fig:mar_ar}
 \end{figure}
 
@@ -133,12 +133,12 @@ Pēc \ref{fig:jan_sum}, \ref{fig:feb_sum}, \ref{fig:mar_sum}, \ref{fig:apr_sum}.
 
 \subsection{Salīdzinošā analīze}\label{subsection:effectivity}
 
-Eksperimentāli noteiktā paneļu efektivitāte nav pretrunā ne ar ražotāju tehniskajā dokumentācijā doto, nedz teorētiski iespējamo pēc S-Q modeļa. 
+Eksperimentāli noteiktā paneļu efektivitāte (skat.~\ref{tab:eff_type}. tab.) nav pretrunā ne ar ražotāju tehniskajā dokumentācijā doto, nedz teorētiski iespējamo pēc S-Q modeļa. 
 % Izmērītā paneļu efektivitāte atšķiras no ražotāju tehniskajā dokumentācijā dotā. Atšķirības tiek skaidrotas ar efektivitātes mērīšanas veidu -- standarta testi tiek veikti pie konstanta izstarojuma (1000 W/m$^2$ un 800 W/m$^2$), tomēr reālā poligona apstākļos saņemtais starojums ir mainīgs.
 % Iespējams tāpēc, ka visu paneļu saules apstarojuma references punktu izvēlējos eksperimentālā poligona meteostacijas datus un nepiereizināju tiem panelim atbilstošo leņķi, jo saules apstarojums mainās no leņķa.
 % you better do it fast 
 
-\begin{table}[h]
+\begin{table}[h!]
     \caption{JA un LG tipa paneļu efektivitāte procentos}
     \begin{center}
     \input{figures/eff_type.tex}
@@ -146,13 +146,13 @@ Eksperimentāli noteiktā paneļu efektivitāte nav pretrunā ne ar ražotāju t
     \label{tab:eff_type}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/results/JAm2_w.pdf}
     \caption{JA tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas saules apstarojuma datiem (sarkanā krāsā)}
     \label{fig:ja}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/results/LGm2_w.pdf}
     \caption{LG tipa paneļu saražotais mēnesī salīdzinājumā ar eksperimentālā poligona meteostacijas saules apstarojuma datiem (sarkanā krāsā)}

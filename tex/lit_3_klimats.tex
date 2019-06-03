@@ -13,7 +13,7 @@ Kopējais mākoņu daudzums tiek iedalīts 10 klasēs no 0 (pilnīgi skaidrs) l�
 	\label{fig:makoni_Riga}
 \end{figure}
 
-Mākoņu ietekme uz Saules apstarojumu ir netriviāla un atkarīga no dažādiem parametriem. Piemēram, dažreiz mākoņainība var pat nedaudz palielināt Saules apstarojumu ~\cite{CloudCoverageImpactOnIrradiance}. Šis šķietami kontraintuitīvais rezultāts izskaidrojams ar to, ka Saule nav nosegta pilnībā, un baltie mākoņi mēdz būt gaišāki nekā pašas debesis saulainā dienā (skat. \ref{fig:makoni_ietekme}. (b) attēlā), tādējādi tiešā normālā apstarojuma (\textit{Direct normal irradiation}, DNI) komponentes samazināšanās tiek kompensēta ar palielinātu gaismas izkliedi. 
+Mākoņu ietekme uz Saules apstarojumu ir netriviāla un atkarīga no dažādiem parametriem. Piemēram, dažreiz mākoņainība var pat nedaudz palielināt Saules apstarojumu. Šis šķietami kontraintuitīvais rezultāts izskaidrojams ar to, ka Saule nav nosegta pilnībā, un baltie mākoņi mēdz būt gaišāki nekā pašas debesis saulainā dienā (skat. \ref{fig:makoni_ietekme}. (b) attēlā), tādējādi tiešā normālā apstarojuma (\textit{Direct normal irradiation}, DNI) komponentes samazināšanās tiek kompensēta ar palielinātu gaismas izkliedi~\cite{CloudCoverageImpactOnIrradiance}. 
 
 Savukārt gadījumos, kad mākoņi aizsedz Sauli (skat. \ref{fig:makoni_ietekme}. (c) attēlā), apstarojums $\approx99\%$ gadījumu samazinās, kā tas bija paredzams.
 % Tomēr korelācija starp iegūto enerģiju un mākoņu daudzumu ir pat nedaudz pozitīva, kas atkal notiek palielinātas gaismas izkliedes dēļ. 
@@ -27,7 +27,7 @@ Pētījumi rāda, ka mākoņi absorbē par 25 W/m$^2$ vairāk gaismas, nekā teo
 	\label{fig:makoni_ietekme}
 \end{figure}
 
-Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinātājs (\textit{Cloud Modification Factor}, CMF), ko definē kā attiecību starp apstarojumu gadījumos ar un bez mākoņiem, atkarībā no mākoņu tipa ir apkopots \ref{tab:CMF}. tabulā. Ir jāņem vērā, ka CMF ir atkarīgs no viļņa garuma. Tomēr ultravioletais CMF no redzamās gaismas CMF ir atkarīgs lineāri ar koeficientiem $\approx0.6-1$ gubumākoņu gadījumā un eksponenciāli spalvmākoņu gadījumā.
+Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinātājs (\textit{Cloud Modification Factor}, CMF), ko definē kā attiecību starp apstarojumu gadījumos ar un bez mākoņiem, atkarībā no mākoņu tipa ir apkopots \ref{tab:CMF}. tabulā. Ir jāņem vērā, ka CMF ir atkarīgs no viļņa garuma. Tomēr ultravioletais CMF no redzamās gaismas CMF ir atkarīgs lineāri ar koeficientiem $\approx0.6-1$ gubumākoņu gadījumā un eksponenciāli spalvmākoņu gadījumā~\cite{effectCloudsOnSurface}.
 
 \begin{table}[h]
 	\caption{CMF intervāls atkarībā no mākoņu tipa~\cite{effectCloudsOnSurface},~\cite{cloudAtlas}}
@@ -42,7 +42,7 @@ Mākoņu ietekme ir atkarīga arī no to veida. Mākoņu modifikācijas reizinā
 	\label{tab:CMF}
 \end{table}
 
-Modelēt saules apstarojumu, kas nonāk paneļu virsmas, komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo TSI mainās tikai ap $\pm 0.7$ W/m$^2$ gadā (solāro paneļu datu uzņemšanas laikā tas mainās par $\pm 0.225$ W/m$^2$ jeb 0.03 \%), kā tas ir redzams\ref{fig:TSI2}. attēlā.
+Modelēt saules apstarojumu, kas nonāk paneļu virsmas, komplicē ne tikai mākoņu ietekme, bet arī Saules apstarojuma izmaiņas laikā. Tomēr šī darba ietvaros to var neņemt vērā, jo TSI mainās tikai ap $\pm 0.7$ W/m$^2$ gadā (solāro paneļu datu uzņemšanas laikā tas mainās par $\pm 0.225$ W/m$^2$ jeb 0.03 \%), kā tas ir redzams~\ref{fig:TSI2}. attēlā.
 
 Atsaucoties uz TIM satelīta izmērīto saules gaismā ietverto enerģiju (skat.~\ref{fig:SSI}. att.), šis grafiks (skat.~\ref{fig:zudumi}. att.) attēlo enerģijas zudumus dažādiem viļņu garumiem absorbējoties atmosfērā, kā arī siltuma un sprieguma zudumus saules šūnā.
 
@@ -73,30 +73,23 @@ Globālais horizontālais apstarojums (\textit{Global horizontal irradiance}, GH
 \text{GHI}=\text{DHI} + \text{DNI}\times \cos(z)
 \end{equation}
 
-
-
-\begin{equation}
-\label{eq:delta}
-    \delta = 23 \sin \left( 360 \cdot \frac{284+n}{365} \right),
-\end{equation}
-
 Salīdzinot \ref{fig:lv_GHI}. un  \ref{fig:lv_DNI}. attēlus redzams, ka GHI ir nedaudz lielāks par DNI, tātad redzams izkliedētā starojuma ieguldījums. Saules fotoelementa potenciālās jaudas (\textit{Photovoltaic power potential}, PVOUT) karte sniedz apkopojumu par prognozēto saules fotoelektrisko elementu (\textit{photovoltaics}, PV) enerģijas ražošanas apjomu, pieņemot 1kW jaudas Si materiāla PV spēkstacijas, gada patēriņam optimizētu slīpuma leņķi (skat. \ref{fig:lv_PVOUT}. att.). Pēc šiem datiem kopumā var secināt, ka saules paneļi ir piemērots risinājums enerģijas ieguvei arī Latvijā.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\linewidth]{figures/misc/LV_DNI.png}
+    \includegraphics[width=0.8\linewidth]{figures/misc/LV_DNI.png}
     \caption{Tiešais normālais apstarojums Latvijā \cite{solargis}}
     \label{fig:lv_DNI}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\linewidth]{figures/misc/LV_GHI.png}
+    \includegraphics[width=0.8\linewidth]{figures/misc/LV_GHI.png}
     \caption{Globālais horizontālais apstarojums Latvijā \cite{solargis}}
     \label{fig:lv_GHI}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[t]
     \centering
-    \includegraphics[width=0.6\linewidth]{figures/misc/LV_PVOUT.png}
+    \includegraphics[width=0.8\linewidth]{figures/misc/LV_PVOUT.png}
     \caption{PV potenciālā jauda Latvijā \cite{solargis}}
     \label{fig:lv_PVOUT}
 \end{figure}

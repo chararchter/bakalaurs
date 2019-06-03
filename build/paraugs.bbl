@@ -122,34 +122,6 @@
     \strng{fullhash}{FC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The record of total solar irradiance (TSI) during the past 35 years has
-  overlapping observations from space which can be merged to a composite, and
-  three are available, namely the PMOD, the ACRIM and the IRMB composites.
-  There are important differences between them, which are discussed in detail
-  in order to find the best representation of solar variability during the last
-  three cycles, for the following discussions of solar irradiance variability.
-  Moreover, the absolute value of TSI from TIM on SORCE is 1,361 Wm−2,
-  substantially lower than the value 1,365 Wm−2, which was observed by the
-  classical radiometers. New results from specific experiments are now
-  available, which are discussed in order to define the value to be used in,
-  e.g., climate models. The most important issue regarding the recent TSI
-  records is the low value observed during the minimum in 2009, which is 25{\%}
-  of a typical cycle amplitude lower than the value in 1996. The validity of
-  this low value has been confirmed by comparing all existing TSI observations
-  during cycle 23. On the other hand, activity indices, such as the sunspot
-  number, the 10.7-cm radio flux (F10.7), the CaII and MgII indices and also
-  the Ly-$\alpha$ irradiance or the frequency changes in low-order p modes,
-  show a much smaller decreases relative to their respective typical cycle
-  amplitude. It is most likely that an increasing contrast of the facular and
-  network elements with decreasing magnetic field is responsible for this
-  discrepancy. The value of TSI at minima is correlated with the open magnetic
-  field of the Sun, BR, at minima. Using BR at minima, interpolated linearly
-  in between as a fourth component of a proxy model based on the photometric
-  sunspot index and on the MgII index improves the explanation of the variance
-  of TSI over the full period of the last three solar cycles to 84.7{\%}.
-  Results from other models are also discussed.%
-    }
     \verb{doi}
     \verb 10.1007/s10712-011-9168-5
     \endverb
@@ -272,15 +244,15 @@
 
   \entry{cloudsModlab}{report}{}
     \name{author}{1}{}{%
-      {{hash=UBe}{%
-         family={U.\bibnamedelima Bethers},
-         familyi={U\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={et.al.},
-         giveni={e\bibinitperiod},
+      {{hash=eUB}{%
+         family={et.al.},
+         familyi={e\bibinitperiod},
+         given={U.\bibnamedelima Bethers},
+         giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
-    \strng{namehash}{UBe1}
-    \strng{fullhash}{UBe1}
+    \strng{namehash}{eUB1}
+    \strng{fullhash}{eUB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Skatīts: 2019-05-26}
@@ -314,38 +286,6 @@
     \strng{fullhash}{aGPRLMJBLe1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    In Lauder, Central Otago, New Zealand, two all-sky imaging systems have
-  been in operation for more than 1 yr, measuring the total, opaque, and thin
-  cloud fraction, as well as indicating whether the sun is obscured by clouds.
-  The data provide a basis for investigating the impact of clouds on the
-  surface radiation field. The all-sky cloud parameters were combined with
-  measurements of global, direct, and diffuse surface solar irradiance over the
-  spectral interval from 0.3 to 3 μm. Here, the results of ongoing analysis of
-  this dataset are described. As a reference for the magnitude of the cloud
-  influence, clear-sky irradiance values are estimated as a simple function of
-  solar zenith angle and the earth–sun distance. The function is derived from
-  a least squares fit to measurements taken when available cloud images show
-  clear-sky situations. Averaged over a longer time period, such as 1 month,
-  cloud fraction and surface irradiance are clearly negatively correlated.
-  Monthly means in the ratio of the measured surface irradiance to the
-  clear-sky value had a correlation coefficient of about −0.9 with means of
-  cloud fraction for the months from July 2000 to June 2001. In the present
-  work reductions in the surface irradiance and situations in which clouds
-  cause radiation values to exceed the expected clear-sky amount are analyzed.
-  Over 1 yr of observations, 1-min-averaged radiation measurements exceeding
-  the expected clear-sky value by more than 10\% were observed with a frequency
-  of 5\%. In contrast, a reduction of more than 10\% below estimated clear-sky
-  values occurred in 66\% of the cases, while clear-sky irradiances (measured
-  irradiance within ±10\% of estimated clear-sky value) were observed 29\% of
-  the time. Low cloud fractions frequently lead to moderate enhancement,
-  because the sun is often unobscured and the clouds are brighter than the sky
-  that they hide. As cloud fraction increases the sun is likely to be obscured,
-  causing irradiance values to fall well below clear-sky values. However, in
-  the case of unobscured sun, there is a tendency for strongest enhancements
-  when cloud fractions are highest. Enhancements, especially at high solar
-  zenith angle, are also often observed in association with thin clouds.%
-    }
     \verb{doi}
     \verb 10.1175/1520-0450(2003)042<1421:CCBOAI>2.0.CO;2
     \endverb
@@ -452,22 +392,21 @@
   significant differences, which allows the distinction between them.
   Stratocumulus clouds show large attenuations and a linear relation with
   larger slopes as the solar zenith angle (SZA) increases. For this type of
-  clouds an average slope of (1.0 ± 0.2) was found. The relation between the
-  CMF for cumulus clouds is linear with an average slope of (0.61 ± 0.01).
-  No dependence with the SZA was observed. Cirrus clouds plots show an
-  exponential behavior with fit parameters equal to (0.48 ± 0.08) and
-  (0.68 ± 0.15). However, when small SZA intervals are analyzed a linear
-  relation is found. When the relations between the CMF were similar (cumulus
-  and cirrus), the spectral variation in the UV range (320–420 nm) of a
-  modified CMF (CMFm) was used to distinguish them. Hence, the spectral
-  differences among the three types of clouds have been also analyzed for
-  several days and SZA. Here, it was found that the effect of cirrus is
-  essentially wavelength independent while cumulus and stratocumulus clouds
-  show exponential decay relations but with different ordinates. In the
-  analyzed relations the microphysical properties of the clouds seem to
-  determine its behavior while the optical thickness leads to the different
-  degrees of attenuation. The results obtained in this work are in agreement
-  with those found for other authors.%
+  clouds an average slope of (1.0 ± 0.2) was found. The relation between the
+  CMF for cumulus clouds is linear with an average slope of (0.61 ± 0.01). No
+  dependence with the SZA was observed. Cirrus clouds plots show an exponential
+  behavior with fit parameters equal to (0.48 ± 0.08) and (0.68 ± 0.15).
+  However, when small SZA intervals are analyzed a linear relation is found.
+  When the relations between the CMF were similar (cumulus and cirrus), the
+  spectral variation in the UV range (320–420 nm) of a modified CMF (CMFm)
+  was used to distinguish them. Hence, the spectral differences among the three
+  types of clouds have been also analyzed for several days and SZA. Here, it
+  was found that the effect of cirrus is essentially wavelength independent
+  while cumulus and stratocumulus clouds show exponential decay relations but
+  with different ordinates. In the analyzed relations the microphysical
+  properties of the clouds seem to determine its behavior while the optical
+  thickness leads to the different degrees of attenuation. The results obtained
+  in this work are in agreement with those found for other authors.%
     }
     \verb{doi}
     \verb https://doi.org/10.1016/j.atmosenv.2009.02.065
@@ -627,22 +566,17 @@
   \endentry
 
   \entry{improvePerformance}{article}{}
-    \name{author}{2}{}{%
-      {{hash=WC}{%
-         family={Wani},
-         familyi={W\bibinitperiod},
-         given={Chandrakant},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=KGK}{%
-         family={Kumar\bibnamedelima Gupta},
-         familyi={K\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Krishna},
-         giveni={K\bibinitperiod},
+    \name{author}{1}{}{%
+      {{hash=GCWKK}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima Wani; K.\bibnamedelima K.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  K\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
     }
-    \strng{namehash}{WCKGK1}
-    \strng{fullhash}{WCKGK1}
+    \strng{namehash}{GCWKK1}
+    \strng{fullhash}{GCWKK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -659,36 +593,23 @@
   \endentry
 
   \entry{Sani_2018}{article}{}
-    \name{author}{4}{}{%
-      {{hash=SA}{%
-         family={Sani},
-         familyi={S\bibinitperiod},
-         given={Arman},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=WE}{%
-         family={Warman},
-         familyi={W\bibinitperiod},
-         given={Eddy},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=DAPS}{%
-         family={Depari},
-         familyi={D\bibinitperiod},
-         given={Andre Pranata\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-      {{hash=S}{%
-         family={Suherman},
-         familyi={S\bibinitperiod},
+    \name{author}{1}{}{%
+      {{hash=eASEWAPSD}{%
+         family={et.al},
+         familyi={e\bibinitperiod},
+         given={A.\bibnamedelima Sani; E. Warman; A. Pranata; S.\bibnamedelima
+  Depari},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {{IOP} Publishing}%
     }
-    \strng{namehash}{SA+1}
-    \strng{fullhash}{SAWEDAPSS1}
+    \strng{namehash}{eASEWAPSD1}
+    \strng{fullhash}{eASEWAPSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
@@ -786,6 +707,19 @@
     \endverb
     \field{month}{04}
     \field{year}{2016}
+  \endentry
+
+  \entry{victron}{manual}{}
+    \list{organization}{1}{%
+      {Victron Energy B.V.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Skatīts: 2019-06-01}
+    \field{title}{Victron Energy Product Datasheets}
+    \verb{url}
+    \verb https://www.victronenergy.com/support-and-downloads/datasheets
+    \endverb
+    \field{year}{2019}
   \endentry
 
   \entry{pyranometer}{manual}{}
