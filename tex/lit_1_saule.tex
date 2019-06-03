@@ -1,7 +1,7 @@
 \section{Saules apstarojums}
 
 Lielākā daļa Saules izstarotās enerģijas tiek saražota kodolreakcijās fotosfērā. 
-Kopējais saules apstarojums (\textit{Total Solar Irradiance}, TSI) raksturo Saules starojuma absolūto intensitāti -- enerģiju uz virsmas perpendikulāri starojuma izplatīšanas virzienam 1 AU attālumā no Saules, integrētu visā saules enerģijas diskā un visā saules enerģijas spektrā. TSI vērtībai novērojama aptuveni 11 gadus ilga periodiska variācija, kas korelē ar saules plankumu skaitli (\ref{fig:TSI_misijas}. att.). Par Saules plankumu sauc magnētiskās plūsmas koncentrāciju bipolāros klāsteros vai grupās izraisītos tumšos plankums uz Saules fotosfēras, savukārt Saules plankumu skaitlis ir atkarīgs no individuālu Saules plankumu $s$ un to grupu $g$ skaita, kā arī observatorijas atrašanās vietas faktora $k$
+Kopējais saules apstarojums (\textit{Total Solar Irradiance}, TSI) raksturo Saules starojuma absolūto intensitāti -- enerģiju uz virsmas perpendikulāri starojuma izplatīšanas virzienam 1 AU attālumā no Saules, integrētu visā saules enerģijas diskā un visā saules enerģijas spektrā (skat. \ref{fig:TSI_1}. att.). TSI vērtībai novērojama aptuveni 11 gadus ilga periodiska variācija, kas korelē ar saules plankumu skaitli. Par Saules plankumu sauc magnētiskās plūsmas koncentrāciju bipolāros klāsteros vai grupās izraisītos tumšos plankums uz Saules fotosfēras, savukārt Saules plankumu skaitlis ir atkarīgs no individuālu Saules plankumu $s$ un to grupu $g$ skaita, kā arī observatorijas atrašanās vietas faktora $k$
 pēc~\ref{eq:aktivitatesIndex} formulas~\cite{ThermalProcesses}.
 
 \begin{equation}
@@ -19,27 +19,27 @@ TSI norāda uz solārās radiācijas izmaiņām, kas ietekmē Zemes atmosfēras 
 % \nu \uparrow = \frac{c}{\lambda \downarrow} \qquad E \uparrow = h \nu \uparrow 
 % \end{equation}
 
-TSI novērojumi no kosmosa tiek veikti kopš 1978. gada un instrumentu specifikas dēļ iegūtas dažādas absolūtās vērtības (skat. att. \ref{fig:TSI_misijas}.), tāpēc šī fizikālā lieluma tikai daļēji pārkājušos novērojumu laikrindu apvienošana kompozītā ir gan zinātnisks, gan statistisks izaicinājums un neviens kompozīts (piemēram, PMOD, ACRIM, IRBM) līdz šim nav kļuvis par absolūtu standartu solārā apstarojuma pētnieku kopienā~\cite{Frohlich2012}.
+TSI novērojumi no kosmosa tiek veikti kopš 1978. gada un instrumentu specifikas dēļ iegūtas dažādas absolūtās vērtības (skat. att. \ref{fig:TSI_misijas}.), tāpēc šī fizikālā lieluma tikai daļēji pārkājušos novērojumu laikrindu apvienošana kompozītā ir gan zinātnisks, gan statistisks izaicinājums un neviens kompozīts (piemēram, \emph{PMOD, ACRIM, IRBM}) līdz šim nav kļuvis par absolūtu standartu solārā apstarojuma pētnieku kopienā~\cite{Frohlich2012}.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{figures/misc/TSI_misijas.png}
-    \caption{Salīdzinājums dienā vidējotiem saules kopējā apstarojuma datiem no dažādām kosmiskajām misijām un Saules plankuma skaitlis, lai ilustrētu solārās aktivitātes variabilitāti trīs ciklos \cite{Frohlich2012}.}
+    \caption{Salīdzinājums dienā vidējotiem saules kopējā apstarojuma datiem no dažādām kosmiskajām misijām un Saules plankuma skaitlis, lai ilustrētu solārās aktivitātes variabilitāti trīs ciklos~\cite{Frohlich2012}.}
     \label{fig:TSI_misijas}
 \end{figure}
 
-Par labāko Saules apstarojuma mērījumu reprezentāciju tiek uzskatīti Saules Radiācijas un Klimata Eksperimenta (\textit{Solar Radiation and Climate Experiment}, SORCE) misijas kopējā apstarojuma novērošanas instrumenta (\textit{Total Irradiance Monitor}, TIM)  dati mēraparāta uzbūves -- atšķirībā no citiem radiometriem TIM precizitātes apertūra atrodas tuvu dobumam un redzeslauku bloķējošā apertūra ir pie instrumenta ieejas -- un augstās precizitātes -- nenoteiktība tiek novērtēta esam mazāk nekā $0.014$ $\textrm{W  m}^{-2}\textrm{yr}^{-1}$ un precizitāte ar $0.48$ $\textrm{W  m}^{-2}$ \cite{TSIdata} -- dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $(1360.8 \pm 0.5) \textrm{W m}^{-2}$ ~\cite{Frohlich2012}.
+Par labāko Saules apstarojuma mērījumu reprezentāciju tiek uzskatīti Saules Radiācijas un Klimata Eksperimenta (\textit{Solar Radiation and Climate Experiment}, SORCE) misijas kopējā apstarojuma novērošanas instrumenta (\textit{Total Irradiance Monitor}, TIM)  dati mēraparāta uzbūves (atšķirībā no citiem radiometriem TIM precizitātes apertūra atrodas tuvu dobumam un redzeslauku bloķējošā apertūra ir pie instrumenta ieejas) un augstās precizitātes (nenoteiktība tiek novērtēta esam mazāk nekā $0.014$ $\textrm{W  m}^{-2}$gadā$^{-1}$ un precizitāte ar $0.48$ $\textrm{W  m}^{-2}$ \cite{TSIdata}) dēļ, tāpēc šajā darbā grafiki balstās uz šiem mērījumiem, pēc kuriem absolūtā kopējā saules apstarojuma vērtība ir $(1360.8 \pm 0.5) \textrm{W m}^{-2}$ ~\cite{Frohlich2012}.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{figures/misc/SSI.pdf}
-    \caption{SSI 1AU attālumā (24 h vidējā vērtība) \cite{SSIdata}.}
+    \caption{SSI 1AU attālumā (24 h vidējā vērtība)~\cite{SSIdata}.}
     \label{fig:SSI}
 \end{figure}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{figures/misc/TSI_8-19.pdf}
-    \caption{TSI 24. saules ciklā 1 AU attālumā (24 h vidējā vērtība)\cite{TSIdata}.}
-    \label{fig:TSI1}
+    \caption{TSI 24. saules ciklā 1 AU attālumā (24 h vidējā vērtība)~\cite{TSIdata}.}
+    \label{fig:TSI_1}
 \end{figure}
